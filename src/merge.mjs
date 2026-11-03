@@ -31,13 +31,19 @@ export function mergeGraphs(graphs) {
   return graph;
 }
 
-export function mergeFiles({ files, out, dataRoot }) {
+export function mergeFiles({ files, out, dataRoot, intentsFile }) {
   if (existsSync(out)) throw new Error('Refusing to overwrite graph; choose a new output file');
   const graph = mergeGraphs(files.map(file => loadGraph(file, dataRoot)));
   const inferred = inferAuthorities(graph);
   // Retain imported assertions, including legacy unresolved delegation candidates.
   const extra = { ...graph, relations: [...extractReferences(graph), ...inferred.relations], authorities: inferred.authorities };
-  const merged = mergeGraphs([graph, extra]);
+  let merged = mergeGraphs([graph, extra]);
+  if (intentsFile) {
+    const catalog = JSON.parse(readFileSync(intentsFile, 'utf8'));
+    if (Object.keys(catalog).some(k => !['schema_version', 'namespace', 'intents', 'relations'].includes(k)) ||
+      !Array.isArray(catalog.intents) || !Array.isArray(catalog.relations) || catalog.relations.some(r => r.type !== 'relates_to')) throw new Error('Invalid Intent catalog');
+    merged = mergeGraphs([merged, catalog]);
+  }
   for (const coverage of merged.coverage) {
     coverage.reference_extractor = REFERENCE_METHOD;
     coverage.relation_types = ['contains', 'defines', 'delegates_to', 'cites', 'administered_by'];

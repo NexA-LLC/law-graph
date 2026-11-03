@@ -41,7 +41,8 @@ a declaration that a provision applies to an individual case.
 Implemented: e-Gov selected-current-article ingestion, reproducible UUIDs,
 source hash checks, evidence text checks, containment, a narrow definition
 extractor, unresolved delegation candidates, literal search, exact citation
-resolution, bounded traversal, CLI, and stdio MCP.
+resolution, bounded traversal, offline aggregation, narrow citation/delegation
+rules, authority candidates, curated Intent lookup, CLI, and stdio MCP.
 
 Deferred: houritsu input, historical interval resolution, automatic lineage
 mapping, full citation resolution, comprehensive definition extraction,

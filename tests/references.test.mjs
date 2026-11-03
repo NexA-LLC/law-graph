@@ -78,3 +78,21 @@ test('cross-law reference resolution requires a common observation day', () => {
   for (const c of g.coverage) if (c.law_revision_id !== order.id) c.as_of = '2026-11-04';
   assert.ok(!extractReferences(g).some(r => r.type === 'cites' && r.from_id === from.id && r.resolution === 'resolved'));
 });
+test('a nearby implementation clause cannot establish delegation for a different citation', () => {
+  const g = corpus();
+  const act = g.law_revisions.find(r => r.title === '建設業法');
+  const order = g.law_revisions.find(r => r.title === '建設業法施行令');
+  const from = g.provision_versions.find(p => p.law_revision_id === act.id && p.locator === 'main/article:19/paragraph:3');
+  const target = g.provision_versions.find(p => p.law_revision_id === order.id && p.locator === 'main/article:5_5/paragraph:1');
+  target.text = target.text.replace('法第十九条第三項の規定により', '法第十九条第三項を参照する。法第十八条の規定により');
+  assert.ok(!extractReferences(g).some(r => r.type === 'delegates_to' && r.from_id === from.id && r.to_id === target.id));
+});
+test('a bare coordinated reference after a foreign law citation must not resolve to the containing law', () => {
+  const g = corpus();
+  const act = g.law_revisions.find(r => r.title === '建設業法');
+  const from = g.provision_versions.find(p => p.law_revision_id === act.id && p.locator === 'main/article:19/paragraph:3');
+  from.text = '民法第六百三十二条及び第十八条を参照する。';
+  const refs = extractReferences(g).filter(r => r.type === 'cites' && r.from_id === from.id);
+  assert.ok(refs.some(r => r.resolution === 'resolved'));
+  assert.ok(!refs.some(r => r.to_id && g.provision_versions.find(p => p.id === r.to_id).law_revision_id === act.id));
+});

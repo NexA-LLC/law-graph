@@ -40,9 +40,11 @@ export function extractReferences(graph) {
     }
   }
   const results = new Map();
+  const implementationCitations = new Set();
   const add = fields => {
     const record = assertion(fields);
     results.set(record.id, record);
+    return record;
   };
   function fields(type, p, to, targetRef, reason, basis = [p]) {
     const provisions = [...new Map(basis.map(p => [p.id, p])).values()].sort((a,b) => a.id.localeCompare(b.id));
@@ -55,7 +57,9 @@ export function extractReferences(graph) {
   for (const p of nodes) {
     const text = texts.get(p.id);
     const revision = byId.get(p.law_revision_id);
+    let externalContext = false, previousReference = -1;
     for (const match of text.matchAll(articlePattern)) {
+      if (text.lastIndexOf('。', match.index) > previousReference) externalContext = false;
       const before = text.slice(0, match.index);
       const withoutParenthesis = before.replace(/（[^（）]*）$/u, '');
       let candidates, basis = [p], qualifier = '';
@@ -63,11 +67,14 @@ export function extractReferences(graph) {
       if (named.length) {
         qualifier = named[0].title;
         candidates = named.filter(r => r.title === qualifier && simultaneous(p.law_revision_id, r.id));
+        externalContext = qualifier !== revision.title;
       } else if (/(?:この法律|この政令|この省令)$/u.test(before)) {
         qualifier = before.match(/(?:この法律|この政令|この省令)$/u)[0];
         candidates = [revision];
+        externalContext = false;
       } else if (/[法令]$/u.test(before)) {
         qualifier = before.at(-1);
+        externalContext = true;
         // A longer unrecognised law name must not be shortened to the alias 法/令.
         if (/[\p{Script=Han}ァ-ヶー][法令]$/u.test(before)) candidates = [];
         else {
@@ -75,16 +82,21 @@ export function extractReferences(graph) {
           candidates = [...new Map(found.map(a => [a.target.id, a.target])).values()];
           basis.push(...found.map(a => a.provision));
         }
-      } else if (!before || /(?:[、。「（]|及び|又は|若しくは|する|の|は|に|から|と|を|る|て)$/u.test(before)) {
+      } else if (!externalContext && (!before || /(?:[、。「（]|及び|又は|若しくは|する|の|は|に|から|と|を|る|て)$/u.test(before))) {
         candidates = [revision];
-      } else candidates = [];
+      } else {
+        candidates = [];
+        externalContext = true;
+      }
+      previousReference = match.index;
       const article = [numeral(match[1]), ...match[2].split('の').filter(Boolean).map(numeral)].join('_');
       const locator = 'main/article:' + article + (match[3] ? '/paragraph:' + numeral(match[3]) : '') + (match[4] ? '/item:' + numeral(match[4]) : '');
       const targets = graph.provision_versions.filter(t => candidates.some(r => r.id === t.law_revision_id) && t.locator === locator);
       const target = targets.length === 1 ? targets[0] : null;
       const raw = qualifier + match[0];
-      add(fields('cites', p, target, { raw, expected_kind: 'Provision', locator },
+      const citation = add(fields('cites', p, target, { raw, expected_kind: 'Provision', locator },
         'Literal reference ' + raw + '; exact revision and locator must be collected on the same observation day.', basis));
+      if (/^の(?:国土交通省令で定める|規定により)/u.test(text.slice(match.index + match[0].length))) implementationCitations.add(citation.id);
     }
     for (const match of text.matchAll(/前[条項]|同[条項]|次条/gu)) {
       add(fields('cites', p, null, { raw: match[0], expected_kind: 'Provision' },
@@ -99,9 +111,8 @@ export function extractReferences(graph) {
         const target = byId.get(c.from_id);
         const law = byId.get(byId.get(target.law_revision_id).law_id);
         const correctKind = kind === 'CabinetOrder' ? /^\d{3}CO/u.test(law.upstream_law_id) : /^\d{3}M/u.test(law.upstream_law_id);
-        const targetText = texts.get(target.id);
         // Only narrowly recognised implementation clauses, not arbitrary mentions.
-        return correctKind && /第[〇零一二三四五六七八九十百千0-9]+(?:条|項)(?:の[〇零一二三四五六七八九十百千0-9]+)*(?:第[〇零一二三四五六七八九十百千0-9]+項)?の(?:国土交通省令で定める|規定により)/u.test(targetText);
+        return correctKind && implementationCitations.has(c.id);
       });
       if (!implementations.length) add(fields('delegates_to', p, null, { raw: phrase, expected_kind: kind },
         'Delegation phrase has no collected implementing clause with a resolved back-reference.'));

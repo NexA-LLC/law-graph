@@ -7,8 +7,8 @@ public corpus. It does not attempt complete coverage.
 
 1. Build a public evaluation set of concrete research questions, expected
    supporting provisions, out-of-coverage cases, and unresolved references.
-2. Resolve selected explicit citations with scope, branch-number, and
-   supplementary-provision disambiguation.
+2. Expand the implemented narrow citation/delegation rules with coordinated
+   references, relative antecedents and supplementary-provision disambiguation.
 3. Define immutable review records and source-correction handling.
 4. Add explicit provision-lineage mappings and historical date ranges.
 5. Add optional houritsu ingestion without depending on mutable Git SHAs.

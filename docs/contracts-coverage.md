@@ -28,6 +28,7 @@ assertions by method, not distinct legal obligations.
 ```sh
 node src/cli.mjs merge-graphs \
   --graphs data/laws/415AC0000000057/seed.graph.json,data/laws/129AC0000000089/contract-20261103.graph.json,data/laws/324AC0000000100/contract-20261103.graph.json,data/laws/331CO0000000273/contract-20261103.graph.json,data/laws/324M50004000014/contract-20261103.graph.json \
+  --intents data/intents/contracts.catalog.json \
   --out .cache/contracts-rebuilt.graph.json
 ```
 
@@ -71,3 +72,21 @@ construction-law revisions from their minister/ministry mentions. It does not
 claim an authoritative or exhaustive administrative remit. 民法 and the
 personal-information seed have no authority assertions in this release.
 All new inferred, extracted and curated relations are `unreviewed`.
+
+## Intent samples
+
+The default aggregate adds 3 Intent nodes and 6 curated `relates_to` assertions
+from `data/intents/contracts.catalog.json`. Each assertion includes a project
+reason, supporting provision-version UUIDs and their exact source evidence IDs.
+
+| Slug | Exact label | Research targets |
+| --- | --- | --- |
+| contract-work | 請負契約を結ぶ | 民法 revision, supported by Articles 632 and 633 |
+| construction-contract | 建設工事の請負契約を結ぶ | 建設業法19条, 施行令5条の5第1項, 施行規則13条の4第1項 |
+| cancel-contract-work | 請負契約を解除する | 民法641条, 642条 |
+
+`find_related_laws` accepts only an exact slug or label after NFKC normalisation
+and trimming the input. It returns the law/revision IDs, supporting provisions,
+reason, evidence, review state and bounded result counts. Unsupported intents,
+missing dated links and unsupported dates return `outside_coverage`. It performs
+no network access, file writes, similarity search or legal applicability decision.

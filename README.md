@@ -4,7 +4,12 @@ AI Agentが法令の条文・概念・関係を辿り、元の出典へ戻るた
 
 独立したデータ基盤として、公開JSON、JSON Schema、e-Gov取り込み、検証、CLI、読取専用MCPを提供します。対象を限定して育てるプロジェクトです。
 
-## 初版の収録範囲
+## 収録範囲
+
+標準のグラフは、次の初版 seed と、民法・建設業法・施行令・施行規則の選択条文を統合した調査用コーパスです。
+合計5法令・20条・156条項号版、Intent 3件を含みます。
+追加4法令のID・版・条と抽出限界は[収録範囲の詳細](docs/contracts-coverage.md)に記載しています。
+以下は保持している初版 seed の範囲です。
 
 | 項目 | 内容 |
 | --- | --- |
@@ -17,7 +22,7 @@ AI Agentが法令の条文・概念・関係を辿り、元の出典へ戻るた
 | 関係 | 包含49、定義10、未解決の政令委任候補7 |
 | 確認状態 | 全て規則抽出による `unreviewed` |
 
-この範囲以外の法令、条文、改正履歴、意味関係は網羅していません。
+明示した収録範囲以外の法令、条文、改正履歴、意味関係は網羅していません。
 `as_of`は収録した取得日だけを受け付け、他の日付は`outside_coverage`を返します。
 日付を省略した場合も、結果に使用した取得日を明示します。現在の法状態へ自動更新する機能はありません。
 
@@ -29,6 +34,8 @@ Node.js 22以上で、次を実行します。
 npm ci
 npm run check
 node src/cli.mjs coverage
+node src/cli.mjs find-related --intent contract-work
+node src/cli.mjs find-related --intent 建設工事の請負契約を結ぶ --limit 3
 node src/cli.mjs search --query 個人情報 --limit 3
 node src/cli.mjs resolve --law-id 415AC0000000057 --article 2 --paragraph 1
 ```
@@ -57,7 +64,11 @@ MCPクライアントに、チェックアウト先の絶対パスを指定し�
 }
 ```
 
-提供ツールは`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`です。
+提供ツールは`find_related_laws`、`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`です。
+`find_related_laws` は Intent の slug またはラベルの完全一致（NFKC正規化・入力前後の空白除去あり）で、法令・条文・理由・根拠条文ID・出典・`review_state`を返します。
+未登録の目的・未収録の日時は `outside_coverage`、件数上限は `truncated` で明示します。
+登録済み slug は `contract-work`、`construction-contract`、`cancel-contract-work` です。
+理由は人手で作成した調査用の注記です。条文本文は e-Gov の取得データに由来します。
 MCPはstdioのみで、起動時にローカルのグラフと根拠を検証します。検索時のネットワークアクセス、データ更新、質問の保存は行いません。
 
 ## 出典を辿る
