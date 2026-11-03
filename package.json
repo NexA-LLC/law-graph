@@ -1,0 +1,25 @@
+{
+  "name": "@nexa-llc/law-graph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-grounded, UUID-based Japanese law graph for AI agents",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "law-graph": "src/cli.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/cli.mjs && node --check src/mcp.mjs && node --test && node src/cli.mjs validate",
+    "test": "node --test",
+    "validate": "node src/cli.mjs validate",
+    "mcp": "node src/mcp.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}

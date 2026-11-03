@@ -1,0 +1,2395 @@
+{
+  "schema_version": "law-graph.v0",
+  "namespace": "5d6c6cf5-664c-5f88-bb7b-559f857dd711",
+  "laws": [
+    {
+      "id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "jurisdiction": "JP",
+      "upstream_law_id": "415AC0000000057"
+    }
+  ],
+  "law_revisions": [
+    {
+      "id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "upstream_revision_id": "415AC0000000057_20261102_508AC0000000062",
+      "title": "個人情報の保護に関する法律",
+      "effective_from": "2026-11-02"
+    }
+  ],
+  "provisions": [
+    {
+      "id": "000c1ba9-1aaa-5e2a-9363-683f6d4e56bb",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:6"
+    },
+    {
+      "id": "002b7556-4e0b-5bab-8353-ffb9b7669785",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:2/item:3"
+    },
+    {
+      "id": "05875dae-08a9-5432-8b45-38fbb42774ed",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16"
+    },
+    {
+      "id": "0b5ff978-049a-5e5a-8568-5fedb87f4cf5",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:4"
+    },
+    {
+      "id": "0f80d554-57dd-5a8f-8b56-1dec073ad9f6",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:8"
+    },
+    {
+      "id": "10aa6334-177a-5c1e-9902-59b52d35210e",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:3"
+    },
+    {
+      "id": "10ff77b3-e860-58e0-8689-28662818aa71",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:1"
+    },
+    {
+      "id": "129723c8-2a03-5114-920f-9d1123c0cb11",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:5/item:2"
+    },
+    {
+      "id": "1af8e647-5b42-520d-880a-aedcb069ed32",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:23/paragraph:1"
+    },
+    {
+      "id": "1fba65e2-0c7f-5a3d-a0d8-dd47e7767a45",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:2/item:2"
+    },
+    {
+      "id": "21190878-2f54-5c1b-9fe2-a3803ef647d5",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:7"
+    },
+    {
+      "id": "28dcd01f-518a-56d0-8fd3-69cc4b72f834",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:4"
+    },
+    {
+      "id": "2acaee45-8d2f-5ebe-9659-d358f560ad10",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:11/item:2"
+    },
+    {
+      "id": "31df0fe7-472f-5085-9234-e7fb5a5d14d8",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:6/item:1"
+    },
+    {
+      "id": "3bff81b2-f5a2-5102-aecd-f45a1f80366a",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:2/item:2"
+    },
+    {
+      "id": "4368f9cb-4882-5327-bd8a-367c868cf34e",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:2"
+    },
+    {
+      "id": "54129280-91b8-5f4f-9706-03542aa9b7df",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:6"
+    },
+    {
+      "id": "5a2d91d6-09ce-538c-94c2-f24f750abd86",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:11"
+    },
+    {
+      "id": "5ace1822-1f4b-5c9a-8b88-9d3c114c06ad",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:7"
+    },
+    {
+      "id": "5c446102-7e3d-5962-b7f1-a33124b68fb7",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:3"
+    },
+    {
+      "id": "626de7cd-aa20-5976-b66f-3170238d43f4",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:10"
+    },
+    {
+      "id": "83716bca-d2ef-5e9d-ab88-bc6ff4970aea",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:2"
+    },
+    {
+      "id": "84461627-053b-5964-bcc3-9a4bc85fd336",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:1"
+    },
+    {
+      "id": "84bd39df-8a88-5649-9f4b-c290c164c094",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8"
+    },
+    {
+      "id": "84f0b696-8a5a-5b61-b25f-2ad6fd40e218",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:4"
+    },
+    {
+      "id": "87373fb5-ba9d-5c8f-97b4-f8c04f36d830",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:5"
+    },
+    {
+      "id": "876bb26a-518c-5bb8-a628-793d468fad41",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:1/item:1"
+    },
+    {
+      "id": "8b10e07a-7b7e-5e43-b573-7a40f85295d4",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:11/item:1"
+    },
+    {
+      "id": "91fa9976-3661-5c0f-84b3-7dae6261fce0",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:2/item:4"
+    },
+    {
+      "id": "9901f90e-6227-52c4-8d20-c837175b9774",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:2/item:1"
+    },
+    {
+      "id": "a199aa3e-bc40-54c2-bde5-835d2295aa90",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:3"
+    },
+    {
+      "id": "a8581039-c3fd-5574-b699-97d3839c765a",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:5"
+    },
+    {
+      "id": "b21ef9c3-4193-533c-b097-2e84d31667a6",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2"
+    },
+    {
+      "id": "b26048a1-a445-5a2b-a01c-f9d2ce299580",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:2/item:1"
+    },
+    {
+      "id": "b7c4c1c6-b827-5afc-912a-5869aa0c4a4a",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:5"
+    },
+    {
+      "id": "ccaaba75-4c2f-54c6-8967-bb6f5e3fa6b9",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:1/item:1"
+    },
+    {
+      "id": "cf436c6e-8ff8-52dc-bf44-fe5819e22084",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:23"
+    },
+    {
+      "id": "d051a97f-354a-504c-866e-b03c01c16117",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:9"
+    },
+    {
+      "id": "d3f2c3c3-b2b2-5b45-ac32-513c07d39a64",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:7"
+    },
+    {
+      "id": "dae8a4a7-c05c-5f22-917e-89d1c08d2dc2",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:11/item:3"
+    },
+    {
+      "id": "dae91292-dca8-59c9-b8af-bb0a6d866413",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:1/item:2"
+    },
+    {
+      "id": "e055d5ba-26af-5b54-adac-1e14f6e3c330",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:6"
+    },
+    {
+      "id": "e31b8fba-9dd3-546a-9132-f85b9f604b25",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:5/item:1"
+    },
+    {
+      "id": "edf46c0a-694d-5955-987f-039f45d62ab5",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:8/item:8"
+    },
+    {
+      "id": "eefcdb7c-fbd5-5868-8e3b-5a6de6c7ae7f",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:11/item:4"
+    },
+    {
+      "id": "ef269d2a-2fbd-59fb-9f08-c760ea8d4eec",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:6/item:2"
+    },
+    {
+      "id": "f3c7662b-532a-5e9c-8f26-dc9bb7a20d5a",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:1/item:2"
+    },
+    {
+      "id": "f63164a2-bdf1-543b-8284-3165b755b49e",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:2/paragraph:1"
+    },
+    {
+      "id": "feb6f461-f47d-5094-bf9e-7bc2fcdd011a",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "anchor_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "anchor_locator": "main/article:16/paragraph:2"
+    }
+  ],
+  "provision_versions": [
+    {
+      "id": "01b999fa-cb39-5baa-bf23-1a427fa3abde",
+      "provision_id": "e31b8fba-9dd3-546a-9132-f85b9f604b25",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:5/item:1",
+      "level": "Item",
+      "text": "一第一項第一号に該当する個人情報当該個人情報に含まれる記述等の一部を削除すること（当該一部の記述等を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。",
+      "evidence_ref_ids": [
+        "ba12fa96-0ff1-528f-99cb-9c2735dad718"
+      ],
+      "text_sha256": "654eea1c644cf62e9f91c6f8cde68d7f8c0e33e42372f3fc68c5ee5e44bf812f"
+    },
+    {
+      "id": "0348b02d-9441-5b62-9b16-54591ae1b51d",
+      "provision_id": "91fa9976-3661-5c0f-84b3-7dae6261fce0",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:2/item:4",
+      "level": "Item",
+      "text": "四地方独立行政法人",
+      "evidence_ref_ids": [
+        "2f13806b-36e3-55ac-b9ef-a75102b898ea"
+      ],
+      "text_sha256": "bdc6364722a9253c21b95cbe4e2e0f23f26733d9e9d3af96eace8c6b9118d275"
+    },
+    {
+      "id": "081c2ede-cb95-55cc-b623-329cb07f8fae",
+      "provision_id": "28dcd01f-518a-56d0-8fd3-69cc4b72f834",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:4",
+      "level": "Item",
+      "text": "四国家行政組織法（昭和二十三年法律第百二十号）第三条第二項に規定する機関（第七号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）",
+      "evidence_ref_ids": [
+        "f6da1ba5-3715-523e-b2a3-7dba46644a1e"
+      ],
+      "text_sha256": "8cb8a4d2b7d679cf1274c1fa4a515547fe1f0e1a8de280e1cc75485d12dbb0ca"
+    },
+    {
+      "id": "0cc6f173-4b15-59a1-86fe-e8dfdc81af70",
+      "provision_id": "626de7cd-aa20-5976-b66f-3170238d43f4",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:10",
+      "level": "Paragraph",
+      "text": "１０この法律において「地方独立行政法人」とは、地方独立行政法人法（平成十五年法律第百十八号）第二条第一項に規定する地方独立行政法人をいう。",
+      "evidence_ref_ids": [
+        "07be5883-c7d8-5495-a1bb-06cf6c23635c"
+      ],
+      "text_sha256": "7e19eebcc22639d34925b0eaf7c3e466ababd3948f2815b496df8c1c2605b67c"
+    },
+    {
+      "id": "11afce04-386d-5e13-95d2-4559acae2f8e",
+      "provision_id": "cf436c6e-8ff8-52dc-bf44-fe5819e22084",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:23",
+      "level": "Article",
+      "text": "（安全管理措置）第二十三条個人情報取扱事業者は、その取り扱う個人データの漏えい、滅失又は毀損の防止その他の個人データの安全管理のために必要かつ適切な措置を講じなければならない。",
+      "evidence_ref_ids": [
+        "a569c704-d0b3-535f-937f-e29f768eaa85"
+      ],
+      "text_sha256": "9b508a18da734063355f291a51c0bbf9e04c4be80d3cc72b70c2eb310248d2f8"
+    },
+    {
+      "id": "1f71a644-17a6-5031-9533-74c7cd76749c",
+      "provision_id": "1fba65e2-0c7f-5a3d-a0d8-dd47e7767a45",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:2/item:2",
+      "level": "Item",
+      "text": "二地方公共団体",
+      "evidence_ref_ids": [
+        "6864ec49-391c-5a5c-a864-33ef09ba802a"
+      ],
+      "text_sha256": "44f58d201b76f532ea2a79e2c889ff75505521f6465a8fa3189ea0a7ca70b162"
+    },
+    {
+      "id": "201d6563-0b0a-5364-8ce6-4da4690e2d6f",
+      "provision_id": "3bff81b2-f5a2-5102-aecd-f45a1f80366a",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:2/item:2",
+      "level": "Item",
+      "text": "二個人に提供される役務の利用若しくは個人に販売される商品の購入に関し割り当てられ、又は個人に発行されるカードその他の書類に記載され、若しくは電磁的方式により記録された文字、番号、記号その他の符号であって、その利用者若しくは購入者又は発行を受ける者ごとに異なるものとなるように割り当てられ、又は記載され、若しくは記録されることにより、特定の利用者若しくは購入者又は発行を受ける者を識別することができるもの",
+      "evidence_ref_ids": [
+        "d7a0adfe-1982-5efa-9043-bc687377bfc6"
+      ],
+      "text_sha256": "18a0d46688fe17c8d77c64cfa7e712ac7dcdfeaa5b32023ed467f09f1170afe8"
+    },
+    {
+      "id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "provision_id": "b21ef9c3-4193-533c-b097-2e84d31667a6",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2",
+      "level": "Article",
+      "text": "（定義）第二条この法律において「個人情報」とは、生存する個人に関する情報であって、次の各号のいずれかに該当するものをいう。一当該情報に含まれる氏名、生年月日その他の記述等（文書、図画若しくは電磁的記録（電磁的方式（電子的方式、磁気的方式その他人の知覚によっては認識することができない方式をいう。次項第二号において同じ。）で作られる記録をいう。以下同じ。）に記載され、若しくは記録され、又は音声、動作その他の方法を用いて表された一切の事項（個人識別符号を除く。）をいう。以下同じ。）により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）二個人識別符号が含まれるもの２この法律において「個人識別符号」とは、次の各号のいずれかに該当する文字、番号、記号その他の符号のうち、政令で定めるものをいう。一特定の個人の身体の一部の特徴を電子計算機の用に供するために変換した文字、番号、記号その他の符号であって、当該特定の個人を識別することができるもの二個人に提供される役務の利用若しくは個人に販売される商品の購入に関し割り当てられ、又は個人に発行されるカードその他の書類に記載され、若しくは電磁的方式により記録された文字、番号、記号その他の符号であって、その利用者若しくは購入者又は発行を受ける者ごとに異なるものとなるように割り当てられ、又は記載され、若しくは記録されることにより、特定の利用者若しくは購入者又は発行を受ける者を識別することができるもの３この法律において「要配慮個人情報」とは、本人の人種、信条、社会的身分、病歴、犯罪の経歴、犯罪により害を被った事実その他本人に対する不当な差別、偏見その他の不利益が生じないようにその取扱いに特に配慮を要するものとして政令で定める記述等が含まれる個人情報をいう。４この法律において個人情報について「本人」とは、個人情報によって識別される特定の個人をいう。５この法律において「仮名加工情報」とは、次の各号に掲げる個人情報の区分に応じて当該各号に定める措置を講じて他の情報と照合しない限り特定の個人を識別することができないように個人情報を加工して得られる個人に関する情報をいう。一第一項第一号に該当する個人情報当該個人情報に含まれる記述等の一部を削除すること（当該一部の記述等を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。二第一項第二号に該当する個人情報当該個人情報に含まれる個人識別符号の全部を削除すること（当該個人識別符号を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。６この法律において「匿名加工情報」とは、次の各号に掲げる個人情報の区分に応じて当該各号に定める措置を講じて特定の個人を識別することができないように個人情報を加工して得られる個人に関する情報であって、当該個人情報を復元することができないようにしたものをいう。一第一項第一号に該当する個人情報当該個人情報に含まれる記述等の一部を削除すること（当該一部の記述等を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。二第一項第二号に該当する個人情報当該個人情報に含まれる個人識別符号の全部を削除すること（当該個人識別符号を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。７この法律において「個人関連情報」とは、生存する個人に関する情報であって、個人情報、仮名加工情報及び匿名加工情報のいずれにも該当しないものをいう。８この法律において「行政機関」とは、次に掲げる機関をいう。一法律の規定に基づき内閣に置かれる機関（内閣府及び防災庁を除く。）及び内閣の所轄の下に置かれる機関二内閣府、宮内庁並びに内閣府設置法（平成十一年法律第八十九号）第四十九条第一項及び第二項に規定する機関（これらの機関のうち第五号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）三防災庁（第六号の政令で定める施設等機関を除く。）四国家行政組織法（昭和二十三年法律第百二十号）第三条第二項に規定する機関（第七号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）五内閣府設置法第三十九条及び第五十五条並びに宮内庁法（昭和二十二年法律第七十号）第十六条第二項の機関並びに内閣府設置法第四十条及び第五十六条（宮内庁法第十八条第一項において準用する場合を含む。）の特別の機関で、政令で定めるもの六防災庁設置法（令和八年法律第六十一号）第十五条の施設等機関で、政令で定めるもの七国家行政組織法第八条の二の施設等機関及び同法第八条の三の特別の機関で、政令で定めるもの八会計検査院９この法律において「独立行政法人等」とは、独立行政法人通則法（平成十一年法律第百三号）第二条第一項に規定する独立行政法人及び別表第一に掲げる法人をいう。１０この法律において「地方独立行政法人」とは、地方独立行政法人法（平成十五年法律第百十八号）第二条第一項に規定する地方独立行政法人をいう。１１この法律において「行政機関等」とは、次に掲げる機関をいう。一行政機関二地方公共団体の機関（議会を除く。次章、第三章及び第六十九条第二項第三号を除き、以下同じ。）三独立行政法人等（別表第二に掲げる法人を除く。第十六条第二項第三号、第六十三条、第七十八条第一項第七号イ及びロ、第八十九条第四項から第六項まで、第百十九条第五項から第七項まで並びに第百二十五条第二項において同じ。）四地方独立行政法人（地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするものを除く。第十六条第二項第四号、第六十三条、第七十八条第一項第七号イ及びロ、第八十九条第七項から第九項まで、第百十九条第八項から第十項まで並びに第百二十五条第二項において同じ。）",
+      "evidence_ref_ids": [
+        "af701486-1f04-50a7-94d9-abbaf0dfa9ce"
+      ],
+      "text_sha256": "075808e5fe5792f5f22768afd92730bb16c411bd6a9291149fb9b2f641d42f44"
+    },
+    {
+      "id": "25065456-d1ad-5230-a77d-8df595c2bba4",
+      "provision_id": "dae8a4a7-c05c-5f22-917e-89d1c08d2dc2",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:11/item:3",
+      "level": "Item",
+      "text": "三独立行政法人等（別表第二に掲げる法人を除く。第十六条第二項第三号、第六十三条、第七十八条第一項第七号イ及びロ、第八十九条第四項から第六項まで、第百十九条第五項から第七項まで並びに第百二十五条第二項において同じ。）",
+      "evidence_ref_ids": [
+        "8d278618-95e7-56b0-8dd0-336f0afa9181"
+      ],
+      "text_sha256": "f5a057e99d8c52c77664de2ce6caae3b7311397fe69d780521c19e2d09c27b71"
+    },
+    {
+      "id": "2abb20e2-e631-52ea-95f4-62b0881d7dc9",
+      "provision_id": "b7c4c1c6-b827-5afc-912a-5869aa0c4a4a",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:5",
+      "level": "Paragraph",
+      "text": "５この法律において「仮名加工情報」とは、次の各号に掲げる個人情報の区分に応じて当該各号に定める措置を講じて他の情報と照合しない限り特定の個人を識別することができないように個人情報を加工して得られる個人に関する情報をいう。一第一項第一号に該当する個人情報当該個人情報に含まれる記述等の一部を削除すること（当該一部の記述等を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。二第一項第二号に該当する個人情報当該個人情報に含まれる個人識別符号の全部を削除すること（当該個人識別符号を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。",
+      "evidence_ref_ids": [
+        "d3ee23d7-6a01-5357-a21e-28f7838432b9"
+      ],
+      "text_sha256": "b555781aa3d8c9ad57ac666cba2d43b77503041276f007840c2165b8571cb5ce"
+    },
+    {
+      "id": "2ed088c7-464e-5cc1-99fa-6659a18047e6",
+      "provision_id": "5c446102-7e3d-5962-b7f1-a33124b68fb7",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:3",
+      "level": "Paragraph",
+      "text": "３この章において「個人データ」とは、個人情報データベース等を構成する個人情報をいう。",
+      "evidence_ref_ids": [
+        "eb176228-3d2e-5905-b075-0098a86040da"
+      ],
+      "text_sha256": "65f6503c819aae03afbfcd9125eefda67c117984ea4eb9a5b3328381e914479e"
+    },
+    {
+      "id": "31b02044-c4fd-5dca-9e59-2a6191b7de87",
+      "provision_id": "83716bca-d2ef-5e9d-ab88-bc6ff4970aea",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:2",
+      "level": "Item",
+      "text": "二内閣府、宮内庁並びに内閣府設置法（平成十一年法律第八十九号）第四十九条第一項及び第二項に規定する機関（これらの機関のうち第五号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）",
+      "evidence_ref_ids": [
+        "04fbfc4b-d4d0-50d0-ba03-9297f4f8fddc"
+      ],
+      "text_sha256": "f5603c4d5c3f77b3b1c2d90a25306f19f8d1d74a710203851efef7c8800466ff"
+    },
+    {
+      "id": "35c4e574-c406-5288-ae62-b36f14ce2c76",
+      "provision_id": "e055d5ba-26af-5b54-adac-1e14f6e3c330",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:6",
+      "level": "Paragraph",
+      "text": "６この章、第六章及び第七章において「匿名加工情報取扱事業者」とは、匿名加工情報を含む情報の集合物であって、特定の匿名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の匿名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十三条第一項において「匿名加工情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。",
+      "evidence_ref_ids": [
+        "0fba750a-c436-5c30-8f15-03c8ba26a92b"
+      ],
+      "text_sha256": "4d2528db82ff1f74de60593f58025b19b1b46e7ef6c12c22683b8b68723fcdc8"
+    },
+    {
+      "id": "464242a1-893d-5b00-9b7e-7e1022bd886e",
+      "provision_id": "31df0fe7-472f-5085-9234-e7fb5a5d14d8",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:6/item:1",
+      "level": "Item",
+      "text": "一第一項第一号に該当する個人情報当該個人情報に含まれる記述等の一部を削除すること（当該一部の記述等を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。",
+      "evidence_ref_ids": [
+        "543c35ea-05e0-52d6-ac0d-8cefade88c30"
+      ],
+      "text_sha256": "654eea1c644cf62e9f91c6f8cde68d7f8c0e33e42372f3fc68c5ee5e44bf812f"
+    },
+    {
+      "id": "53ad5b98-8d38-5a41-b8bd-905061cd43a8",
+      "provision_id": "0f80d554-57dd-5a8f-8b56-1dec073ad9f6",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:8",
+      "level": "Paragraph",
+      "text": "８この章において「学術研究機関等」とは、大学その他の学術研究を目的とする機関若しくは団体又はそれらに属する者をいう。",
+      "evidence_ref_ids": [
+        "b03f8ec5-9a80-58c7-bcbf-df64e40d1c7a"
+      ],
+      "text_sha256": "ee1a52023bb55cf89c36a2c1d34777167350568df9c465cacfcead10394af052"
+    },
+    {
+      "id": "569ea86b-88c7-5eaa-987d-9edc37d12500",
+      "provision_id": "5ace1822-1f4b-5c9a-8b88-9d3c114c06ad",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:7",
+      "level": "Item",
+      "text": "七国家行政組織法第八条の二の施設等機関及び同法第八条の三の特別の機関で、政令で定めるもの",
+      "evidence_ref_ids": [
+        "70382378-f70d-5cd2-ad8e-ac6014ab13e1"
+      ],
+      "text_sha256": "dd475e794b7a3871bdca333cfac3cfb97a853372b486de976f5b70926ff1603b"
+    },
+    {
+      "id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "provision_id": "05875dae-08a9-5432-8b45-38fbb42774ed",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16",
+      "level": "Article",
+      "text": "（定義）第十六条この章及び第八章において「個人情報データベース等」とは、個人情報を含む情報の集合物であって、次に掲げるもの（利用方法からみて個人の権利利益を害するおそれが少ないものとして政令で定めるものを除く。）をいう。一特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの二前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの２この章及び第六章から第八章までにおいて「個人情報取扱事業者」とは、個人情報データベース等を事業の用に供している者をいう。ただし、次に掲げる者を除く。一国の機関二地方公共団体三独立行政法人等四地方独立行政法人３この章において「個人データ」とは、個人情報データベース等を構成する個人情報をいう。４この章において「保有個人データ」とは、個人情報取扱事業者が、開示、内容の訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止を行うことのできる権限を有する個人データであって、その存否が明らかになることにより公益その他の利益が害されるものとして政令で定めるもの以外のものをいう。５この章、第六章及び第七章において「仮名加工情報取扱事業者」とは、仮名加工情報を含む情報の集合物であって、特定の仮名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の仮名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十一条第一項において「仮名加工情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。６この章、第六章及び第七章において「匿名加工情報取扱事業者」とは、匿名加工情報を含む情報の集合物であって、特定の匿名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の匿名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十三条第一項において「匿名加工情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。７この章、第六章及び第七章において「個人関連情報取扱事業者」とは、個人関連情報を含む情報の集合物であって、特定の個人関連情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の個人関連情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第三十一条第一項において「個人関連情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。８この章において「学術研究機関等」とは、大学その他の学術研究を目的とする機関若しくは団体又はそれらに属する者をいう。",
+      "evidence_ref_ids": [
+        "1a65d5cd-a073-5eb3-ae4d-56b11c04294c"
+      ],
+      "text_sha256": "a97a429abf8753ebc2cbbb1e43490c5a652e4778abd8c65f15c74be52d51b2d6"
+    },
+    {
+      "id": "5a6a0400-6871-55ab-ae2e-26bfdebb89dd",
+      "provision_id": "4368f9cb-4882-5327-bd8a-367c868cf34e",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:2",
+      "level": "Paragraph",
+      "text": "２この法律において「個人識別符号」とは、次の各号のいずれかに該当する文字、番号、記号その他の符号のうち、政令で定めるものをいう。一特定の個人の身体の一部の特徴を電子計算機の用に供するために変換した文字、番号、記号その他の符号であって、当該特定の個人を識別することができるもの二個人に提供される役務の利用若しくは個人に販売される商品の購入に関し割り当てられ、又は個人に発行されるカードその他の書類に記載され、若しくは電磁的方式により記録された文字、番号、記号その他の符号であって、その利用者若しくは購入者又は発行を受ける者ごとに異なるものとなるように割り当てられ、又は記載され、若しくは記録されることにより、特定の利用者若しくは購入者又は発行を受ける者を識別することができるもの",
+      "evidence_ref_ids": [
+        "6ea5609e-c234-5884-a186-b4a5680b7abe"
+      ],
+      "text_sha256": "39ed7361d1c698297e851176ca39621e05f72f8aff2e6784539d0693e845d62f"
+    },
+    {
+      "id": "5d7828a3-be73-58c9-a323-d49a944e2ceb",
+      "provision_id": "ef269d2a-2fbd-59fb-9f08-c760ea8d4eec",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:6/item:2",
+      "level": "Item",
+      "text": "二第一項第二号に該当する個人情報当該個人情報に含まれる個人識別符号の全部を削除すること（当該個人識別符号を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。",
+      "evidence_ref_ids": [
+        "a2b3a3c3-b460-581e-a3ec-e680b4753d8a"
+      ],
+      "text_sha256": "e740eba63a289760d79d0bd076aa44784f4b5230b777668871a7ff644b3dceb7"
+    },
+    {
+      "id": "5e023ed5-4b98-51ca-b826-53596f6c4756",
+      "provision_id": "edf46c0a-694d-5955-987f-039f45d62ab5",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:8",
+      "level": "Item",
+      "text": "八会計検査院",
+      "evidence_ref_ids": [
+        "e97d5338-ae53-5be4-b00a-2237b34ea16b"
+      ],
+      "text_sha256": "a0b03a290adc8bdc350b5ac02eda4c379e797c9900abbb5bfedd87f61d8a28d6"
+    },
+    {
+      "id": "6003e2c2-1fbf-58f5-b678-ef483e8d69ee",
+      "provision_id": "d3f2c3c3-b2b2-5b45-ac32-513c07d39a64",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:7",
+      "level": "Paragraph",
+      "text": "７この法律において「個人関連情報」とは、生存する個人に関する情報であって、個人情報、仮名加工情報及び匿名加工情報のいずれにも該当しないものをいう。",
+      "evidence_ref_ids": [
+        "c6f0aec5-6a16-5987-99b9-5ea53d0683f0"
+      ],
+      "text_sha256": "1a03bfa52681b598222308dea9b7521270bdce576d25bfd007219ed1fe3b0d05"
+    },
+    {
+      "id": "60581598-56c1-5f36-9417-2fe0bc1ae270",
+      "provision_id": "9901f90e-6227-52c4-8d20-c837175b9774",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:2/item:1",
+      "level": "Item",
+      "text": "一特定の個人の身体の一部の特徴を電子計算機の用に供するために変換した文字、番号、記号その他の符号であって、当該特定の個人を識別することができるもの",
+      "evidence_ref_ids": [
+        "4abb5003-159e-50f0-9eb2-2e24e100fa2b"
+      ],
+      "text_sha256": "0f735997eb819a7e7769067b98e7483ea2463f7e85c85d2cd21457dbdc594723"
+    },
+    {
+      "id": "6536d4a4-e3a3-57ee-9bfd-6745e9e7c8d4",
+      "provision_id": "d051a97f-354a-504c-866e-b03c01c16117",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:9",
+      "level": "Paragraph",
+      "text": "９この法律において「独立行政法人等」とは、独立行政法人通則法（平成十一年法律第百三号）第二条第一項に規定する独立行政法人及び別表第一に掲げる法人をいう。",
+      "evidence_ref_ids": [
+        "cceb900c-6a15-55fd-9124-f7359a267ca8"
+      ],
+      "text_sha256": "fa076769f7d2940114e1915f2995dedd6e7fc61a77af7a587969307746ba6b6d"
+    },
+    {
+      "id": "6695077e-1754-5c67-8ba1-cf841efbf961",
+      "provision_id": "84f0b696-8a5a-5b61-b25f-2ad6fd40e218",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:4",
+      "level": "Paragraph",
+      "text": "４この法律において個人情報について「本人」とは、個人情報によって識別される特定の個人をいう。",
+      "evidence_ref_ids": [
+        "bcd1af7f-03f7-5a80-b1b5-82bb8dcd3253"
+      ],
+      "text_sha256": "e9cf4c46ef287f70598056869ec29488c99c5d3351afff2dce00208d8e797bc4"
+    },
+    {
+      "id": "66a1927f-bf4f-5881-8bad-e7204ca45d58",
+      "provision_id": "eefcdb7c-fbd5-5868-8e3b-5a6de6c7ae7f",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:11/item:4",
+      "level": "Item",
+      "text": "四地方独立行政法人（地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするものを除く。第十六条第二項第四号、第六十三条、第七十八条第一項第七号イ及びロ、第八十九条第七項から第九項まで、第百十九条第八項から第十項まで並びに第百二十五条第二項において同じ。）",
+      "evidence_ref_ids": [
+        "252940e1-5f0d-5492-88e1-b513c958b2d1"
+      ],
+      "text_sha256": "1dbf1744325238b21d13c2abe0090befb8538048bf52c686c32112aa95094ab5"
+    },
+    {
+      "id": "6a93afb9-6f44-5666-b9b4-72fd218d884d",
+      "provision_id": "f3c7662b-532a-5e9c-8f26-dc9bb7a20d5a",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:1/item:2",
+      "level": "Item",
+      "text": "二個人識別符号が含まれるもの",
+      "evidence_ref_ids": [
+        "a5c2153e-9835-52ce-a31e-5b03c7c0bd26"
+      ],
+      "text_sha256": "f7656defff7c6eb0256cad6c27f51d31ec8260985ddf9f59cad9d959c5b1b188"
+    },
+    {
+      "id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "provision_id": "5a2d91d6-09ce-538c-94c2-f24f750abd86",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:11",
+      "level": "Paragraph",
+      "text": "１１この法律において「行政機関等」とは、次に掲げる機関をいう。一行政機関二地方公共団体の機関（議会を除く。次章、第三章及び第六十九条第二項第三号を除き、以下同じ。）三独立行政法人等（別表第二に掲げる法人を除く。第十六条第二項第三号、第六十三条、第七十八条第一項第七号イ及びロ、第八十九条第四項から第六項まで、第百十九条第五項から第七項まで並びに第百二十五条第二項において同じ。）四地方独立行政法人（地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするものを除く。第十六条第二項第四号、第六十三条、第七十八条第一項第七号イ及びロ、第八十九条第七項から第九項まで、第百十九条第八項から第十項まで並びに第百二十五条第二項において同じ。）",
+      "evidence_ref_ids": [
+        "b249ee3c-43ae-54d3-be67-77d929a6d0c5"
+      ],
+      "text_sha256": "8f0a904545679c40a5ec8c67c6dbfbd16f27f1c7ec688d61f401475e1c0e7de4"
+    },
+    {
+      "id": "72439c3c-fc66-510b-af0c-8d17cf168f19",
+      "provision_id": "21190878-2f54-5c1b-9fe2-a3803ef647d5",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:7",
+      "level": "Paragraph",
+      "text": "７この章、第六章及び第七章において「個人関連情報取扱事業者」とは、個人関連情報を含む情報の集合物であって、特定の個人関連情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の個人関連情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第三十一条第一項において「個人関連情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。",
+      "evidence_ref_ids": [
+        "2abe28bd-f769-5576-b6d4-a369afa07642"
+      ],
+      "text_sha256": "a2ecc3446d377b34bef6ef5449bb5b71ca7a6b7322b9e0bd30fbd8ba95d82c9a"
+    },
+    {
+      "id": "7ed0f109-8734-5977-bbb7-6a4f689d5f63",
+      "provision_id": "a199aa3e-bc40-54c2-bde5-835d2295aa90",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:3",
+      "level": "Paragraph",
+      "text": "３この法律において「要配慮個人情報」とは、本人の人種、信条、社会的身分、病歴、犯罪の経歴、犯罪により害を被った事実その他本人に対する不当な差別、偏見その他の不利益が生じないようにその取扱いに特に配慮を要するものとして政令で定める記述等が含まれる個人情報をいう。",
+      "evidence_ref_ids": [
+        "31b3adcf-d8f5-57f4-b7c5-02bb5a62bee6"
+      ],
+      "text_sha256": "2f09cafbc0fa1f67fa70ca50be7571f79f30d8cd54b84ce62461e6c4966f5b12"
+    },
+    {
+      "id": "83d71894-3980-5299-982f-1d41459beadd",
+      "provision_id": "f63164a2-bdf1-543b-8284-3165b755b49e",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:1",
+      "level": "Paragraph",
+      "text": "この法律において「個人情報」とは、生存する個人に関する情報であって、次の各号のいずれかに該当するものをいう。一当該情報に含まれる氏名、生年月日その他の記述等（文書、図画若しくは電磁的記録（電磁的方式（電子的方式、磁気的方式その他人の知覚によっては認識することができない方式をいう。次項第二号において同じ。）で作られる記録をいう。以下同じ。）に記載され、若しくは記録され、又は音声、動作その他の方法を用いて表された一切の事項（個人識別符号を除く。）をいう。以下同じ。）により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）二個人識別符号が含まれるもの",
+      "evidence_ref_ids": [
+        "0848eeec-47dc-5e80-86a5-a32e92f63714"
+      ],
+      "text_sha256": "e8cc5b4f1ca7536c06bfa5afc53f578adaf2bf18e7f6f4c23b1ae70af55b50d9"
+    },
+    {
+      "id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "provision_id": "84bd39df-8a88-5649-9f4b-c290c164c094",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8",
+      "level": "Paragraph",
+      "text": "８この法律において「行政機関」とは、次に掲げる機関をいう。一法律の規定に基づき内閣に置かれる機関（内閣府及び防災庁を除く。）及び内閣の所轄の下に置かれる機関二内閣府、宮内庁並びに内閣府設置法（平成十一年法律第八十九号）第四十九条第一項及び第二項に規定する機関（これらの機関のうち第五号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）三防災庁（第六号の政令で定める施設等機関を除く。）四国家行政組織法（昭和二十三年法律第百二十号）第三条第二項に規定する機関（第七号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）五内閣府設置法第三十九条及び第五十五条並びに宮内庁法（昭和二十二年法律第七十号）第十六条第二項の機関並びに内閣府設置法第四十条及び第五十六条（宮内庁法第十八条第一項において準用する場合を含む。）の特別の機関で、政令で定めるもの六防災庁設置法（令和八年法律第六十一号）第十五条の施設等機関で、政令で定めるもの七国家行政組織法第八条の二の施設等機関及び同法第八条の三の特別の機関で、政令で定めるもの八会計検査院",
+      "evidence_ref_ids": [
+        "33957ec3-2d95-50e3-9fd2-5aae2f9aad4c"
+      ],
+      "text_sha256": "ee690727c3768d3c45ec907a19fc8f48dd28cdb5949f30ef77c9b89a616e0772"
+    },
+    {
+      "id": "8dcdebaf-b593-5381-a655-242064dfdf45",
+      "provision_id": "0b5ff978-049a-5e5a-8568-5fedb87f4cf5",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:4",
+      "level": "Paragraph",
+      "text": "４この章において「保有個人データ」とは、個人情報取扱事業者が、開示、内容の訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止を行うことのできる権限を有する個人データであって、その存否が明らかになることにより公益その他の利益が害されるものとして政令で定めるもの以外のものをいう。",
+      "evidence_ref_ids": [
+        "2a409de7-c1ba-5d4c-bb74-59fde57b65e4"
+      ],
+      "text_sha256": "75387c4cbf2fc770673a6ecbd2942574db9d9ee702a135e3ae58922927245a9b"
+    },
+    {
+      "id": "8e3faf33-41d1-5acc-907b-cb1582565178",
+      "provision_id": "8b10e07a-7b7e-5e43-b573-7a40f85295d4",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:11/item:1",
+      "level": "Item",
+      "text": "一行政機関",
+      "evidence_ref_ids": [
+        "19abade7-d14c-5bfb-bf6e-529b0307a1c2"
+      ],
+      "text_sha256": "2c500a91fe021b726787235fe04597c958da0d0eaea4408509ec682d0b9af8e2"
+    },
+    {
+      "id": "927eb9cb-5fe6-5cee-9c24-87b32bcfa4fc",
+      "provision_id": "b26048a1-a445-5a2b-a01c-f9d2ce299580",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:2/item:1",
+      "level": "Item",
+      "text": "一国の機関",
+      "evidence_ref_ids": [
+        "799b97b5-7d0d-56b0-a7c2-00506bd4db75"
+      ],
+      "text_sha256": "53301503197d1d6191e1e931b38b46830cb2c794ff58bc50d81b9f49ad44307b"
+    },
+    {
+      "id": "a23fa781-bbaa-5e64-b8bd-6b7c4c20fee0",
+      "provision_id": "1af8e647-5b42-520d-880a-aedcb069ed32",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:23/paragraph:1",
+      "level": "Paragraph",
+      "text": "個人情報取扱事業者は、その取り扱う個人データの漏えい、滅失又は毀損の防止その他の個人データの安全管理のために必要かつ適切な措置を講じなければならない。",
+      "evidence_ref_ids": [
+        "51e3f11b-66b6-501a-ae83-3b86441c66e0"
+      ],
+      "text_sha256": "fbbe78c90a03b74ee116c106475832b690d4082335b2439b62f26d62484e0332"
+    },
+    {
+      "id": "a3a7a4fa-8333-547e-80e5-453f63c63acb",
+      "provision_id": "87373fb5-ba9d-5c8f-97b4-f8c04f36d830",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:5",
+      "level": "Item",
+      "text": "五内閣府設置法第三十九条及び第五十五条並びに宮内庁法（昭和二十二年法律第七十号）第十六条第二項の機関並びに内閣府設置法第四十条及び第五十六条（宮内庁法第十八条第一項において準用する場合を含む。）の特別の機関で、政令で定めるもの",
+      "evidence_ref_ids": [
+        "c4118798-3984-52bd-8200-adc23207410b"
+      ],
+      "text_sha256": "769e25fbb60bdd92f795addc7d16c042b00dd0d45f5a5731e377741107403cb7"
+    },
+    {
+      "id": "a9a56c6c-a222-5f74-ba6d-1e1adc86136c",
+      "provision_id": "54129280-91b8-5f4f-9706-03542aa9b7df",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:6",
+      "level": "Item",
+      "text": "六防災庁設置法（令和八年法律第六十一号）第十五条の施設等機関で、政令で定めるもの",
+      "evidence_ref_ids": [
+        "3cd397ff-b341-57d2-a1a1-41f516658e85"
+      ],
+      "text_sha256": "138bbfc1d2cb86cba5fa79e0917ae885e929685e2e67e14ec545938e4eb363c7"
+    },
+    {
+      "id": "aa94b08e-8d9a-56c4-b2cf-3a1ce43f9eb7",
+      "provision_id": "a8581039-c3fd-5574-b699-97d3839c765a",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:5",
+      "level": "Paragraph",
+      "text": "５この章、第六章及び第七章において「仮名加工情報取扱事業者」とは、仮名加工情報を含む情報の集合物であって、特定の仮名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の仮名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十一条第一項において「仮名加工情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。",
+      "evidence_ref_ids": [
+        "c43d5e30-eb1a-576d-be79-998aaa65cce3"
+      ],
+      "text_sha256": "442162b3430ab639a261fcac1bcdeb576ba1b7f7e4e7e40bd5b0077dd6e88540"
+    },
+    {
+      "id": "b222888a-a4b6-5222-bc13-927d852773dc",
+      "provision_id": "129723c8-2a03-5114-920f-9d1123c0cb11",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:5/item:2",
+      "level": "Item",
+      "text": "二第一項第二号に該当する個人情報当該個人情報に含まれる個人識別符号の全部を削除すること（当該個人識別符号を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。",
+      "evidence_ref_ids": [
+        "854655ab-5eae-5e95-b3a6-68055c6556b0"
+      ],
+      "text_sha256": "e740eba63a289760d79d0bd076aa44784f4b5230b777668871a7ff644b3dceb7"
+    },
+    {
+      "id": "bc4299b3-7ab3-5fa0-bb0a-ea2e7e3bf735",
+      "provision_id": "dae91292-dca8-59c9-b8af-bb0a6d866413",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:1/item:2",
+      "level": "Item",
+      "text": "二前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの",
+      "evidence_ref_ids": [
+        "9ae30b6c-53a8-5f3b-9e9f-4f77cbe87a98"
+      ],
+      "text_sha256": "fb4d294e9925a4712d549f020588cb76db3c4737cdb5f1b2d27d03081ea95e2b"
+    },
+    {
+      "id": "bee8fb6e-c475-5ad6-b0df-afa5c33ab9d1",
+      "provision_id": "ccaaba75-4c2f-54c6-8967-bb6f5e3fa6b9",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:1/item:1",
+      "level": "Item",
+      "text": "一特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの",
+      "evidence_ref_ids": [
+        "36c79ce1-c0bc-5513-9cfe-458c8fa696ec"
+      ],
+      "text_sha256": "af3c25edefc841a5f42250dbb0e2c4f0f6402387c01ef4abaa51a5c61576f886"
+    },
+    {
+      "id": "c32fada2-180d-5875-acc2-ff0baff1959e",
+      "provision_id": "10aa6334-177a-5c1e-9902-59b52d35210e",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:3",
+      "level": "Item",
+      "text": "三防災庁（第六号の政令で定める施設等機関を除く。）",
+      "evidence_ref_ids": [
+        "ce89319f-6ddd-5729-a705-0209e80209bb"
+      ],
+      "text_sha256": "1194efeb13b4fb376cd1fe7d4b8a64f9b1394fe00b5b8d5d7669206f8b28e6d6"
+    },
+    {
+      "id": "d19fed8a-175c-5dec-aa7d-e1499ed8aaa9",
+      "provision_id": "876bb26a-518c-5bb8-a628-793d468fad41",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:1/item:1",
+      "level": "Item",
+      "text": "一当該情報に含まれる氏名、生年月日その他の記述等（文書、図画若しくは電磁的記録（電磁的方式（電子的方式、磁気的方式その他人の知覚によっては認識することができない方式をいう。次項第二号において同じ。）で作られる記録をいう。以下同じ。）に記載され、若しくは記録され、又は音声、動作その他の方法を用いて表された一切の事項（個人識別符号を除く。）をいう。以下同じ。）により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）",
+      "evidence_ref_ids": [
+        "a6e44a5a-58a0-51ae-9c37-8004e8d22da7"
+      ],
+      "text_sha256": "55d0969035142e2b9ab492454e7520369728ec5b25029e5364057aee7ad13f59"
+    },
+    {
+      "id": "d1e1695f-3a45-50ab-a809-a72c489da095",
+      "provision_id": "10ff77b3-e860-58e0-8689-28662818aa71",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:1",
+      "level": "Paragraph",
+      "text": "この章及び第八章において「個人情報データベース等」とは、個人情報を含む情報の集合物であって、次に掲げるもの（利用方法からみて個人の権利利益を害するおそれが少ないものとして政令で定めるものを除く。）をいう。一特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの二前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの",
+      "evidence_ref_ids": [
+        "c0ba30aa-325a-58b2-bebe-4761230e6310"
+      ],
+      "text_sha256": "d09a9ce42e498760f331fc7d65dc9d0f6e70b7ebdcccba8ba3d1dd3f820bf516"
+    },
+    {
+      "id": "d5a4dc4d-a8a1-57ba-ab7f-b9c67eb40d6d",
+      "provision_id": "2acaee45-8d2f-5ebe-9659-d358f560ad10",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:11/item:2",
+      "level": "Item",
+      "text": "二地方公共団体の機関（議会を除く。次章、第三章及び第六十九条第二項第三号を除き、以下同じ。）",
+      "evidence_ref_ids": [
+        "543cc063-c88f-51d9-ba67-32cfea3efbff"
+      ],
+      "text_sha256": "c7aae3251f608806e1700b1ea5b4300d3ecb12061970437d1d973b99daa5d4a5"
+    },
+    {
+      "id": "d7d2503c-eac7-5619-a8f8-bebe9416be7c",
+      "provision_id": "84461627-053b-5964-bcc3-9a4bc85fd336",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:8/item:1",
+      "level": "Item",
+      "text": "一法律の規定に基づき内閣に置かれる機関（内閣府及び防災庁を除く。）及び内閣の所轄の下に置かれる機関",
+      "evidence_ref_ids": [
+        "99e0d94c-d8a3-57f6-944f-37ea4c71a81b"
+      ],
+      "text_sha256": "e007da130e024939c13ffcbb22c78a7706435804c9ffb45b7f21348e77584e80"
+    },
+    {
+      "id": "dacd2d5f-d504-5133-92b2-f9723625edb2",
+      "provision_id": "002b7556-4e0b-5bab-8353-ffb9b7669785",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:2/item:3",
+      "level": "Item",
+      "text": "三独立行政法人等",
+      "evidence_ref_ids": [
+        "874cc191-eee2-50d5-bc4a-e6ea341b1c67"
+      ],
+      "text_sha256": "f31e9b4e6b6c845c720652abc6c73c1fb88af60fc5a943fa3f1e047f190ae858"
+    },
+    {
+      "id": "e626d752-07ab-57ed-92de-ebe081d78826",
+      "provision_id": "000c1ba9-1aaa-5e2a-9363-683f6d4e56bb",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:2/paragraph:6",
+      "level": "Paragraph",
+      "text": "６この法律において「匿名加工情報」とは、次の各号に掲げる個人情報の区分に応じて当該各号に定める措置を講じて特定の個人を識別することができないように個人情報を加工して得られる個人に関する情報であって、当該個人情報を復元することができないようにしたものをいう。一第一項第一号に該当する個人情報当該個人情報に含まれる記述等の一部を削除すること（当該一部の記述等を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。二第一項第二号に該当する個人情報当該個人情報に含まれる個人識別符号の全部を削除すること（当該個人識別符号を復元することのできる規則性を有しない方法により他の記述等に置き換えることを含む。）。",
+      "evidence_ref_ids": [
+        "5daacc5a-d010-5a49-ab37-f75c3d783e9a"
+      ],
+      "text_sha256": "0f19e4a844e83521a52412c460b3ffab5bb2a9c3c5f2f98061c78acdde5d4500"
+    },
+    {
+      "id": "ff5ee1b8-d817-5a7d-8739-58d689614dff",
+      "provision_id": "feb6f461-f47d-5094-bf9e-7bc2fcdd011a",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "locator": "main/article:16/paragraph:2",
+      "level": "Paragraph",
+      "text": "２この章及び第六章から第八章までにおいて「個人情報取扱事業者」とは、個人情報データベース等を事業の用に供している者をいう。ただし、次に掲げる者を除く。一国の機関二地方公共団体三独立行政法人等四地方独立行政法人",
+      "evidence_ref_ids": [
+        "8388c5d1-7997-54e6-bf8f-8325463742d2"
+      ],
+      "text_sha256": "92b4474f695c70a0c447149420ba1790e745f1acbf50203e944c9dc00cc3a908"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "2270eed0-62bc-5d6b-b505-30dd50087a09",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "個人関連情報",
+      "aliases": []
+    },
+    {
+      "id": "464d304c-fb31-53fe-b23c-b1ba623386af",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "行政機関等",
+      "aliases": []
+    },
+    {
+      "id": "466a82ae-e9db-5e17-984d-33fc75dbca02",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "匿名加工情報",
+      "aliases": []
+    },
+    {
+      "id": "6821b16b-0338-5a1e-8e9c-1d71eea47b30",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "行政機関",
+      "aliases": []
+    },
+    {
+      "id": "7a6ab436-625e-5060-afb2-f574c46f3232",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "地方独立行政法人",
+      "aliases": []
+    },
+    {
+      "id": "83b41c70-2fb2-523a-ae1e-0cb3a60b02d6",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "独立行政法人等",
+      "aliases": []
+    },
+    {
+      "id": "88aa8880-fe80-5d76-bb74-34a8ea096fd9",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "仮名加工情報",
+      "aliases": []
+    },
+    {
+      "id": "98d57a4b-f431-52c7-812c-b19eb6be8745",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "個人情報",
+      "aliases": []
+    },
+    {
+      "id": "b450f770-d72d-50d4-9cd4-200851702ddf",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "要配慮個人情報",
+      "aliases": []
+    },
+    {
+      "id": "e7bdc944-a122-50d2-b9f9-e24514bbe7ed",
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "label": "個人識別符号",
+      "aliases": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "ccb10ad6-fa93-5106-9bf6-9188d7f2317b",
+      "provider": "egov",
+      "upstream_ids": {
+        "law_id": "415AC0000000057"
+      },
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+      "license": "CC-BY-4.0",
+      "source_terms": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "source_id": "ccb10ad6-fa93-5106-9bf6-9188d7f2317b",
+      "upstream_revision_id": "415AC0000000057_20261102_508AC0000000062",
+      "selection": "LawBody-MainProvision-Article_2",
+      "content_type": "application/json",
+      "content_sha256": "63352efb11ab41b6d8da8f61a1ca8147e4fb46a35e87f1d32cbb767b724460ef",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/3f617208-57b2-570e-9da1-ca608cec8b6d.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057_20261102_508AC0000000062?elm=LawBody-MainProvision-Article_2"
+    },
+    {
+      "id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "source_id": "ccb10ad6-fa93-5106-9bf6-9188d7f2317b",
+      "upstream_revision_id": "415AC0000000057_20261102_508AC0000000062",
+      "selection": "LawBody-MainProvision-Article_16",
+      "content_type": "application/json",
+      "content_sha256": "983003840bfe200384a02984a438e2c4010ac9ef8b460f6a3a471faea323ff5b",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/98b7491f-99b2-5113-b792-1678514efce2.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057_20261102_508AC0000000062?elm=LawBody-MainProvision-Article_16"
+    },
+    {
+      "id": "e6c69584-b3f1-5dd1-96ba-49d7c4d48e2c",
+      "source_id": "ccb10ad6-fa93-5106-9bf6-9188d7f2317b",
+      "upstream_revision_id": "415AC0000000057_20261102_508AC0000000062",
+      "selection": "LawBody-MainProvision-Article_23",
+      "content_type": "application/json",
+      "content_sha256": "2967b3cd1a610ee27f3956c7b1331773f4b7b697694d7b6044455bac62ada8cd",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/e6c69584-b3f1-5dd1-96ba-49d7c4d48e2c.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057_20261102_508AC0000000062?elm=LawBody-MainProvision-Article_23"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "04fbfc4b-d4d0-50d0-ba03-9297f4f8fddc",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "f5603c4d5c3f77b3b1c2d90a25306f19f8d1d74a710203851efef7c8800466ff"
+    },
+    {
+      "id": "07be5883-c7d8-5495-a1bb-06cf6c23635c",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/11",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "7e19eebcc22639d34925b0eaf7c3e466ababd3948f2815b496df8c1c2605b67c"
+    },
+    {
+      "id": "0848eeec-47dc-5e80-86a5-a32e92f63714",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e8cc5b4f1ca7536c06bfa5afc53f578adaf2bf18e7f6f4c23b1ae70af55b50d9"
+    },
+    {
+      "id": "0fba750a-c436-5c30-8f15-03c8ba26a92b",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/7",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "4d2528db82ff1f74de60593f58025b19b1b46e7ef6c12c22683b8b68723fcdc8"
+    },
+    {
+      "id": "19abade7-d14c-5bfb-bf6e-529b0307a1c2",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/12/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "2c500a91fe021b726787235fe04597c958da0d0eaea4408509ec682d0b9af8e2"
+    },
+    {
+      "id": "1a65d5cd-a073-5eb3-ae4d-56b11c04294c",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "a97a429abf8753ebc2cbbb1e43490c5a652e4778abd8c65f15c74be52d51b2d6"
+    },
+    {
+      "id": "252940e1-5f0d-5492-88e1-b513c958b2d1",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/12/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "1dbf1744325238b21d13c2abe0090befb8538048bf52c686c32112aa95094ab5"
+    },
+    {
+      "id": "2a409de7-c1ba-5d4c-bb74-59fde57b65e4",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "75387c4cbf2fc770673a6ecbd2942574db9d9ee702a135e3ae58922927245a9b"
+    },
+    {
+      "id": "2abe28bd-f769-5576-b6d4-a369afa07642",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/8",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "a2ecc3446d377b34bef6ef5449bb5b71ca7a6b7322b9e0bd30fbd8ba95d82c9a"
+    },
+    {
+      "id": "2f13806b-36e3-55ac-b9ef-a75102b898ea",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/3/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "bdc6364722a9253c21b95cbe4e2e0f23f26733d9e9d3af96eace8c6b9118d275"
+    },
+    {
+      "id": "31b3adcf-d8f5-57f4-b7c5-02bb5a62bee6",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "2f09cafbc0fa1f67fa70ca50be7571f79f30d8cd54b84ce62461e6c4966f5b12"
+    },
+    {
+      "id": "33957ec3-2d95-50e3-9fd2-5aae2f9aad4c",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "ee690727c3768d3c45ec907a19fc8f48dd28cdb5949f30ef77c9b89a616e0772"
+    },
+    {
+      "id": "36c79ce1-c0bc-5513-9cfe-458c8fa696ec",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/2/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "af3c25edefc841a5f42250dbb0e2c4f0f6402387c01ef4abaa51a5c61576f886"
+    },
+    {
+      "id": "3cd397ff-b341-57d2-a1a1-41f516658e85",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/7",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "138bbfc1d2cb86cba5fa79e0917ae885e929685e2e67e14ec545938e4eb363c7"
+    },
+    {
+      "id": "4abb5003-159e-50f0-9eb2-2e24e100fa2b",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/3/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0f735997eb819a7e7769067b98e7483ea2463f7e85c85d2cd21457dbdc594723"
+    },
+    {
+      "id": "51e3f11b-66b6-501a-ae83-3b86441c66e0",
+      "source_version_id": "e6c69584-b3f1-5dd1-96ba-49d7c4d48e2c",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "fbbe78c90a03b74ee116c106475832b690d4082335b2439b62f26d62484e0332"
+    },
+    {
+      "id": "543c35ea-05e0-52d6-ac0d-8cefade88c30",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/7/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "654eea1c644cf62e9f91c6f8cde68d7f8c0e33e42372f3fc68c5ee5e44bf812f"
+    },
+    {
+      "id": "543cc063-c88f-51d9-ba67-32cfea3efbff",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/12/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "c7aae3251f608806e1700b1ea5b4300d3ecb12061970437d1d973b99daa5d4a5"
+    },
+    {
+      "id": "5daacc5a-d010-5a49-ab37-f75c3d783e9a",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/7",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0f19e4a844e83521a52412c460b3ffab5bb2a9c3c5f2f98061c78acdde5d4500"
+    },
+    {
+      "id": "6864ec49-391c-5a5c-a864-33ef09ba802a",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/3/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "44f58d201b76f532ea2a79e2c889ff75505521f6465a8fa3189ea0a7ca70b162"
+    },
+    {
+      "id": "6ea5609e-c234-5884-a186-b4a5680b7abe",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "39ed7361d1c698297e851176ca39621e05f72f8aff2e6784539d0693e845d62f"
+    },
+    {
+      "id": "70382378-f70d-5cd2-ad8e-ac6014ab13e1",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/8",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "dd475e794b7a3871bdca333cfac3cfb97a853372b486de976f5b70926ff1603b"
+    },
+    {
+      "id": "799b97b5-7d0d-56b0-a7c2-00506bd4db75",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/3/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "53301503197d1d6191e1e931b38b46830cb2c794ff58bc50d81b9f49ad44307b"
+    },
+    {
+      "id": "8388c5d1-7997-54e6-bf8f-8325463742d2",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "92b4474f695c70a0c447149420ba1790e745f1acbf50203e944c9dc00cc3a908"
+    },
+    {
+      "id": "854655ab-5eae-5e95-b3a6-68055c6556b0",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/6/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e740eba63a289760d79d0bd076aa44784f4b5230b777668871a7ff644b3dceb7"
+    },
+    {
+      "id": "874cc191-eee2-50d5-bc4a-e6ea341b1c67",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/3/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "f31e9b4e6b6c845c720652abc6c73c1fb88af60fc5a943fa3f1e047f190ae858"
+    },
+    {
+      "id": "8d278618-95e7-56b0-8dd0-336f0afa9181",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/12/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "f5a057e99d8c52c77664de2ce6caae3b7311397fe69d780521c19e2d09c27b71"
+    },
+    {
+      "id": "99e0d94c-d8a3-57f6-944f-37ea4c71a81b",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e007da130e024939c13ffcbb22c78a7706435804c9ffb45b7f21348e77584e80"
+    },
+    {
+      "id": "9ae30b6c-53a8-5f3b-9e9f-4f77cbe87a98",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/2/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "fb4d294e9925a4712d549f020588cb76db3c4737cdb5f1b2d27d03081ea95e2b"
+    },
+    {
+      "id": "a2b3a3c3-b460-581e-a3ec-e680b4753d8a",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/7/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e740eba63a289760d79d0bd076aa44784f4b5230b777668871a7ff644b3dceb7"
+    },
+    {
+      "id": "a569c704-d0b3-535f-937f-e29f768eaa85",
+      "source_version_id": "e6c69584-b3f1-5dd1-96ba-49d7c4d48e2c",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "9b508a18da734063355f291a51c0bbf9e04c4be80d3cc72b70c2eb310248d2f8"
+    },
+    {
+      "id": "a5c2153e-9835-52ce-a31e-5b03c7c0bd26",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/2/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "f7656defff7c6eb0256cad6c27f51d31ec8260985ddf9f59cad9d959c5b1b188"
+    },
+    {
+      "id": "a6e44a5a-58a0-51ae-9c37-8004e8d22da7",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/2/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "55d0969035142e2b9ab492454e7520369728ec5b25029e5364057aee7ad13f59"
+    },
+    {
+      "id": "af701486-1f04-50a7-94d9-abbaf0dfa9ce",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "075808e5fe5792f5f22768afd92730bb16c411bd6a9291149fb9b2f641d42f44"
+    },
+    {
+      "id": "b03f8ec5-9a80-58c7-bcbf-df64e40d1c7a",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/9",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "ee1a52023bb55cf89c36a2c1d34777167350568df9c465cacfcead10394af052"
+    },
+    {
+      "id": "b249ee3c-43ae-54d3-be67-77d929a6d0c5",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/12",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "8f0a904545679c40a5ec8c67c6dbfbd16f27f1c7ec688d61f401475e1c0e7de4"
+    },
+    {
+      "id": "ba12fa96-0ff1-528f-99cb-9c2735dad718",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/6/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "654eea1c644cf62e9f91c6f8cde68d7f8c0e33e42372f3fc68c5ee5e44bf812f"
+    },
+    {
+      "id": "bcd1af7f-03f7-5a80-b1b5-82bb8dcd3253",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e9cf4c46ef287f70598056869ec29488c99c5d3351afff2dce00208d8e797bc4"
+    },
+    {
+      "id": "c0ba30aa-325a-58b2-bebe-4761230e6310",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "d09a9ce42e498760f331fc7d65dc9d0f6e70b7ebdcccba8ba3d1dd3f820bf516"
+    },
+    {
+      "id": "c4118798-3984-52bd-8200-adc23207410b",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/6",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "769e25fbb60bdd92f795addc7d16c042b00dd0d45f5a5731e377741107403cb7"
+    },
+    {
+      "id": "c43d5e30-eb1a-576d-be79-998aaa65cce3",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/6",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "442162b3430ab639a261fcac1bcdeb576ba1b7f7e4e7e40bd5b0077dd6e88540"
+    },
+    {
+      "id": "c6f0aec5-6a16-5987-99b9-5ea53d0683f0",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/8",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "1a03bfa52681b598222308dea9b7521270bdce576d25bfd007219ed1fe3b0d05"
+    },
+    {
+      "id": "cceb900c-6a15-55fd-9124-f7359a267ca8",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/10",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "fa076769f7d2940114e1915f2995dedd6e7fc61a77af7a587969307746ba6b6d"
+    },
+    {
+      "id": "ce89319f-6ddd-5729-a705-0209e80209bb",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "1194efeb13b4fb376cd1fe7d4b8a64f9b1394fe00b5b8d5d7669206f8b28e6d6"
+    },
+    {
+      "id": "d3ee23d7-6a01-5357-a21e-28f7838432b9",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/6",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "b555781aa3d8c9ad57ac666cba2d43b77503041276f007840c2165b8571cb5ce"
+    },
+    {
+      "id": "d7a0adfe-1982-5efa-9043-bc687377bfc6",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/3/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "18a0d46688fe17c8d77c64cfa7e712ac7dcdfeaa5b32023ed467f09f1170afe8"
+    },
+    {
+      "id": "e97d5338-ae53-5be4-b00a-2237b34ea16b",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/9",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "a0b03a290adc8bdc350b5ac02eda4c379e797c9900abbb5bfedd87f61d8a28d6"
+    },
+    {
+      "id": "eb176228-3d2e-5905-b075-0098a86040da",
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "locator": "/law_full_text/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "65f6503c819aae03afbfcd9125eefda67c117984ea4eb9a5b3328381e914479e"
+    },
+    {
+      "id": "f6da1ba5-3715-523e-b2a3-7dba46644a1e",
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "locator": "/law_full_text/children/9/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "8cb8a4d2b7d679cf1274c1fa4a515547fe1f0e1a8de280e1cc75485d12dbb0ca"
+    }
+  ],
+  "relations": [
+    {
+      "id": "024b8007-b7bf-5e46-bf5f-dfb8270da51e",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "aa94b08e-8d9a-56c4-b2cf-3a1ce43f9eb7",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c43d5e30-eb1a-576d-be79-998aaa65cce3"
+      ]
+    },
+    {
+      "id": "045d2858-22ed-5589-bc82-729e34bc7ff2",
+      "type": "delegates_to",
+      "from_id": "35c4e574-c406-5288-ae62-b36f14ce2c76",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0fba750a-c436-5c30-8f15-03c8ba26a92b"
+      ]
+    },
+    {
+      "id": "10bef0b2-a516-5fdd-8d12-1f203ee7eb11",
+      "type": "contains",
+      "from_id": "2abb20e2-e631-52ea-95f4-62b0881d7dc9",
+      "to_id": "b222888a-a4b6-5222-bc13-927d852773dc",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "854655ab-5eae-5e95-b3a6-68055c6556b0"
+      ]
+    },
+    {
+      "id": "12bb2d74-0565-52c4-90ba-1ce0777c34b0",
+      "type": "defines",
+      "from_id": "7ed0f109-8734-5977-bbb7-6a4f689d5f63",
+      "to_id": "b450f770-d72d-50d4-9cd4-200851702ddf",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "31b3adcf-d8f5-57f4-b7c5-02bb5a62bee6"
+      ]
+    },
+    {
+      "id": "13299088-c9b3-5b83-8d2f-d55e67fa5b5b",
+      "type": "defines",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "6821b16b-0338-5a1e-8e9c-1d71eea47b30",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "33957ec3-2d95-50e3-9fd2-5aae2f9aad4c"
+      ]
+    },
+    {
+      "id": "1649277f-254b-5aa2-b401-5e5d93d29cf3",
+      "type": "contains",
+      "from_id": "ff5ee1b8-d817-5a7d-8739-58d689614dff",
+      "to_id": "1f71a644-17a6-5031-9533-74c7cd76749c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "6864ec49-391c-5a5c-a864-33ef09ba802a"
+      ]
+    },
+    {
+      "id": "1cb00275-645d-5559-b918-02aec75ff4c8",
+      "type": "defines",
+      "from_id": "6536d4a4-e3a3-57ee-9bfd-6745e9e7c8d4",
+      "to_id": "83b41c70-2fb2-523a-ae1e-0cb3a60b02d6",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "cceb900c-6a15-55fd-9124-f7359a267ca8"
+      ]
+    },
+    {
+      "id": "2232a845-e9e2-5922-89b2-6acecc4c9d43",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "d7d2503c-eac7-5619-a8f8-bebe9416be7c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "99e0d94c-d8a3-57f6-944f-37ea4c71a81b"
+      ]
+    },
+    {
+      "id": "22726ea2-4b2a-5188-b0a7-a3163aef29af",
+      "type": "delegates_to",
+      "from_id": "d1e1695f-3a45-50ab-a809-a72c489da095",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c0ba30aa-325a-58b2-bebe-4761230e6310"
+      ]
+    },
+    {
+      "id": "23c0288a-c570-5c88-b5e3-dbc0f080c88b",
+      "type": "defines",
+      "from_id": "e626d752-07ab-57ed-92de-ebe081d78826",
+      "to_id": "466a82ae-e9db-5e17-984d-33fc75dbca02",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "5daacc5a-d010-5a49-ab37-f75c3d783e9a"
+      ]
+    },
+    {
+      "id": "24797a49-2127-59a1-a1ee-6f5b6e34402c",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "53ad5b98-8d38-5a41-b8bd-905061cd43a8",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b03f8ec5-9a80-58c7-bcbf-df64e40d1c7a"
+      ]
+    },
+    {
+      "id": "27263cc6-0c22-5fee-bc7b-fae8e29f8971",
+      "type": "delegates_to",
+      "from_id": "5a6a0400-6871-55ab-ae2e-26bfdebb89dd",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "6ea5609e-c234-5884-a186-b4a5680b7abe"
+      ]
+    },
+    {
+      "id": "286b4303-7e62-52fd-8bea-49bb39f61187",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "a3a7a4fa-8333-547e-80e5-453f63c63acb",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c4118798-3984-52bd-8200-adc23207410b"
+      ]
+    },
+    {
+      "id": "29394666-f338-52df-9b27-0de91e7be66c",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "7ed0f109-8734-5977-bbb7-6a4f689d5f63",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "31b3adcf-d8f5-57f4-b7c5-02bb5a62bee6"
+      ]
+    },
+    {
+      "id": "29d7b043-f1ce-594d-81aa-8768b435c317",
+      "type": "defines",
+      "from_id": "0cc6f173-4b15-59a1-86fe-e8dfdc81af70",
+      "to_id": "7a6ab436-625e-5060-afb2-f574c46f3232",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "07be5883-c7d8-5495-a1bb-06cf6c23635c"
+      ]
+    },
+    {
+      "id": "2e8f851c-ac9d-5cbd-b3e8-199b64c2d4af",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "5e023ed5-4b98-51ca-b826-53596f6c4756",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "e97d5338-ae53-5be4-b00a-2237b34ea16b"
+      ]
+    },
+    {
+      "id": "3261943f-0816-542a-a0c7-c74bc4674a7b",
+      "type": "contains",
+      "from_id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "to_id": "25065456-d1ad-5230-a77d-8df595c2bba4",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "8d278618-95e7-56b0-8dd0-336f0afa9181"
+      ]
+    },
+    {
+      "id": "3284c41c-cfb6-5261-ad2b-892e37899818",
+      "type": "contains",
+      "from_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "to_id": "11afce04-386d-5e13-95d2-4559acae2f8e",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "a569c704-d0b3-535f-937f-e29f768eaa85"
+      ]
+    },
+    {
+      "id": "3566c66e-4c2f-567d-9180-3ba6b825e392",
+      "type": "contains",
+      "from_id": "ff5ee1b8-d817-5a7d-8739-58d689614dff",
+      "to_id": "dacd2d5f-d504-5133-92b2-f9723625edb2",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "874cc191-eee2-50d5-bc4a-e6ea341b1c67"
+      ]
+    },
+    {
+      "id": "47524424-d8d7-5b1a-8afe-2ba43e1291f2",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "6003e2c2-1fbf-58f5-b678-ef483e8d69ee",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c6f0aec5-6a16-5987-99b9-5ea53d0683f0"
+      ]
+    },
+    {
+      "id": "49f7a671-ccda-5584-801b-7d930bfd2540",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "5a6a0400-6871-55ab-ae2e-26bfdebb89dd",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "6ea5609e-c234-5884-a186-b4a5680b7abe"
+      ]
+    },
+    {
+      "id": "4dfc53e0-4121-5e32-af9c-b75717be5342",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "83d71894-3980-5299-982f-1d41459beadd",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0848eeec-47dc-5e80-86a5-a32e92f63714"
+      ]
+    },
+    {
+      "id": "4e638b7f-6a4a-53ba-8c73-e93673d2746a",
+      "type": "contains",
+      "from_id": "ff5ee1b8-d817-5a7d-8739-58d689614dff",
+      "to_id": "0348b02d-9441-5b62-9b16-54591ae1b51d",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "2f13806b-36e3-55ac-b9ef-a75102b898ea"
+      ]
+    },
+    {
+      "id": "593801c5-79a4-548c-8140-d4b0590ae78d",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "33957ec3-2d95-50e3-9fd2-5aae2f9aad4c"
+      ]
+    },
+    {
+      "id": "5d48fa81-abd2-553a-91e8-ca4312a12388",
+      "type": "contains",
+      "from_id": "83d71894-3980-5299-982f-1d41459beadd",
+      "to_id": "d19fed8a-175c-5dec-aa7d-e1499ed8aaa9",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "a6e44a5a-58a0-51ae-9c37-8004e8d22da7"
+      ]
+    },
+    {
+      "id": "5def5a82-0728-5300-b114-3c262f348f6a",
+      "type": "defines",
+      "from_id": "6003e2c2-1fbf-58f5-b678-ef483e8d69ee",
+      "to_id": "2270eed0-62bc-5d6b-b505-30dd50087a09",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c6f0aec5-6a16-5987-99b9-5ea53d0683f0"
+      ]
+    },
+    {
+      "id": "6c4e7b17-63b1-5c98-a0c3-159661ef4f0d",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b249ee3c-43ae-54d3-be67-77d929a6d0c5"
+      ]
+    },
+    {
+      "id": "728e03c1-c7fa-573a-813f-d0d3243093cb",
+      "type": "contains",
+      "from_id": "5a6a0400-6871-55ab-ae2e-26bfdebb89dd",
+      "to_id": "201d6563-0b0a-5364-8ce6-4da4690e2d6f",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "d7a0adfe-1982-5efa-9043-bc687377bfc6"
+      ]
+    },
+    {
+      "id": "740d13ee-3f44-5329-8909-13a1f9498818",
+      "type": "contains",
+      "from_id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "to_id": "66a1927f-bf4f-5881-8bad-e7204ca45d58",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "252940e1-5f0d-5492-88e1-b513c958b2d1"
+      ]
+    },
+    {
+      "id": "791190af-4396-5aa5-a9d8-03e9e8ea69c1",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "081c2ede-cb95-55cc-b623-329cb07f8fae",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "f6da1ba5-3715-523e-b2a3-7dba46644a1e"
+      ]
+    },
+    {
+      "id": "7aae2113-71c5-5135-b3d2-8322c4c88159",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "2ed088c7-464e-5cc1-99fa-6659a18047e6",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "eb176228-3d2e-5905-b075-0098a86040da"
+      ]
+    },
+    {
+      "id": "8523d462-c557-587e-afa0-9d0d7cda0c86",
+      "type": "defines",
+      "from_id": "83d71894-3980-5299-982f-1d41459beadd",
+      "to_id": "98d57a4b-f431-52c7-812c-b19eb6be8745",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0848eeec-47dc-5e80-86a5-a32e92f63714"
+      ]
+    },
+    {
+      "id": "867a9dd1-6512-5c2f-8ab7-dd662492f981",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "a9a56c6c-a222-5f74-ba6d-1e1adc86136c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "3cd397ff-b341-57d2-a1a1-41f516658e85"
+      ]
+    },
+    {
+      "id": "8ecbbd7b-72f9-5af7-bba1-e2064b5bdd9b",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "8dcdebaf-b593-5381-a655-242064dfdf45",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "2a409de7-c1ba-5d4c-bb74-59fde57b65e4"
+      ]
+    },
+    {
+      "id": "919f0c01-ae31-50e0-bd3f-40f9cf38c96c",
+      "type": "defines",
+      "from_id": "5a6a0400-6871-55ab-ae2e-26bfdebb89dd",
+      "to_id": "e7bdc944-a122-50d2-b9f9-e24514bbe7ed",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "6ea5609e-c234-5884-a186-b4a5680b7abe"
+      ]
+    },
+    {
+      "id": "995caf1e-b06e-5fc5-b782-d639e012b399",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "569ea86b-88c7-5eaa-987d-9edc37d12500",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "70382378-f70d-5cd2-ad8e-ac6014ab13e1"
+      ]
+    },
+    {
+      "id": "9ddb9d5c-7ce9-5c34-adf5-94fd710802dd",
+      "type": "delegates_to",
+      "from_id": "72439c3c-fc66-510b-af0c-8d17cf168f19",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "2abe28bd-f769-5576-b6d4-a369afa07642"
+      ]
+    },
+    {
+      "id": "9e4e1fbc-5cc4-5e59-8a61-6888dce85200",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "e626d752-07ab-57ed-92de-ebe081d78826",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "5daacc5a-d010-5a49-ab37-f75c3d783e9a"
+      ]
+    },
+    {
+      "id": "a6f0129c-c90c-5351-9a58-5b17208199f2",
+      "type": "contains",
+      "from_id": "d1e1695f-3a45-50ab-a809-a72c489da095",
+      "to_id": "bee8fb6e-c475-5ad6-b0df-afa5c33ab9d1",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "36c79ce1-c0bc-5513-9cfe-458c8fa696ec"
+      ]
+    },
+    {
+      "id": "a7ee4f56-bfa9-591f-aab8-0729b89449d7",
+      "type": "contains",
+      "from_id": "11afce04-386d-5e13-95d2-4559acae2f8e",
+      "to_id": "a23fa781-bbaa-5e64-b8bd-6b7c4c20fee0",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "51e3f11b-66b6-501a-ae83-3b86441c66e0"
+      ]
+    },
+    {
+      "id": "a83b6431-a301-5561-b1d1-cf2a098f0167",
+      "type": "contains",
+      "from_id": "2abb20e2-e631-52ea-95f4-62b0881d7dc9",
+      "to_id": "01b999fa-cb39-5baa-bf23-1a427fa3abde",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "ba12fa96-0ff1-528f-99cb-9c2735dad718"
+      ]
+    },
+    {
+      "id": "aa55cf05-8000-52c6-b8ae-aba35c3bb183",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "c32fada2-180d-5875-acc2-ff0baff1959e",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "ce89319f-6ddd-5729-a705-0209e80209bb"
+      ]
+    },
+    {
+      "id": "b25e3773-b359-58be-b1e8-c1299c479d50",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "d1e1695f-3a45-50ab-a809-a72c489da095",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c0ba30aa-325a-58b2-bebe-4761230e6310"
+      ]
+    },
+    {
+      "id": "b4c41c09-3085-5c6f-917f-1ef4b7822dbf",
+      "type": "delegates_to",
+      "from_id": "aa94b08e-8d9a-56c4-b2cf-3a1ce43f9eb7",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c43d5e30-eb1a-576d-be79-998aaa65cce3"
+      ]
+    },
+    {
+      "id": "b4f070eb-240e-59be-8d7e-2dbf7c254bd7",
+      "type": "delegates_to",
+      "from_id": "7ed0f109-8734-5977-bbb7-6a4f689d5f63",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "31b3adcf-d8f5-57f4-b7c5-02bb5a62bee6"
+      ]
+    },
+    {
+      "id": "b6ba657f-d46f-5738-85bf-86ada1bdb473",
+      "type": "contains",
+      "from_id": "e626d752-07ab-57ed-92de-ebe081d78826",
+      "to_id": "464242a1-893d-5b00-9b7e-7e1022bd886e",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "543c35ea-05e0-52d6-ac0d-8cefade88c30"
+      ]
+    },
+    {
+      "id": "c10a0911-03b9-5422-a581-c4af7452b944",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "6695077e-1754-5c67-8ba1-cf841efbf961",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "bcd1af7f-03f7-5a80-b1b5-82bb8dcd3253"
+      ]
+    },
+    {
+      "id": "c12d438a-fdb0-5a31-8fb4-ffb57a116fe6",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "35c4e574-c406-5288-ae62-b36f14ce2c76",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0fba750a-c436-5c30-8f15-03c8ba26a92b"
+      ]
+    },
+    {
+      "id": "c5aaf40b-847b-5fa9-bb30-4ec979f0f06e",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "ff5ee1b8-d817-5a7d-8739-58d689614dff",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "8388c5d1-7997-54e6-bf8f-8325463742d2"
+      ]
+    },
+    {
+      "id": "c7c92800-3df9-5bc0-94a4-f6448b424418",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "2abb20e2-e631-52ea-95f4-62b0881d7dc9",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "d3ee23d7-6a01-5357-a21e-28f7838432b9"
+      ]
+    },
+    {
+      "id": "cafcae26-cfc0-5c89-819f-78ddb935a7d2",
+      "type": "contains",
+      "from_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "to_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "1a65d5cd-a073-5eb3-ae4d-56b11c04294c"
+      ]
+    },
+    {
+      "id": "d53526c9-78d0-53e7-a335-fa3e2667468d",
+      "type": "contains",
+      "from_id": "56c2e794-f91d-5832-bb07-d3c93249769c",
+      "to_id": "72439c3c-fc66-510b-af0c-8d17cf168f19",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "2abe28bd-f769-5576-b6d4-a369afa07642"
+      ]
+    },
+    {
+      "id": "d7da37cd-b20a-5c03-9aac-518140991bb6",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "0cc6f173-4b15-59a1-86fe-e8dfdc81af70",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "07be5883-c7d8-5495-a1bb-06cf6c23635c"
+      ]
+    },
+    {
+      "id": "d91adde9-47d9-537d-afdb-58b8654955c3",
+      "type": "contains",
+      "from_id": "ff5ee1b8-d817-5a7d-8739-58d689614dff",
+      "to_id": "927eb9cb-5fe6-5cee-9c24-87b32bcfa4fc",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "799b97b5-7d0d-56b0-a7c2-00506bd4db75"
+      ]
+    },
+    {
+      "id": "db046b72-ba51-5eeb-b7c7-f0c56d984818",
+      "type": "contains",
+      "from_id": "8af000c9-4ee9-507e-8202-3cead1ba44c2",
+      "to_id": "31b02044-c4fd-5dca-9e59-2a6191b7de87",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "04fbfc4b-d4d0-50d0-ba03-9297f4f8fddc"
+      ]
+    },
+    {
+      "id": "dc42ebd9-f655-562f-8ac7-f519268c4afa",
+      "type": "contains",
+      "from_id": "e626d752-07ab-57ed-92de-ebe081d78826",
+      "to_id": "5d7828a3-be73-58c9-a323-d49a944e2ceb",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "a2b3a3c3-b460-581e-a3ec-e680b4753d8a"
+      ]
+    },
+    {
+      "id": "e2b6622c-599e-58dd-bb5e-3cadd13ccc94",
+      "type": "contains",
+      "from_id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "to_id": "8e3faf33-41d1-5acc-907b-cb1582565178",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "19abade7-d14c-5bfb-bf6e-529b0307a1c2"
+      ]
+    },
+    {
+      "id": "ecd4a9bf-c3c2-5987-a4d4-ff18500ddcdb",
+      "type": "contains",
+      "from_id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "to_id": "d5a4dc4d-a8a1-57ba-ab7f-b9c67eb40d6d",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "543cc063-c88f-51d9-ba67-32cfea3efbff"
+      ]
+    },
+    {
+      "id": "ed2860c5-2a5a-5c62-9e4f-000943547479",
+      "type": "defines",
+      "from_id": "6bfe507c-11a0-5770-8556-9f67d2a9d300",
+      "to_id": "464d304c-fb31-53fe-b23c-b1ba623386af",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b249ee3c-43ae-54d3-be67-77d929a6d0c5"
+      ]
+    },
+    {
+      "id": "ee9f75fc-f7a3-51ed-af9d-d4556ac4bcb4",
+      "type": "contains",
+      "from_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "to_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "af701486-1f04-50a7-94d9-abbaf0dfa9ce"
+      ]
+    },
+    {
+      "id": "f6df75cd-4230-56f1-b136-820b32ac1291",
+      "type": "contains",
+      "from_id": "24e63143-422d-5f6a-ba41-42329c460aab",
+      "to_id": "6536d4a4-e3a3-57ee-9bfd-6745e9e7c8d4",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "cceb900c-6a15-55fd-9124-f7359a267ca8"
+      ]
+    },
+    {
+      "id": "f752058d-b787-58a1-a3f1-2c1aa861068f",
+      "type": "delegates_to",
+      "from_id": "8dcdebaf-b593-5381-a655-242064dfdf45",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "2a409de7-c1ba-5d4c-bb74-59fde57b65e4"
+      ]
+    },
+    {
+      "id": "f8d4ff10-45f3-5318-97bb-30056888cf62",
+      "type": "contains",
+      "from_id": "5a6a0400-6871-55ab-ae2e-26bfdebb89dd",
+      "to_id": "60581598-56c1-5f36-9417-2fe0bc1ae270",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "4abb5003-159e-50f0-9eb2-2e24e100fa2b"
+      ]
+    },
+    {
+      "id": "f93216f7-0357-5359-a257-34f99a604faf",
+      "type": "defines",
+      "from_id": "2abb20e2-e631-52ea-95f4-62b0881d7dc9",
+      "to_id": "88aa8880-fe80-5d76-bb74-34a8ea096fd9",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "d3ee23d7-6a01-5357-a21e-28f7838432b9"
+      ]
+    },
+    {
+      "id": "fcf2821c-5ff2-5c26-8915-032ff998f920",
+      "type": "contains",
+      "from_id": "d1e1695f-3a45-50ab-a809-a72c489da095",
+      "to_id": "bc4299b3-7ab3-5fa0-bb0a-ea2e7e3bf735",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "9ae30b6c-53a8-5f3b-9e9f-4f77cbe87a98"
+      ]
+    },
+    {
+      "id": "fe2ae4ee-730e-54d2-a5e0-eb64062971b2",
+      "type": "contains",
+      "from_id": "83d71894-3980-5299-982f-1d41459beadd",
+      "to_id": "6a93afb9-6f44-5666-b9b4-72fd218d884d",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "a5c2153e-9835-52ce-a31e-5b03c7c0bd26"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "source_version_id": "3f617208-57b2-570e-9da1-ca608cec8b6d",
+      "observed_at": "2026-11-03T03:05:21.585Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057_20261102_508AC0000000062?elm=LawBody-MainProvision-Article_2"
+    },
+    {
+      "source_version_id": "98b7491f-99b2-5113-b792-1678514efce2",
+      "observed_at": "2026-11-03T03:05:21.674Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057_20261102_508AC0000000062?elm=LawBody-MainProvision-Article_16"
+    },
+    {
+      "source_version_id": "e6c69584-b3f1-5dd1-96ba-49d7c4d48e2c",
+      "observed_at": "2026-11-03T03:05:21.791Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057_20261102_508AC0000000062?elm=LawBody-MainProvision-Article_23"
+    }
+  ],
+  "coverage": [
+    {
+      "law_id": "9f5223ae-ec46-5750-a3ce-9dc4122b3a0b",
+      "law_revision_id": "d5394185-b533-58bb-b34b-aff7282907c8",
+      "as_of": "2026-11-03",
+      "status": "partial",
+      "locators": [
+        "main/article:16",
+        "main/article:16/paragraph:1",
+        "main/article:16/paragraph:1/item:1",
+        "main/article:16/paragraph:1/item:2",
+        "main/article:16/paragraph:2",
+        "main/article:16/paragraph:2/item:1",
+        "main/article:16/paragraph:2/item:2",
+        "main/article:16/paragraph:2/item:3",
+        "main/article:16/paragraph:2/item:4",
+        "main/article:16/paragraph:3",
+        "main/article:16/paragraph:4",
+        "main/article:16/paragraph:5",
+        "main/article:16/paragraph:6",
+        "main/article:16/paragraph:7",
+        "main/article:16/paragraph:8",
+        "main/article:2",
+        "main/article:2/paragraph:1",
+        "main/article:2/paragraph:1/item:1",
+        "main/article:2/paragraph:1/item:2",
+        "main/article:2/paragraph:10",
+        "main/article:2/paragraph:11",
+        "main/article:2/paragraph:11/item:1",
+        "main/article:2/paragraph:11/item:2",
+        "main/article:2/paragraph:11/item:3",
+        "main/article:2/paragraph:11/item:4",
+        "main/article:2/paragraph:2",
+        "main/article:2/paragraph:2/item:1",
+        "main/article:2/paragraph:2/item:2",
+        "main/article:2/paragraph:3",
+        "main/article:2/paragraph:4",
+        "main/article:2/paragraph:5",
+        "main/article:2/paragraph:5/item:1",
+        "main/article:2/paragraph:5/item:2",
+        "main/article:2/paragraph:6",
+        "main/article:2/paragraph:6/item:1",
+        "main/article:2/paragraph:6/item:2",
+        "main/article:2/paragraph:7",
+        "main/article:2/paragraph:8",
+        "main/article:2/paragraph:8/item:1",
+        "main/article:2/paragraph:8/item:2",
+        "main/article:2/paragraph:8/item:3",
+        "main/article:2/paragraph:8/item:4",
+        "main/article:2/paragraph:8/item:5",
+        "main/article:2/paragraph:8/item:6",
+        "main/article:2/paragraph:8/item:7",
+        "main/article:2/paragraph:8/item:8",
+        "main/article:2/paragraph:9",
+        "main/article:23",
+        "main/article:23/paragraph:1"
+      ],
+      "relation_types": [
+        "contains",
+        "defines",
+        "delegates_to"
+      ],
+      "extractor": "egov-structure-v0.1",
+      "limits": [
+        "Selected main-provision articles only; no historical or future coverage.",
+        "Definitions match only the literal この法律において「…」とは、 pattern.",
+        "Cabinet Order phrases are unresolved candidates; no target is inferred.",
+        "No comprehensive citations, exceptions, or legal applicability analysis."
+      ]
+    }
+  ]
+}

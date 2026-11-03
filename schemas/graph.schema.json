@@ -1,0 +1,540 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/NexA-LLC/law-graph/schemas/graph.schema.json",
+  "title": "Law Graph v0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "namespace",
+    "laws",
+    "law_revisions",
+    "provisions",
+    "provision_versions",
+    "concepts",
+    "sources",
+    "source_versions",
+    "evidence_refs",
+    "relations",
+    "observations",
+    "coverage"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "law-graph.v0"
+    },
+    "namespace": {
+      "const": "5d6c6cf5-664c-5f88-bb7b-559f857dd711"
+    },
+    "laws": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "jurisdiction",
+          "upstream_law_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "jurisdiction": {
+            "const": "JP"
+          },
+          "upstream_law_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "law_revisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "law_id",
+          "upstream_revision_id",
+          "title",
+          "effective_from"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "law_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "upstream_revision_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "effective_from": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "provisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "law_id",
+          "anchor_revision_id",
+          "anchor_locator"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "law_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "anchor_revision_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "anchor_locator": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "provision_versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "provision_id",
+          "law_revision_id",
+          "locator",
+          "level",
+          "text",
+          "evidence_ref_ids",
+          "text_sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "provision_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "law_revision_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "level": {
+            "type": "string",
+            "pattern": "^(Article|Paragraph|Item|Subitem[0-9]+)$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_ref_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+            }
+          },
+          "text_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "law_id",
+          "label",
+          "aliases"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "law_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "provider",
+          "upstream_ids",
+          "url",
+          "license",
+          "source_terms"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "provider": {
+            "const": "egov"
+          },
+          "upstream_ids": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "law_id"
+            ],
+            "properties": {
+              "law_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "license": {
+            "const": "CC-BY-4.0"
+          },
+          "source_terms": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        }
+      }
+    },
+    "source_versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_id",
+          "upstream_revision_id",
+          "selection",
+          "content_type",
+          "content_sha256",
+          "canonicalization",
+          "artifact_path",
+          "retrieval_url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "source_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "upstream_revision_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "selection": {
+            "type": "string",
+            "pattern": "^LawBody-MainProvision-Article_[0-9]+(_[0-9]+)*$"
+          },
+          "content_type": {
+            "const": "application/json"
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "canonicalization": {
+            "const": "sorted-json-v1"
+          },
+          "artifact_path": {
+            "type": "string",
+            "pattern": "^sources/[0-9a-f-]{36}\\.json$"
+          },
+          "retrieval_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_version_id",
+          "locator",
+          "extraction_method",
+          "text_sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "source_version_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "locator": {
+            "type": "string",
+            "pattern": "^/law_full_text(/children/[0-9]+)*$"
+          },
+          "extraction_method": {
+            "const": "egov-descendant-strings-v1"
+          },
+          "text_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "from_id",
+          "to_id",
+          "target_ref",
+          "basis",
+          "method",
+          "resolution",
+          "review",
+          "evidence_ref_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "type": {
+            "enum": [
+              "contains",
+              "defines",
+              "delegates_to"
+            ]
+          },
+          "from_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "to_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "target_ref": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "raw",
+                  "expected_kind"
+                ],
+                "properties": {
+                  "raw": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "expected_kind": {
+                    "const": "CabinetOrder"
+                  }
+                }
+              }
+            ]
+          },
+          "basis": {
+            "const": "explicit_text"
+          },
+          "method": {
+            "const": "egov-structure-v0.1"
+          },
+          "resolution": {
+            "enum": [
+              "resolved",
+              "unresolved"
+            ]
+          },
+          "review": {
+            "const": "unreviewed"
+          },
+          "evidence_ref_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+            }
+          }
+        }
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_version_id",
+          "observed_at",
+          "request_url"
+        ],
+        "properties": {
+          "source_version_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "observed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "request_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "law_id",
+          "law_revision_id",
+          "as_of",
+          "status",
+          "locators",
+          "relation_types",
+          "extractor",
+          "limits"
+        ],
+        "properties": {
+          "law_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "law_revision_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date"
+          },
+          "status": {
+            "const": "partial"
+          },
+          "locators": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "relation_types": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "contains",
+                "defines",
+                "delegates_to"
+              ]
+            }
+          },
+          "extractor": {
+            "const": "egov-structure-v0.1"
+          },
+          "limits": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
