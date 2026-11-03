@@ -6,6 +6,7 @@ import { loadGraph } from './validate.mjs';
 import { createQuery } from './query.mjs';
 import { callTool } from './tools.mjs';
 import { importEgov } from './import.mjs';
+import { mergeFiles } from './merge.mjs';
 
 export const DATA_ROOT = fileURLToPath(new URL('../data/', import.meta.url));
 export const DEFAULT_GRAPH = resolve(DATA_ROOT, 'laws/415AC0000000057/seed.graph.json');
@@ -13,11 +14,15 @@ export const DEFAULT_GRAPH = resolve(DATA_ROOT, 'laws/415AC0000000057/seed.graph
 export async function main(args = process.argv.slice(2)) {
   const { positionals, values } = parseArgs({
     args, allowPositionals: true,
-    options: Object.fromEntries(['graph', 'data-root', 'law-id', 'articles', 'revision-id', 'out', 'query', 'id', 'article', 'paragraph', 'item', 'as-of', 'limit', 'depth', 'direction', 'max-chars'].map(key => [key, { type: 'string' }]))
+    options: Object.fromEntries(['graph', 'graphs', 'data-root', 'law-id', 'articles', 'revision-id', 'out', 'query', 'id', 'article', 'paragraph', 'item', 'as-of', 'limit', 'depth', 'direction', 'max-chars'].map(key => [key, { type: 'string' }]))
   });
-  if (positionals.length !== 1) throw new Error('Usage: law-graph <validate|coverage|search|resolve|get|traverse|import-egov> [options]');
+  if (positionals.length !== 1) throw new Error('Usage: law-graph <validate|coverage|search|resolve|get|traverse|import-egov|merge-graphs> [options]');
   const command = positionals[0];
   const dataRoot = resolve(values['data-root'] ?? DATA_ROOT);
+  if (command === 'merge-graphs') {
+    if (!values.graphs || !values.out) throw new Error('merge-graphs requires --graphs <comma-separated paths> and --out');
+    return mergeFiles({ files: values.graphs.split(',').map(p => resolve(p)), out: resolve(values.out), dataRoot });
+  }
   if (command === 'import-egov') {
     if (!values['law-id'] || !values.articles || !values.out) throw new Error('import-egov requires --law-id, --articles, --out');
     return importEgov({ lawId: values['law-id'], articles: values.articles.split(','), revisionId: values['revision-id'], out: resolve(values.out), dataRoot });

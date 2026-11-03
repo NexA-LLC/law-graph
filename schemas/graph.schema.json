@@ -650,7 +650,9 @@
               "enum": [
                 "contains",
                 "defines",
-                "delegates_to"
+                "delegates_to",
+                "cites",
+                "administered_by"
               ]
             }
           },
@@ -664,6 +666,9 @@
               "type": "string",
               "minLength": 1
             }
+          },
+          "reference_extractor": {
+            "const": "egov-references-v1"
           }
         }
       }

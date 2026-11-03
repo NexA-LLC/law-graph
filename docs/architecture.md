@@ -12,7 +12,10 @@ flowchart LR
   Q --> M[Read-only stdio MCP]
 ```
 
-The initial implementation reads one graph snapshot. Each snapshot contains
+Each query process reads one graph snapshot. The offline `merge-graphs` CLI
+combines validated snapshots, rejects identity conflicts, and adds reproducible
+reference and authority assertions. The original inputs remain unchanged.
+Each snapshot contains
 law identities, law revisions, provision lineages, provision versions, scoped
 concepts, source documents, source content versions, evidence references,
 relation assertions, observations, and explicit partial coverage.
@@ -42,7 +45,7 @@ resolution, bounded traversal, CLI, and stdio MCP.
 
 Deferred: houritsu input, historical interval resolution, automatic lineage
 mapping, full citation resolution, comprehensive definition extraction,
-review workflows, exceptions, multi-snapshot aggregation, generated SQLite
+review workflows, exceptions, cross-revision lineage mapping, generated SQLite
 indexes, and semantic/vector search.
 
 No graph database, shared database, HTTP service, or private integration is

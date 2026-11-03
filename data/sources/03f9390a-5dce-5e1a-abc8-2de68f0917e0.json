@@ -1,0 +1,159 @@
+{
+  "attached_files_info": null,
+  "law_info": {
+    "law_type": "Act",
+    "law_id": "129AC0000000089",
+    "law_num": "明治二十九年法律第八十九号",
+    "law_num_era": "Meiji",
+    "law_num_year": 29,
+    "law_num_type": "Act",
+    "law_num_num": "089",
+    "promulgation_date": "1896-04-27"
+  },
+  "revision_info": {
+    "law_revision_id": "129AC0000000089_20260624_508AC0000000045",
+    "law_type": "Act",
+    "law_title": "民法",
+    "law_title_kana": "みんぽう",
+    "abbrev": "",
+    "category": "民事",
+    "updated": "2026-06-24T10:58:58+09:00",
+    "amendment_promulgate_date": "2026-06-24",
+    "amendment_enforcement_date": "2026-06-24",
+    "amendment_enforcement_comment": null,
+    "amendment_scheduled_enforcement_date": null,
+    "amendment_law_id": "508AC0000000045",
+    "amendment_law_title": "民法等の一部を改正する法律",
+    "amendment_law_title_kana": null,
+    "amendment_law_num": "令和八年法律第四十五号",
+    "amendment_type": "3",
+    "repeal_status": "None",
+    "repeal_date": null,
+    "remain_in_force": false,
+    "mission": "New",
+    "current_revision_status": "CurrentEnforced"
+  },
+  "law_full_text": {
+    "tag": "Article",
+    "attr": {
+      "Num": "634"
+    },
+    "children": [
+      {
+        "tag": "ArticleCaption",
+        "attr": {},
+        "children": [
+          "（注文者が受ける利益の割合に応じた報酬）"
+        ]
+      },
+      {
+        "tag": "ArticleTitle",
+        "attr": {},
+        "children": [
+          "第六百三十四条"
+        ]
+      },
+      {
+        "tag": "Paragraph",
+        "attr": {
+          "Num": "1"
+        },
+        "children": [
+          {
+            "tag": "ParagraphNum",
+            "attr": {},
+            "children": []
+          },
+          {
+            "tag": "ParagraphSentence",
+            "attr": {},
+            "children": [
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "1",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "次に掲げる場合において、請負人が既にした仕事の結果のうち可分な部分の給付によって注文者が利益を受けるときは、その部分を仕事の完成とみなす。"
+                ]
+              },
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "2",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "この場合において、請負人は、注文者が受ける利益の割合に応じて報酬を請求することができる。"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "1"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "一"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "注文者の責めに帰することができない事由によって仕事を完成することができなくなったとき。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "2"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "二"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "請負が仕事の完成前に解除されたとき。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
