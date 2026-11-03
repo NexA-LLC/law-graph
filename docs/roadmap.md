@@ -5,6 +5,13 @@ public corpus. It does not attempt complete coverage.
 
 ## Next bounded iterations
 
+The case/issue iteration now supplies three topics, one judgment, two
+administrative examples, source metadata, draft summaries, seven read-only
+tools, independent case bundles, and a contribution/review entry point.
+The initial case data has no legal-practitioner review. Next priorities are
+source and scope review, additional contrasting examples, current-law text
+connections, and private consumer integration.
+
 1. Build a public evaluation set of concrete research questions, expected
    supporting provisions, out-of-coverage cases, and unresolved references.
 2. Resolve selected explicit citations with scope, branch-number, and

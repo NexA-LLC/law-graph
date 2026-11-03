@@ -1,0 +1,306 @@
+{
+  "schema_version": "law-graph.cases.v0",
+  "topics": [
+    {
+      "id": "738c9a41-db29-5b42-af80-5c33beef48ac",
+      "key": "subcontracting",
+      "label": "委託取引と取適法",
+      "aliases": [
+        "下請法",
+        "取適法",
+        "委託",
+        "支払",
+        "やり直し",
+        "業務委託"
+      ],
+      "limitations": [
+        "収録する勧告等は旧下請法当時の事例。",
+        "現行法の適用範囲、条項及び当事者要件は別途確認が必要。"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "9e88babc-8fc4-5240-8d33-c43c32de47cc",
+      "key": "commissioned-rework",
+      "label": "委託成果物の変更と無償やり直し",
+      "fact_questions": [
+        "発注時の仕様、検査期間、給付受領日はどう定めたか。",
+        "修正は元の仕様に含まれるか、追加変更か。",
+        "委託先の責任、対価の協議、適用法の当事者要件はどうか。"
+      ],
+      "scope_note": "旧法の行政事例との共通点と相違点を検討する入口。",
+      "review_status": "proposed"
+    },
+    {
+      "id": "1dcb5118-5d40-509d-8455-e56c95d25f61",
+      "key": "commissioned-payment",
+      "label": "委託代金の支払と検収",
+      "fact_questions": [
+        "給付受領日、検収日、支払期日はいつか。",
+        "検収や修正の運用が支払を先送りしていないか。",
+        "取引日と当事者要件に照らし、どの法令を確認するか。"
+      ],
+      "scope_note": "当時法と現行法の適用条件を混同しない。",
+      "review_status": "proposed"
+    }
+  ],
+  "cases": [
+    {
+      "id": "a5feff54-5d82-5a41-9aee-5b0d858444e8",
+      "key": "jftc-2024-cover",
+      "kind": "administrative_action",
+      "title": "情報成果物の無償やり直しと支払遅延に関する勧告等",
+      "jurisdiction": "JP",
+      "forum": "公正取引委員会",
+      "event_date": "2024-10-25",
+      "published_date": "2024-10-25",
+      "docket_number": null,
+      "later_history": "not_checked",
+      "legal_context": [
+        {
+          "label": "旧下請法第4条第2項第4号、第4条第1項第2号",
+          "role": "at_case_time",
+          "text_status": "not_collected"
+        }
+      ],
+      "claim_ids": [
+        "e0602c2f-de4f-595d-b0ad-20dc87edbeb9",
+        "aaec488b-d4ba-55bd-bbe5-3758747be08c"
+      ],
+      "scope_limits": [
+        "旧下請法の下での行政事例であり、2026年施行の取適法の判断と読み替えない。",
+        "当事者要件、発注内容、受領・検査とやり直しの具体的事情に依存する。",
+        "後続の改善状況等は未確認。"
+      ],
+      "evidence_ref_ids": [
+        "a11b72ff-ee17-5e97-839c-372571b99aee",
+        "f17072fb-a031-5a3e-b11b-0b882c3e1e21"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "claims": [
+    {
+      "id": "e0602c2f-de4f-595d-b0ad-20dc87edbeb9",
+      "case_id": "a5feff54-5d82-5a41-9aee-5b0d858444e8",
+      "kind": "regulator_finding",
+      "text": "給付受領後、発注時の仕様等から必要性が分からないやり直しを無償でさせていたと認定された。",
+      "evidence_ref_ids": [
+        "a11b72ff-ee17-5e97-839c-372571b99aee"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    },
+    {
+      "id": "aaec488b-d4ba-55bd-bbe5-3758747be08c",
+      "case_id": "a5feff54-5d82-5a41-9aee-5b0d858444e8",
+      "kind": "outcome",
+      "text": "不当なやり直しについて勧告、支払遅延について勧告と併せた指導が行われた。",
+      "evidence_ref_ids": [
+        "a11b72ff-ee17-5e97-839c-372571b99aee",
+        "f17072fb-a031-5a3e-b11b-0b882c3e1e21"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "1384e6f0-7125-59db-992a-ab99f2fa1b35",
+      "provider": "jftc",
+      "document_key": "241025-cover",
+      "title": "カバー株式会社に対する勧告等",
+      "publisher": "公正取引委員会",
+      "kind": "administrative_publication",
+      "url": "https://www.jftc.go.jp/houdou/pressrelease/2024/oct/241025_cover.html",
+      "upstream_ids": {
+        "publication_key": "241025_cover"
+      },
+      "reuse_mode": "reference_and_project_summary_only"
+    },
+    {
+      "id": "4f25b864-f3b8-59df-ac3a-3fd7caea203d",
+      "provider": "jftc",
+      "document_key": "toriteki-overview",
+      "title": "取適法の案内",
+      "publisher": "公正取引委員会",
+      "kind": "regulatory_guidance",
+      "url": "https://www.jftc.go.jp/toriteki/",
+      "upstream_ids": {
+        "page_key": "toriteki"
+      },
+      "reuse_mode": "reference_and_project_summary_only"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "16f7e149-0a4c-585f-a881-088147e557ca",
+      "source_id": "1384e6f0-7125-59db-992a-ab99f2fa1b35",
+      "content_sha256": "bf68a0b096cb9529322cf3c4fb28f4c3a98c2153e545f86c7edf90a5550f020a",
+      "content_type": "text/html",
+      "byte_length": 34385,
+      "original_bundled": false,
+      "hash_method": "raw-bytes-sha256-v1"
+    },
+    {
+      "id": "f2d118a2-a236-58e8-92e0-4357ef52a82e",
+      "source_id": "4f25b864-f3b8-59df-ac3a-3fd7caea203d",
+      "content_sha256": "8951e03456b51bcf3a16d3ca2490a5ae291c10262f41aeb99e0c8c8b6fea8217",
+      "content_type": "text/html",
+      "byte_length": 24283,
+      "original_bundled": false,
+      "hash_method": "raw-bytes-sha256-v1"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "a11b72ff-ee17-5e97-839c-372571b99aee",
+      "source_version_id": "16f7e149-0a4c-585f-a881-088147e557ca",
+      "locator": {
+        "kind": "html_section",
+        "pages": [],
+        "section": "2 勧告の概要等"
+      },
+      "support_note": "給付受領後の無償やり直しと勧告を扱う箇所。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "f17072fb-a031-5a3e-b11b-0b882c3e1e21",
+      "source_version_id": "16f7e149-0a4c-585f-a881-088147e557ca",
+      "locator": {
+        "kind": "html_section",
+        "pages": [],
+        "section": "3 指導の概要等"
+      },
+      "support_note": "支払遅延と指導を扱う箇所。勧告との区別が必要。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "1eb1de61-75ae-5ba9-a006-3a477620414d",
+      "source_version_id": "f2d118a2-a236-58e8-92e0-4357ef52a82e",
+      "locator": {
+        "kind": "html_section",
+        "pages": [],
+        "section": "中小受託取引適正化法"
+      },
+      "support_note": "改正による名称と2026年1月1日の施行日を説明する箇所。",
+      "verification": "locator_recorded_original_not_bundled"
+    }
+  ],
+  "relations": [
+    {
+      "id": "35ea0616-e01e-590e-b4ff-162f165f4085",
+      "type": "raises",
+      "from_id": "738c9a41-db29-5b42-af80-5c33beef48ac",
+      "to_id": "9e88babc-8fc4-5240-8d33-c43c32de47cc",
+      "basis": "curated_association",
+      "material_differences": [
+        "委託契約という名称だけで取適法の適用を決めない。"
+      ],
+      "evidence_ref_ids": [],
+      "review_status": "proposed"
+    },
+    {
+      "id": "40d561cd-7551-5428-8303-e361059f77db",
+      "type": "raises",
+      "from_id": "738c9a41-db29-5b42-af80-5c33beef48ac",
+      "to_id": "1dcb5118-5d40-509d-8455-e56c95d25f61",
+      "basis": "curated_association",
+      "material_differences": [
+        "適用法と取引時点を確認する。"
+      ],
+      "evidence_ref_ids": [],
+      "review_status": "proposed"
+    },
+    {
+      "id": "5c918ac6-772e-5f7e-a0c6-941c2c702006",
+      "type": "illustrated_by",
+      "from_id": "9e88babc-8fc4-5240-8d33-c43c32de47cc",
+      "to_id": "a5feff54-5d82-5a41-9aee-5b0d858444e8",
+      "basis": "curated_association",
+      "material_differences": [
+        "旧下請法当時の行政事例。",
+        "取引時点、当事者要件、発注仕様や給付受領後の事情を照合する。"
+      ],
+      "evidence_ref_ids": [
+        "a11b72ff-ee17-5e97-839c-372571b99aee"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "id": "28269048-5eb1-5637-91f8-b0f69efef5d1",
+      "type": "illustrated_by",
+      "from_id": "1dcb5118-5d40-509d-8455-e56c95d25f61",
+      "to_id": "a5feff54-5d82-5a41-9aee-5b0d858444e8",
+      "basis": "curated_association",
+      "material_differences": [
+        "支払遅延については指導であり、やり直しの勧告と区別する。",
+        "現行の取適法への適用判断は別に行う。"
+      ],
+      "evidence_ref_ids": [
+        "f17072fb-a031-5a3e-b11b-0b882c3e1e21"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "id": "c00830f1-4ca5-547e-8c6e-177a14bd33ec",
+      "type": "guidance_on",
+      "from_id": "9e88babc-8fc4-5240-8d33-c43c32de47cc",
+      "to_id": "4f25b864-f3b8-59df-ac3a-3fd7caea203d",
+      "basis": "curated_association",
+      "material_differences": [
+        "現行制度の案内であり、2024年の勧告理由を書き換えるものではない。"
+      ],
+      "evidence_ref_ids": [
+        "1eb1de61-75ae-5ba9-a006-3a477620414d"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "id": "41956dcb-6f83-53ee-9f29-fa59be7d648c",
+      "type": "guidance_on",
+      "from_id": "1dcb5118-5d40-509d-8455-e56c95d25f61",
+      "to_id": "4f25b864-f3b8-59df-ac3a-3fd7caea203d",
+      "basis": "curated_association",
+      "material_differences": [
+        "2026年1月1日の施行と法名称の案内。実際の適用要件は未評価。"
+      ],
+      "evidence_ref_ids": [
+        "1eb1de61-75ae-5ba9-a006-3a477620414d"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "reviews": [],
+  "observations": [
+    {
+      "source_version_id": "16f7e149-0a4c-585f-a881-088147e557ca",
+      "observed_at": "2026-11-03T03:59:22.975Z",
+      "request_url": "https://www.jftc.go.jp/houdou/pressrelease/2024/oct/241025_cover.html"
+    },
+    {
+      "source_version_id": "f2d118a2-a236-58e8-92e0-4357ef52a82e",
+      "observed_at": "2026-11-03T03:59:23.275Z",
+      "request_url": "https://www.jftc.go.jp/toriteki/"
+    }
+  ],
+  "coverage": [
+    {
+      "observed_on": "2026-11-03",
+      "status": "partial",
+      "topic_ids": [
+        "738c9a41-db29-5b42-af80-5c33beef48ac"
+      ],
+      "case_ids": [
+        "a5feff54-5d82-5a41-9aee-5b0d858444e8"
+      ],
+      "current_applicability": "not_assessed",
+      "limitations": [
+        "公開一次資料に基づくAI補助の整理案。法律実務者によるレビューは未実施。",
+        "事例の類似性は検討候補を示し、個別案件への適用や現在の法的結論を示さない。",
+        "原文は再配布せず、内容ハッシュ・所在・独自要約のみを収録する。"
+      ]
+    }
+  ]
+}

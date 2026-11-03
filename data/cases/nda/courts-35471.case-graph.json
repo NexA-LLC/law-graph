@@ -1,0 +1,236 @@
+{
+  "schema_version": "law-graph.cases.v0",
+  "topics": [
+    {
+      "id": "56b6a36d-d8f5-577f-8649-f722ce0d6938",
+      "key": "nda",
+      "label": "秘密保持契約",
+      "aliases": [
+        "NDA",
+        "秘密保持",
+        "秘密情報",
+        "守秘義務"
+      ],
+      "limitations": [
+        "1件の個別契約に関する裁判例であり、NDA全般の有効性を示すものではない。"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "6e37f6e0-f9a7-59ae-8b7c-6f7c2d2881ba",
+      "key": "nda-information-scope",
+      "label": "契約上の秘密情報の特定と開示方法",
+      "fact_questions": [
+        "契約は秘密情報をどう定義しているか。",
+        "秘密である旨の指定や口頭開示後の書面提出を求めるか。",
+        "実際の開示・使用についてどの証拠があるか。"
+      ],
+      "scope_note": "契約文言、開示方法、目的外使用の証拠を区別して調べる。",
+      "review_status": "proposed"
+    }
+  ],
+  "cases": [
+    {
+      "id": "f67410b7-0644-513e-8882-c3d3fd784c40",
+      "key": "courts-35471",
+      "kind": "judgment",
+      "title": "秘密保持契約の範囲と目的外使用等を争った裁判例",
+      "jurisdiction": "JP",
+      "forum": "東京地方裁判所民事第46部",
+      "event_date": "2007-11-27",
+      "published_date": null,
+      "docket_number": "平成17年（ワ）第23171号",
+      "later_history": "not_checked",
+      "legal_context": [],
+      "claim_ids": [
+        "f062c185-e0d5-5c97-b52b-5fb01d07f5a1",
+        "e8e74cfd-1ce7-5e3c-8a1f-f02022ba22fe",
+        "e0dca854-f5c6-5908-a144-7627f4649a36",
+        "2f812169-e404-56a6-a4f7-0048d3a9f814"
+      ],
+      "scope_limits": [
+        "本件契約の文言と開示・使用の証拠に依存する。",
+        "全てのNDAで秘密指定や書面化が必要という一般的判断にはしない。",
+        "控訴や後続裁判、現在の法的評価は未確認。"
+      ],
+      "evidence_ref_ids": [
+        "7ab762f2-ef0d-5725-9fda-2b60e86965c4"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "claims": [
+    {
+      "id": "f062c185-e0d5-5c97-b52b-5fb01d07f5a1",
+      "case_id": "f67410b7-0644-513e-8882-c3d3fd784c40",
+      "kind": "party_allegation",
+      "text": "原告は、被告による情報使用等が秘密保持契約違反等に当たると主張した。",
+      "evidence_ref_ids": [
+        "7ab762f2-ef0d-5725-9fda-2b60e86965c4"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    },
+    {
+      "id": "e8e74cfd-1ce7-5e3c-8a1f-f02022ba22fe",
+      "case_id": "f67410b7-0644-513e-8882-c3d3fd784c40",
+      "kind": "reported_fact",
+      "text": "本件契約は、秘密の明示や、口頭開示後の書面提出等によって秘密情報の範囲を定めていた。",
+      "evidence_ref_ids": [
+        "6e66b9bb-5522-5a17-83a8-0e7f9cb08688"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    },
+    {
+      "id": "e0dca854-f5c6-5908-a144-7627f4649a36",
+      "case_id": "f67410b7-0644-513e-8882-c3d3fd784c40",
+      "kind": "court_finding",
+      "text": "裁判所は目的外使用を認める証拠がないとし、契約範囲外の情報について同様の守秘義務を生む黙示の合意も認めなかった。",
+      "evidence_ref_ids": [
+        "150419e6-cbc9-512a-a662-bafc671b33a2"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    },
+    {
+      "id": "2f812169-e404-56a6-a4f7-0048d3a9f814",
+      "case_id": "f67410b7-0644-513e-8882-c3d3fd784c40",
+      "kind": "outcome",
+      "text": "原告の請求はいずれも棄却された。",
+      "evidence_ref_ids": [
+        "7ab762f2-ef0d-5725-9fda-2b60e86965c4"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "087e4f23-cea2-55bb-bc52-18ee4d544207",
+      "provider": "courts",
+      "document_key": "hanrei-35471",
+      "title": "秘密保持契約違反等を争った損害賠償等請求事件の判決",
+      "publisher": "裁判所",
+      "kind": "judgment",
+      "url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-35471.pdf",
+      "upstream_ids": {
+        "hanrei_id": "35471",
+        "docket_number": "平成17年（ワ）第23171号"
+      },
+      "reuse_mode": "reference_and_project_summary_only"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "a2a7c1ab-880e-545c-8687-b76306046ee2",
+      "source_id": "087e4f23-cea2-55bb-bc52-18ee4d544207",
+      "content_sha256": "2c9c6dd80030019d2693f7cecef861d64a0a1af14f0ffd0eaaa4d62a78e5f0f5",
+      "content_type": "application/pdf",
+      "byte_length": 154948,
+      "original_bundled": false,
+      "hash_method": "raw-bytes-sha256-v1"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "7ab762f2-ef0d-5725-9fda-2b60e86965c4",
+      "source_version_id": "a2a7c1ab-880e-545c-8687-b76306046ee2",
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          1,
+          2,
+          64
+        ],
+        "section": "事件表示、主文、裁判所名"
+      },
+      "support_note": "判決日、事件番号、請求棄却及び裁判所を確認する箇所。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "6e66b9bb-5522-5a17-83a8-0e7f9cb08688",
+      "source_version_id": "a2a7c1ab-880e-545c-8687-b76306046ee2",
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          3
+        ],
+        "section": "第2 事案の概要・秘密保持契約の条項"
+      },
+      "support_note": "秘密情報の明示及び口頭開示後の書面提出に関する本件契約条項。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "150419e6-cbc9-512a-a662-bafc671b33a2",
+      "source_version_id": "a2a7c1ab-880e-545c-8687-b76306046ee2",
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          55,
+          56
+        ],
+        "section": "第3 当裁判所の判断・争点2及び争点3"
+      },
+      "support_note": "目的外使用の証拠評価と、契約範囲外についての黙示の合意の判断。",
+      "verification": "locator_recorded_original_not_bundled"
+    }
+  ],
+  "relations": [
+    {
+      "id": "f58dc337-a741-5af0-9a2e-247e79633466",
+      "type": "raises",
+      "from_id": "56b6a36d-d8f5-577f-8649-f722ce0d6938",
+      "to_id": "6e37f6e0-f9a7-59ae-8b7c-6f7c2d2881ba",
+      "basis": "curated_association",
+      "material_differences": [
+        "実際の秘密情報や契約本文は非公開の利用側で扱う。"
+      ],
+      "evidence_ref_ids": [],
+      "review_status": "proposed"
+    },
+    {
+      "id": "0494d95d-cd0c-506b-bbde-3dff76ce4fb7",
+      "type": "illustrated_by",
+      "from_id": "6e37f6e0-f9a7-59ae-8b7c-6f7c2d2881ba",
+      "to_id": "f67410b7-0644-513e-8882-c3d3fd784c40",
+      "basis": "curated_association",
+      "material_differences": [
+        "個別契約に秘密指定・書面化の条件があった事例。",
+        "実際の契約文言と開示方法の相違を確認する。"
+      ],
+      "evidence_ref_ids": [
+        "6e66b9bb-5522-5a17-83a8-0e7f9cb08688",
+        "150419e6-cbc9-512a-a662-bafc671b33a2"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "reviews": [],
+  "observations": [
+    {
+      "source_version_id": "a2a7c1ab-880e-545c-8687-b76306046ee2",
+      "observed_at": "2026-11-03T03:59:23.796Z",
+      "request_url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-35471.pdf"
+    }
+  ],
+  "coverage": [
+    {
+      "observed_on": "2026-11-03",
+      "status": "partial",
+      "topic_ids": [
+        "56b6a36d-d8f5-577f-8649-f722ce0d6938"
+      ],
+      "case_ids": [
+        "f67410b7-0644-513e-8882-c3d3fd784c40"
+      ],
+      "current_applicability": "not_assessed",
+      "limitations": [
+        "公開一次資料に基づくAI補助の整理案。法律実務者によるレビューは未実施。",
+        "事例の類似性は検討候補を示し、個別案件への適用や現在の法的結論を示さない。",
+        "原文は再配布せず、内容ハッシュ・所在・独自要約のみを収録する。"
+      ]
+    }
+  ]
+}

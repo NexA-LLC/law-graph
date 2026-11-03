@@ -30,3 +30,14 @@ cites, applies_mutatis_mutandis, exception_to, related_to, supersedes,
 split_from, and merged_from require further extraction and evaluation work.
 Interpretation and similarity must use separate basis values and cannot be
 silently promoted into explicit textual facts.
+
+## Case and issue graph
+
+The separate cases schema defines Topic, Issue, Case, Claim, Source,
+SourceVersion, EvidenceRef, and Review records. Case kinds distinguish judgments,
+administrative actions, and business examples. Industry and regulatory guidance
+are source types, not judicial outcomes.
+
+Relations are raises, illustrated_by, and guidance_on. Their basis is
+curated_association, with explicit material differences and proposed review state.
+See [case-graph.md](case-graph.md) for claim kinds and temporal boundaries.

@@ -12,10 +12,17 @@ flowchart LR
   Q --> M[Read-only stdio MCP]
 ```
 
-The initial implementation reads one graph snapshot. Each snapshot contains
+The statute implementation reads one graph snapshot. Each snapshot contains
 law identities, law revisions, provision lineages, provision versions, scoped
 concepts, source documents, source content versions, evidence references,
 relation assertions, observations, and explicit partial coverage.
+
+A separate case schema and corpus now add topics, issues, cases, typed claims,
+source metadata, relations with material differences, and append-only review
+records. Case files validate independently and merge deterministically; conflicting
+records with the same UUID are rejected. The case sources are not bundled, so
+their byte hashes and locators are recorded without claiming offline original-text
+verification. See [case graph](case-graph.md).
 
 Source artifacts are selected article responses. They allow evidence validation
 without a network call. This small seed deliberately keeps source text available
@@ -38,12 +45,17 @@ a declaration that a provision applies to an individual case.
 Implemented: e-Gov selected-current-article ingestion, reproducible UUIDs,
 source hash checks, evidence text checks, containment, a narrow definition
 extractor, unresolved delegation candidates, literal search, exact citation
-resolution, bounded traversal, CLI, and stdio MCP.
+resolution, bounded traversal, CLI, and stdio MCP. Case research adds topic
+exploration, case search, and case readback with explicit authority and scope.
 
 Deferred: houritsu input, historical interval resolution, automatic lineage
 mapping, full citation resolution, comprehensive definition extraction,
-review workflows, exceptions, multi-snapshot aggregation, generated SQLite
+authenticated review workflows, exceptions, multi-snapshot statute aggregation, generated SQLite
 indexes, and semantic/vector search.
+
+All seed case summaries and links remain proposed, with no legal-practitioner
+review. Review records declare a reviewer and PR URL; this library does not
+authenticate identity or credentials and does not turn a record into legal clearance.
 
 No graph database, shared database, HTTP service, or private integration is
 required to run the initial version.

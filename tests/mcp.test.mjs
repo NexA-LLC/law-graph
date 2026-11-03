@@ -13,7 +13,7 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
   try {
     await client.connect(transport);
     const listed = await client.listTools();
-    assert.equal(listed.tools.length, 4);
+    assert.equal(listed.tools.length, 7);
     assert.ok(listed.tools.every(t => t.annotations.readOnlyHint));
     const resolved = await client.callTool({
       name: 'resolve_citation',
@@ -32,6 +32,16 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
     assert.equal(stale.structuredContent.status, 'outside_coverage');
     const invalid = await client.callTool({ name: 'search_provisions', arguments: { query: '個人情報', limit: 99999 } });
     assert.equal(invalid.isError, true);
+    const topic = await client.callTool({name:'explore_topic',arguments:{topic:'NDA'}});
+    assert.equal(topic.structuredContent.status,'research_candidates');
+    assert.equal(topic.structuredContent.cases[0].kind,'judgment');
+    assert.equal(topic.structuredContent.current_applicability,'not_assessed');
+    const caseDetail=await client.callTool({name:'get_case',arguments:{id:topic.structuredContent.cases[0].id}});
+    assert.ok(caseDetail.structuredContent.result.claims.some(c=>c.kind==='party_allegation'));
+    assert.ok(caseDetail.structuredContent.result.claims.some(c=>c.kind==='court_finding'));
+    const candidates=await client.callTool({name:'search_cases',arguments:{query:'NFT ガチャ'}});
+    assert.equal(candidates.structuredContent.results[0].kind,'administrative_action');
+    assert.equal(candidates.structuredContent.results[0].match_basis,'curated_topic_association');
     assert.equal(stderr, '');
   } finally {
     await client.close();

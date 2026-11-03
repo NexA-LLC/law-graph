@@ -21,6 +21,25 @@ AI Agentが法令の条文・概念・関係を辿り、元の出典へ戻るた
 `as_of`は収録した取得日だけを受け付け、他の日付は`outside_coverage`を返します。
 日付を省略した場合も、結果に使用した取得日を明示します。現在の法状態へ自動更新する機能はありません。
 
+## 事例と論点から調べる
+
+NFTランダム販売、NDA、委託取引の3テーマについて、確認すべき事実・論点・事例・指針を結び付けるグラフを追加しました。
+初期データは裁判例1件と行政事例2件、論点5件、出典6件です。業界指針は判決と分け、NFTそのものの適法性を判断した裁判例は未収録と表示します。
+
+```sh
+node src/cli.mjs topic --topic NFT
+node src/cli.mjs topic --topic NDA
+node src/cli.mjs topic --topic 下請法
+node src/cli.mjs cases --query 'NFT ガチャ'
+node src/cli.mjs case --id courts-35471
+```
+
+主張・事実・裁判所の判断・行政の認定・編集者の推論を区別し、比較上の相違点を返します。
+要約と関連付けは全てAI補助の整理案で、法律実務者によるレビューは未実施です。現在の個別案件への適用は判定しません。
+事例の原文は再配布せず、内容ハッシュ・元URL・頁や節・独自要約を記録しています。
+
+[事例グラフ](docs/case-graph.md) · [Agentからの使い方](docs/consumer-research-flow.md) · [協力者向けの入口](docs/contributing-cases.md)
+
 ## 使う
 
 Node.js 22以上で、次を実行します。
@@ -57,7 +76,8 @@ MCPクライアントに、チェックアウト先の絶対パスを指定し�
 }
 ```
 
-提供ツールは`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`です。
+提供ツールは`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`と、
+`explore_topic`、`search_cases`、`get_case`です。
 MCPはstdioのみで、起動時にローカルのグラフと根拠を検証します。検索時のネットワークアクセス、データ更新、質問の保存は行いません。
 
 ## 出典を辿る
@@ -93,6 +113,7 @@ data/
   registry/        固定したUUID名前空間とID規則
   laws/            グラフと収録範囲
   sources/         取得した公開資料のスナップショット
+  cases/           事例ごとの論点・出典・独自要約・確認記録
 schemas/           JSON Schema
 src/               取得・抽出・検証・照会・CLI・MCP
 tests/             破損、時点、未解決、MCPの検証

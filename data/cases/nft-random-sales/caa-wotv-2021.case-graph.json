@@ -1,0 +1,339 @@
+{
+  "schema_version": "law-graph.cases.v0",
+  "topics": [
+    {
+      "id": "99e7bd70-be66-5159-b74c-df4d270361e0",
+      "key": "nft-random-sales",
+      "label": "NFTのランダム販売",
+      "aliases": [
+        "NFT",
+        "ガチャ",
+        "ブロックチェーン",
+        "ランダム販売",
+        "ランダム型販売"
+      ],
+      "limitations": [
+        "NFTランダム販売の適法性を判断した裁判例は未収録。",
+        "通常ゲームの表示に関する隣接事例と、業界指針を収録する。"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "39e4a08c-6c0f-5202-8ed9-e33773600dd6",
+      "key": "nft-gambling",
+      "label": "ランダム販売と賭博の検討",
+      "fact_questions": [
+        "購入者は何を支払い、何を取得するか。",
+        "二次流通や運営による買取・価格設定はどう設計するか。",
+        "ハズレや、取得物の価値に関する表示はあるか。"
+      ],
+      "scope_note": "調査の入口となる確認事項。個別の事業が適法かは未判断。",
+      "review_status": "proposed"
+    },
+    {
+      "id": "843c338f-bba9-5a7f-9fe7-984c66811c9d",
+      "key": "random-sale-display",
+      "label": "抽選方式と表示の整合",
+      "fact_questions": [
+        "表示する確率・抽選単位と実装は一致するか。",
+        "組合せや在庫等による制約をどう説明するか。"
+      ],
+      "scope_note": "通常のオンラインゲームとNFT販売の違いを確認する。",
+      "review_status": "proposed"
+    }
+  ],
+  "cases": [
+    {
+      "id": "fe8cd1e2-b04f-5128-9240-ae49b467b813",
+      "key": "caa-2021-wotv",
+      "kind": "administrative_action",
+      "title": "オンラインゲームのガチャ表示に関する措置命令",
+      "jurisdiction": "JP",
+      "forum": "消費者庁",
+      "event_date": "2021-06-28",
+      "published_date": "2021-06-29",
+      "docket_number": null,
+      "later_history": "not_checked",
+      "legal_context": [
+        {
+          "label": "景品表示法第5条第1号、第7条第1項",
+          "role": "at_case_time",
+          "text_status": "not_collected"
+        }
+      ],
+      "claim_ids": [
+        "c0d0289b-a6dc-5b04-b96d-c5a46935902f",
+        "e66b4e94-3907-55a1-b612-988484492f51"
+      ],
+      "scope_limits": [
+        "NFT又は賭博該当性を判断した事例ではない。",
+        "後続の取消訴訟・是正状況等は未確認。"
+      ],
+      "evidence_ref_ids": [
+        "b9746f10-fd72-5d2d-a33a-87cfac1f46a8",
+        "4164dded-128d-5ed6-a0e8-011cca9fb702"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c0d0289b-a6dc-5b04-b96d-c5a46935902f",
+      "case_id": "fe8cd1e2-b04f-5128-9240-ae49b467b813",
+      "kind": "regulator_finding",
+      "text": "表示から想定される各枠の抽選方法と、実際の組合せを限定する抽選方法との相違等が認定された。",
+      "evidence_ref_ids": [
+        "d63927d5-8048-5967-a87e-fc33249d7881"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    },
+    {
+      "id": "e66b4e94-3907-55a1-b612-988484492f51",
+      "case_id": "fe8cd1e2-b04f-5128-9240-ae49b467b813",
+      "kind": "outcome",
+      "text": "消費者庁は優良誤認に当たるとして、周知徹底や再発防止等を命じた。",
+      "evidence_ref_ids": [
+        "4164dded-128d-5ed6-a0e8-011cca9fb702"
+      ],
+      "authorship": "ai_assisted_draft",
+      "review_status": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "98cffca2-4ba0-596b-a669-9465ab2f41b5",
+      "provider": "caa",
+      "document_key": "notice-024759",
+      "title": "オンラインゲーム表示に係る措置命令の公表",
+      "publisher": "消費者庁",
+      "kind": "administrative_publication",
+      "url": "https://www.caa.go.jp/notice/entry/024759/",
+      "upstream_ids": {
+        "notice_id": "024759"
+      },
+      "reuse_mode": "reference_and_project_summary_only"
+    },
+    {
+      "id": "e762fb8c-f351-5f4c-bd4f-6219ba3a3a1b",
+      "provider": "caa",
+      "document_key": "representation-210629-03",
+      "title": "オンラインゲーム表示に係る措置命令資料",
+      "publisher": "消費者庁",
+      "kind": "administrative_publication",
+      "url": "https://www.caa.go.jp/notice/assets/representation_210629_03.pdf",
+      "upstream_ids": {
+        "publication_key": "representation_210629_03"
+      },
+      "reuse_mode": "reference_and_project_summary_only"
+    },
+    {
+      "id": "92f434a0-ddab-58e0-967d-a8052cb1be90",
+      "provider": "jcba",
+      "document_key": "randomized-nft-sales-20221012",
+      "title": "NFTのランダム型販売に関するガイドライン",
+      "publisher": "JCBAほか共同公表5団体",
+      "kind": "industry_guideline",
+      "url": "https://cryptocurrency-association.org/cms2025/wp-content/uploads/2022/10/GuidelinesforRandomizedNFTSales.pdf",
+      "upstream_ids": {
+        "publication_date": "2022-10-12"
+      },
+      "reuse_mode": "reference_and_project_summary_only"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "3c8cf55e-5453-5e51-8d9a-0bc73bfff381",
+      "source_id": "98cffca2-4ba0-596b-a669-9465ab2f41b5",
+      "content_sha256": "f72b08a77351749e31a9df80b735b2771961a20ac4aa63106ea8095f145048f5",
+      "content_type": "text/html",
+      "byte_length": 52382,
+      "original_bundled": false,
+      "hash_method": "raw-bytes-sha256-v1"
+    },
+    {
+      "id": "9f8eb345-96a9-5786-8306-10f2f198dfbe",
+      "source_id": "e762fb8c-f351-5f4c-bd4f-6219ba3a3a1b",
+      "content_sha256": "6124efcccb11b4ecb3cde9648acaeaae1d0c5ed7b02bc12ad1082cb4ef07fca7",
+      "content_type": "application/pdf",
+      "byte_length": 5893217,
+      "original_bundled": false,
+      "hash_method": "raw-bytes-sha256-v1"
+    },
+    {
+      "id": "3b641862-630b-55d6-9bbc-bde8004e3851",
+      "source_id": "92f434a0-ddab-58e0-967d-a8052cb1be90",
+      "content_sha256": "5375c5bc7648eeea219af357ac01fd38243cd75842e5d407f9c125ddca9bea21",
+      "content_type": "application/pdf",
+      "byte_length": 1004244,
+      "original_bundled": false,
+      "hash_method": "raw-bytes-sha256-v1"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "b9746f10-fd72-5d2d-a33a-87cfac1f46a8",
+      "source_version_id": "3c8cf55e-5453-5e51-8d9a-0bc73bfff381",
+      "locator": {
+        "kind": "html_section",
+        "pages": [],
+        "section": "公表日及び措置命令についての本文"
+      },
+      "support_note": "公表日と命令日を分けて確認する箇所。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "d63927d5-8048-5967-a87e-fc33249d7881",
+      "source_version_id": "9f8eb345-96a9-5786-8306-10f2f198dfbe",
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2,
+          3
+        ],
+        "section": "2(2) 対象表示と実際"
+      },
+      "support_note": "表示された抽選と実際の抽選方法の相違を扱う箇所。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "4164dded-128d-5ed6-a0e8-011cca9fb702",
+      "source_version_id": "9f8eb345-96a9-5786-8306-10f2f198dfbe",
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          1,
+          4
+        ],
+        "section": "冒頭及び2(3)命令の概要"
+      },
+      "support_note": "行政による措置命令の内容を記載する箇所。",
+      "verification": "locator_recorded_original_not_bundled"
+    },
+    {
+      "id": "e322898a-ee5c-58af-834e-073d4d03b3f2",
+      "source_version_id": "3b641862-630b-55d6-9bbc-bde8004e3851",
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "section": "I 前提、II 結論、III 検討"
+      },
+      "support_note": "業界団体によるランダム型販売の整理。裁判所の判決ではない。",
+      "verification": "locator_recorded_original_not_bundled"
+    }
+  ],
+  "relations": [
+    {
+      "id": "a9cd8372-6f11-5c51-a78d-54e024c52e93",
+      "type": "raises",
+      "from_id": "99e7bd70-be66-5159-b74c-df4d270361e0",
+      "to_id": "39e4a08c-6c0f-5202-8ed9-e33773600dd6",
+      "basis": "curated_association",
+      "material_differences": [
+        "汎用的な調査テーマの整理であり、具体的事業への法的結論ではない。"
+      ],
+      "evidence_ref_ids": [],
+      "review_status": "proposed"
+    },
+    {
+      "id": "cb340001-3ee2-59bf-9748-476ca303ec64",
+      "type": "raises",
+      "from_id": "99e7bd70-be66-5159-b74c-df4d270361e0",
+      "to_id": "843c338f-bba9-5a7f-9fe7-984c66811c9d",
+      "basis": "curated_association",
+      "material_differences": [
+        "NFTの技術的性質だけから通常ゲームと同じ結論にはしない。"
+      ],
+      "evidence_ref_ids": [],
+      "review_status": "proposed"
+    },
+    {
+      "id": "f00253d8-09ec-5f8d-8641-21ad34d3b036",
+      "type": "illustrated_by",
+      "from_id": "843c338f-bba9-5a7f-9fe7-984c66811c9d",
+      "to_id": "fe8cd1e2-b04f-5128-9240-ae49b467b813",
+      "basis": "curated_association",
+      "material_differences": [
+        "NFT固有の事例ではなく、通常のオンラインゲームの表示に関する行政事例。",
+        "表示と実装の相違の調査に用い、NFT販売全般の適法性へ一般化しない。"
+      ],
+      "evidence_ref_ids": [
+        "d63927d5-8048-5967-a87e-fc33249d7881",
+        "4164dded-128d-5ed6-a0e8-011cca9fb702"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "id": "6c948291-d4d0-5723-a425-10ab97613eeb",
+      "type": "guidance_on",
+      "from_id": "39e4a08c-6c0f-5202-8ed9-e33773600dd6",
+      "to_id": "92f434a0-ddab-58e0-967d-a8052cb1be90",
+      "basis": "curated_association",
+      "material_differences": [
+        "業界団体の指針であり、法令や裁判所の判決ではない。",
+        "2022年版の整理であり、現行法と実際の仕様を別途確認する。"
+      ],
+      "evidence_ref_ids": [
+        "e322898a-ee5c-58af-834e-073d4d03b3f2"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "id": "703d19a0-8b96-5cd5-9d6b-881d23aba19b",
+      "type": "guidance_on",
+      "from_id": "843c338f-bba9-5a7f-9fe7-984c66811c9d",
+      "to_id": "92f434a0-ddab-58e0-967d-a8052cb1be90",
+      "basis": "curated_association",
+      "material_differences": [
+        "業界団体の見解であり、個別行政処分の認定ではない。"
+      ],
+      "evidence_ref_ids": [
+        "e322898a-ee5c-58af-834e-073d4d03b3f2"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "reviews": [],
+  "observations": [
+    {
+      "source_version_id": "3c8cf55e-5453-5e51-8d9a-0bc73bfff381",
+      "observed_at": "2026-11-03T03:59:21.901Z",
+      "request_url": "https://www.caa.go.jp/notice/entry/024759/"
+    },
+    {
+      "source_version_id": "9f8eb345-96a9-5786-8306-10f2f198dfbe",
+      "observed_at": "2026-11-03T03:59:22.558Z",
+      "request_url": "https://www.caa.go.jp/notice/assets/representation_210629_03.pdf"
+    },
+    {
+      "source_version_id": "3b641862-630b-55d6-9bbc-bde8004e3851",
+      "observed_at": "2026-11-03T03:59:23.613Z",
+      "request_url": "https://cryptocurrency-association.org/cms2025/wp-content/uploads/2022/10/GuidelinesforRandomizedNFTSales.pdf"
+    }
+  ],
+  "coverage": [
+    {
+      "observed_on": "2026-11-03",
+      "status": "partial",
+      "topic_ids": [
+        "99e7bd70-be66-5159-b74c-df4d270361e0"
+      ],
+      "case_ids": [
+        "fe8cd1e2-b04f-5128-9240-ae49b467b813"
+      ],
+      "current_applicability": "not_assessed",
+      "limitations": [
+        "公開一次資料に基づくAI補助の整理案。法律実務者によるレビューは未実施。",
+        "事例の類似性は検討候補を示し、個別案件への適用や現在の法的結論を示さない。",
+        "原文は再配布せず、内容ハッシュ・所在・独自要約のみを収録する。"
+      ]
+    }
+  ]
+}

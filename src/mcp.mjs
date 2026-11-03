@@ -3,16 +3,19 @@ import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
 import { parseArgs } from 'node:util';
+import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { loadGraph } from './validate.mjs';
 import { createQuery } from './query.mjs';
 import { tools, callTool } from './tools.mjs';
 import { DATA_ROOT, DEFAULT_GRAPH } from './cli.mjs';
+import { loadCaseGraph, createCaseQuery } from './cases.mjs';
 
-const { values } = parseArgs({ options: { graph: { type: 'string' }, 'data-root': { type: 'string' } } });
+const { values } = parseArgs({ options: { graph: { type: 'string' }, 'case-graph': {type:'string'}, 'data-root': { type: 'string' } } });
 const graph = loadGraph(resolve(values.graph ?? DEFAULT_GRAPH), resolve(values['data-root'] ?? DATA_ROOT));
-const query = createQuery(graph);
-const server = new Server({ name: 'law-graph', version: '0.1.0' }, { capabilities: { tools: {} } });
+const query = {...createQuery(graph),...createCaseQuery(loadCaseGraph(values['case-graph']))};
+const version=JSON.parse(readFileSync(new URL('../package.json',import.meta.url),'utf8')).version;
+const server = new Server({ name: 'law-graph', version }, { capabilities: { tools: {} } });
 server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools }));
 server.setRequestHandler(CallToolRequestSchema, async request => {
   try {
