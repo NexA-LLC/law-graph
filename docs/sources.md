@@ -13,6 +13,11 @@ The exact article response, requested element, official law/revision IDs,
 request URL, observation time, canonical payload hash, and text evidence
 pointers are retained under data/.
 
+The additional contract research corpus contains selected 民法 and construction
+law articles. See [the exact law/revision/article manifest and extraction
+limits](contracts-coverage.md). Original snapshots remain immutable; the
+aggregate records new assertions with new method-specific IDs and evidence.
+
 ## Content normalization
 
 sorted-json-v1 sorts object keys, preserves arrays and scalar values, and

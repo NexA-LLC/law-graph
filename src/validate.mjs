@@ -4,15 +4,17 @@ import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { canonical, id, sha256 } from './identity.mjs';
 import { atPointer, textOf, TEXT_METHOD, METHOD, PDL } from './egov.mjs';
+import { validateAssertion } from './assertions.mjs';
+import { extractReferences, inferAuthorities } from './references.mjs';
 
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);
 const validateSchema = ajv.compile(JSON.parse(readFileSync(new URL('../schemas/graph.schema.json', import.meta.url), 'utf8')));
-const collections = ['laws', 'law_revisions', 'provisions', 'provision_versions', 'concepts', 'sources', 'source_versions', 'evidence_refs', 'relations'];
+const collections = ['laws', 'law_revisions', 'provisions', 'provision_versions', 'concepts', 'sources', 'source_versions', 'evidence_refs', 'relations', 'intents', 'authorities'];
 
 export function validateGraph(graph, readArtifact) {
   if (!validateSchema(graph)) throw new Error('Schema: ' + ajv.errorsText(validateSchema.errors));
-  const maps = Object.fromEntries(collections.map(k => [k, new Map(graph[k].map(x => [x.id, x]))]));
+  const maps = Object.fromEntries(collections.map(k => [k, new Map((graph[k] ?? []).map(x => [x.id, x]))]));
   const all = new Map();
   function check(condition, message) { if (!condition) throw new Error(message); }
   function get(kind, key) {
@@ -21,7 +23,7 @@ export function validateGraph(graph, readArtifact) {
     return found;
   }
   function identity(record, expected) { check(record.id === expected, 'Identity mismatch: ' + record.id); }
-  for (const kind of collections) for (const record of graph[kind]) {
+  for (const kind of collections) for (const record of graph[kind] ?? []) {
     check(!all.has(record.id), 'Duplicate ID: ' + record.id);
     all.set(record.id, { ...record, kind });
   }
@@ -91,16 +93,29 @@ export function validateGraph(graph, readArtifact) {
       }
       check(version.locator === expectedLocator && provision.anchor_locator === version.locator, 'Provision locator mismatch');
       check(payload.revision_info.amendment_enforcement_date === rev.effective_from, 'Revision effective date mismatch');
+      check(payload.revision_info.law_title === rev.title, 'Revision title mismatch');
     }
   }
   for (const concept of graph.concepts) {
     get('laws', concept.law_id);
     identity(concept, id('concept', concept.law_id, concept.label));
   }
+  for (const intent of graph.intents ?? []) identity(intent, id('intent', intent.slug));
+  for (const authority of graph.authorities ?? []) identity(authority, id('authority', authority.jurisdiction, authority.label));
+  const references = graph.relations.some(r => r.method === 'egov-references-v1') || graph.coverage.some(c => c.reference_extractor) ? extractReferences(graph) : [];
+  const authorities = graph.relations.some(r => r.method === 'egov-authority-inference-v1') || graph.coverage.some(c => c.reference_extractor) ? inferAuthorities(graph).relations : [];
+  const referenceIds = new Set(references.map(r => r.id));
+  const authorityIds = new Set(authorities.map(r => r.id));
   for (const relation of graph.relations) {
     const from = all.get(relation.from_id);
     const to = relation.to_id ? all.get(relation.to_id) : null;
     check(from && (!relation.to_id || to), 'Dangling relation endpoint');
+    if (relation.method !== METHOD) {
+      validateAssertion(relation, { all, get, check });
+      if (relation.method === 'egov-references-v1') check(referenceIds.has(relation.id), 'Reference is not supported by the extractor');
+      if (relation.method === 'egov-authority-inference-v1') check(authorityIds.has(relation.id), 'Authority is not supported by the extractor');
+      continue;
+    }
     identity(relation, id('relation', METHOD, relation.type, relation.from_id, relation.to_id, relation.evidence_ref_ids[0], relation.target_ref));
     check(relation.evidence_ref_ids.length === 1, 'v0 relations require one exact evidence reference');
     const evidence = get('evidence_refs', relation.evidence_ref_ids[0]);
@@ -133,7 +148,13 @@ export function validateGraph(graph, readArtifact) {
     check(coverage.law_id === rev.law_id && coverage.as_of >= rev.effective_from, 'Coverage revision mismatch');
     const versions = graph.provision_versions.filter(x => x.law_revision_id === rev.id);
     check(canonical([...coverage.locators].sort()) === canonical(versions.map(x => x.locator).sort()), 'Coverage locator mismatch');
-    check(canonical([...coverage.relation_types].sort()) === canonical(['contains', 'defines', 'delegates_to']), 'Coverage relation types mismatch');
+    const expectedTypes = coverage.reference_extractor ? ['administered_by', 'cites', 'contains', 'defines', 'delegates_to'] : ['contains', 'defines', 'delegates_to'];
+    check(canonical([...coverage.relation_types].sort()) === canonical(expectedTypes), 'Coverage relation types mismatch');
+    if (coverage.reference_extractor) {
+      const expected = [...references, ...authorities].filter(r =>
+        r.from_id === rev.id || maps.provision_versions.get(r.from_id)?.law_revision_id === rev.id);
+      check(expected.every(r => maps.relations.has(r.id)), 'Reference coverage is incomplete');
+    }
     const sourceIds = new Set(versions.flatMap(x => x.evidence_ref_ids).map(key => get('evidence_refs', key).source_version_id));
     for (const key of sourceIds) {
       const observations = graph.observations.filter(x => x.source_version_id === key);

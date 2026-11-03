@@ -13,8 +13,20 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
   try {
     await client.connect(transport);
     const listed = await client.listTools();
-    assert.equal(listed.tools.length, 8);
+    assert.equal(listed.tools.length, 9);
     assert.ok(listed.tools.every(t => t.annotations.readOnlyHint));
+    const related = await client.callTool({ name: 'find_related_laws', arguments: { intent: 'construction-contract', limit: 1 } });
+    assert.equal(related.isError, undefined);
+    assert.equal(related.structuredContent.status, 'ok');
+    assert.equal(related.structuredContent.total_matches, 3);
+    assert.equal(related.structuredContent.truncated, true);
+    assert.equal(related.structuredContent.results[0].review_state, 'unreviewed');
+    assert.ok(related.structuredContent.results[0].basis_provision_ids.length);
+    assert.ok(related.structuredContent.results[0].reason);
+    const unknown = await client.callTool({ name: 'find_related_laws', arguments: { intent: '未登録の目的' } });
+    assert.equal(unknown.structuredContent.status, 'outside_coverage');
+    const badIntent = await client.callTool({ name: 'find_related_laws', arguments: { intent: 'contract-work', limit: 999 } });
+    assert.equal(badIntent.isError, true);
     const resolved = await client.callTool({
       name: 'resolve_citation',
       arguments: { law_id: '415AC0000000057', article: '2', paragraph: '1' }

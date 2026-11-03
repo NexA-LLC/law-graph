@@ -16,8 +16,13 @@ Content hashes use SHA-256, not the UUID hash.
 | SourceVersion | source UUID, upstream revision ID, selected element, media type, content hash |
 | EvidenceRef | source-version UUID, JSON Pointer, text extraction version |
 | Relation | extractor version, type, endpoints, evidence UUID, unresolved target descriptor |
+| Intent | slug |
+| Authority | jurisdiction, label |
+| New assertion | complete assertion object excluding id; includes reason, method, review_state, endpoints, target_ref, evidence and basis provision IDs |
 
 The functions in src/identity.mjs define the exact tuple encoding.
+New assertions use `id('assertion', content)` in src/assertions.mjs. Legacy
+structure assertions keep their original `id('relation', ...)` encoding.
 
 ## Source identity
 

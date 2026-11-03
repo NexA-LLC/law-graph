@@ -1,0 +1,136 @@
+{
+  "schema_version": "law-graph.v0",
+  "namespace": "5d6c6cf5-664c-5f88-bb7b-559f857dd711",
+  "intents": [
+    {
+      "id": "5cbf74af-543a-5f4d-b738-e232f32e86f7",
+      "slug": "contract-work",
+      "label": "請負契約を結ぶ",
+      "description": "仕事の完成と報酬に関する一般的な請負契約の調査用。収録した条文だけを候補として示す。"
+    },
+    {
+      "id": "fc0e6fdb-5453-54a6-994f-9cbf52217145",
+      "slug": "cancel-contract-work",
+      "label": "請負契約を解除する",
+      "description": "注文者による解除や破産時の請負契約を調べるための一般的な入口。解除可否の判定は行わない。"
+    },
+    {
+      "id": "fe8113de-a9ab-551f-97e6-da457004c70f",
+      "slug": "construction-contract",
+      "label": "建設工事の請負契約を結ぶ",
+      "description": "建設工事を想定した契約事項と電磁的措置の調査用。個別契約への適用は判断しない。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "34516fff-b53f-5d60-98d6-3e724a17eb68",
+      "type": "relates_to",
+      "from_id": "fe8113de-a9ab-551f-97e6-da457004c70f",
+      "to_id": "99480e96-985f-57fc-9508-38c3089a5a0c",
+      "target_ref": null,
+      "basis": "curated",
+      "method": "intent-curation-v1",
+      "resolution": "resolved",
+      "reason": "建設工事の請負契約で電磁的措置を用いる場合の承諾手続を調べるため、施行令5条の5第1項を調査候補として示す。",
+      "basis_provision_ids": [
+        "99480e96-985f-57fc-9508-38c3089a5a0c"
+      ],
+      "evidence_ref_ids": [
+        "1a0055fb-7ad6-5180-8c58-667e8b8edb7c"
+      ],
+      "review_state": "unreviewed"
+    },
+    {
+      "id": "4c9b5414-f3c9-5915-b7ed-9bfdf43ed237",
+      "type": "relates_to",
+      "from_id": "fc0e6fdb-5453-54a6-994f-9cbf52217145",
+      "to_id": "49f49d1a-b498-5fe9-adfb-7638dcd025fa",
+      "target_ref": null,
+      "basis": "curated",
+      "method": "intent-curation-v1",
+      "resolution": "resolved",
+      "reason": "注文者の破産時の請負契約に関する条文を調べるため、民法642条を調査候補として示す。",
+      "basis_provision_ids": [
+        "49f49d1a-b498-5fe9-adfb-7638dcd025fa"
+      ],
+      "evidence_ref_ids": [
+        "b1613d27-3356-52da-a23c-1337536332b9"
+      ],
+      "review_state": "unreviewed"
+    },
+    {
+      "id": "55abc147-58b3-532d-ba79-f620b3ca675a",
+      "type": "relates_to",
+      "from_id": "fc0e6fdb-5453-54a6-994f-9cbf52217145",
+      "to_id": "0d7ce73d-d826-5df8-9aa4-c752050f7dbd",
+      "target_ref": null,
+      "basis": "curated",
+      "method": "intent-curation-v1",
+      "resolution": "resolved",
+      "reason": "注文者による解除に関する条文を調べるため、民法641条を調査候補として示す。",
+      "basis_provision_ids": [
+        "0d7ce73d-d826-5df8-9aa4-c752050f7dbd"
+      ],
+      "evidence_ref_ids": [
+        "aa76b0d6-ac55-5608-9eac-59d92f464759"
+      ],
+      "review_state": "unreviewed"
+    },
+    {
+      "id": "bc623aa5-555e-574f-bd81-6a22fa1fb164",
+      "type": "relates_to",
+      "from_id": "5cbf74af-543a-5f4d-b738-e232f32e86f7",
+      "to_id": "91fe86de-c4f6-5b37-a916-d374853789d9",
+      "target_ref": null,
+      "basis": "curated",
+      "method": "intent-curation-v1",
+      "resolution": "resolved",
+      "reason": "請負の基本構造と報酬の支払時期を調べるため、民法632条・633条を調査候補として示す。",
+      "basis_provision_ids": [
+        "cc5f1a80-6429-51cb-be6b-40e6200ea283",
+        "e9028953-2cd7-5934-97d8-b27ca077b62f"
+      ],
+      "evidence_ref_ids": [
+        "46e488d7-8e87-57e9-bc05-759d97023df3",
+        "50c75bf9-597a-5fd7-9066-584f2093f4b5"
+      ],
+      "review_state": "unreviewed"
+    },
+    {
+      "id": "d6949d66-0ccd-5d79-bb49-d3066173504e",
+      "type": "relates_to",
+      "from_id": "fe8113de-a9ab-551f-97e6-da457004c70f",
+      "to_id": "5de8df88-0267-5b7a-abef-e4f0b89f42b7",
+      "target_ref": null,
+      "basis": "curated",
+      "method": "intent-curation-v1",
+      "resolution": "resolved",
+      "reason": "建設工事の請負契約に記載する事項と電磁的措置を調べるため、建設業法19条を調査候補として示す。",
+      "basis_provision_ids": [
+        "5de8df88-0267-5b7a-abef-e4f0b89f42b7"
+      ],
+      "evidence_ref_ids": [
+        "123dfe2f-f476-5ee2-b6b4-afbc05d850a9"
+      ],
+      "review_state": "unreviewed"
+    },
+    {
+      "id": "dd55dae3-9b10-5bd1-8ea0-5cb546dba0c3",
+      "type": "relates_to",
+      "from_id": "fe8113de-a9ab-551f-97e6-da457004c70f",
+      "to_id": "5ded4883-c2bd-5dd7-823b-f4b0f0b2d1ad",
+      "target_ref": null,
+      "basis": "curated",
+      "method": "intent-curation-v1",
+      "resolution": "resolved",
+      "reason": "建設業法19条3項が参照する電磁的措置を調べるため、施行規則13条の4第1項を調査候補として示す。",
+      "basis_provision_ids": [
+        "5ded4883-c2bd-5dd7-823b-f4b0f0b2d1ad"
+      ],
+      "evidence_ref_ids": [
+        "6b3c8273-8210-5d74-a106-183cf5b5b238"
+      ],
+      "review_state": "unreviewed"
+    }
+  ]
+}

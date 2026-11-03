@@ -1,0 +1,87 @@
+{
+  "attached_files_info": null,
+  "law_info": {
+    "law_type": "CabinetOrder",
+    "law_id": "331CO0000000273",
+    "law_num": "昭和三十一年政令第二百七十三号",
+    "law_num_era": "Showa",
+    "law_num_year": 31,
+    "law_num_type": "CabinetOrder",
+    "law_num_num": "273",
+    "promulgation_date": "1956-08-29"
+  },
+  "revision_info": {
+    "law_revision_id": "331CO0000000273_20260401_507CO0000000412",
+    "law_type": "CabinetOrder",
+    "law_title": "建設業法施行令",
+    "law_title_kana": "けんせつぎょうほうしこうれい",
+    "abbrev": "",
+    "category": "建築・住宅",
+    "updated": "2026-01-05T18:30:51+09:00",
+    "amendment_promulgate_date": "2025-12-12",
+    "amendment_enforcement_date": "2026-04-01",
+    "amendment_enforcement_comment": null,
+    "amendment_scheduled_enforcement_date": null,
+    "amendment_law_id": "507CO0000000412",
+    "amendment_law_title": "脱炭素成長型経済構造への円滑な移行の推進に関する法律及び資源の有効な利用の促進に関する法律の一部を改正する法律の施行に伴う関係政令の整備等に関する政令",
+    "amendment_law_title_kana": null,
+    "amendment_law_num": "令和七年政令第四百十二号",
+    "amendment_type": "3",
+    "repeal_status": "None",
+    "repeal_date": null,
+    "remain_in_force": false,
+    "mission": "New",
+    "current_revision_status": "CurrentEnforced"
+  },
+  "law_full_text": {
+    "tag": "Article",
+    "attr": {
+      "Num": "1"
+    },
+    "children": [
+      {
+        "tag": "ArticleCaption",
+        "attr": {},
+        "children": [
+          "（支店に準ずる営業所）"
+        ]
+      },
+      {
+        "tag": "ArticleTitle",
+        "attr": {},
+        "children": [
+          "第一条"
+        ]
+      },
+      {
+        "tag": "Paragraph",
+        "attr": {
+          "Num": "1"
+        },
+        "children": [
+          {
+            "tag": "ParagraphNum",
+            "attr": {},
+            "children": []
+          },
+          {
+            "tag": "ParagraphSentence",
+            "attr": {},
+            "children": [
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "1",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "建設業法（以下「法」という。）第三条第一項の政令で定める支店に準ずる営業所は、常時建設工事の請負契約を締結する事務所とする。"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

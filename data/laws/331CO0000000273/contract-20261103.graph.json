@@ -1,0 +1,316 @@
+{
+  "schema_version": "law-graph.v0",
+  "namespace": "5d6c6cf5-664c-5f88-bb7b-559f857dd711",
+  "laws": [
+    {
+      "id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "jurisdiction": "JP",
+      "upstream_law_id": "331CO0000000273"
+    }
+  ],
+  "law_revisions": [
+    {
+      "id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "upstream_revision_id": "331CO0000000273_20260401_507CO0000000412",
+      "title": "建設業法施行令",
+      "effective_from": "2026-04-01"
+    }
+  ],
+  "provisions": [
+    {
+      "id": "04a44ae5-7b0f-5f2c-b123-1ae60343616a",
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "anchor_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "anchor_locator": "main/article:1"
+    },
+    {
+      "id": "19a2ca22-474c-5025-aee9-f8ba4ea6d42b",
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "anchor_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "anchor_locator": "main/article:1/paragraph:1"
+    },
+    {
+      "id": "329071db-e387-5096-b547-d7a946258dd3",
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "anchor_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "anchor_locator": "main/article:5_5/paragraph:2"
+    },
+    {
+      "id": "bb490f57-24da-5e09-ba30-b627af3b6c37",
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "anchor_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "anchor_locator": "main/article:5_5"
+    },
+    {
+      "id": "c4661e7f-7e31-59ff-96ef-492b732bcd79",
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "anchor_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "anchor_locator": "main/article:5_5/paragraph:1"
+    }
+  ],
+  "provision_versions": [
+    {
+      "id": "19cfb469-d43f-5d77-9445-cc1936f1bbc8",
+      "provision_id": "19a2ca22-474c-5025-aee9-f8ba4ea6d42b",
+      "law_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "locator": "main/article:1/paragraph:1",
+      "level": "Paragraph",
+      "text": "建設業法（以下「法」という。）第三条第一項の政令で定める支店に準ずる営業所は、常時建設工事の請負契約を締結する事務所とする。",
+      "evidence_ref_ids": [
+        "0e0f8e77-d04b-5adf-9894-12f5c18eec49"
+      ],
+      "text_sha256": "0cdb98fc35054cc6d5dcf9fffcd5d74470b87114dcffaf5406c19a4c1253e149"
+    },
+    {
+      "id": "306d4931-9301-55cd-bf69-89ef791edfe6",
+      "provision_id": "bb490f57-24da-5e09-ba30-b627af3b6c37",
+      "law_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "locator": "main/article:5_5",
+      "level": "Article",
+      "text": "（建設工事の請負契約に係る情報通信の技術を利用する方法）第五条の五建設工事の請負契約の当事者は、法第十九条第三項の規定により同項に規定する国土交通省令で定める措置（以下この条において「電磁的措置」という。）を講じようとするときは、国土交通省令で定めるところにより、あらかじめ、当該契約の相手方に対し、その講じる電磁的措置の種類及び内容を示し、書面又は電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて国土交通省令で定めるもの（次項において「電磁的方法」という。）による承諾を得なければならない。２前項の規定による承諾を得た建設工事の請負契約の当事者は、当該契約の相手方から書面又は電磁的方法により当該承諾を撤回する旨の申出があつたときは、法第十九条第一項又は第二項の規定による措置に代えて電磁的措置を講じてはならない。ただし、当該契約の相手方が再び同項の規定による承諾をした場合は、この限りでない。",
+      "evidence_ref_ids": [
+        "0203042b-05c7-5aab-a24e-2e77d6f7e6d4"
+      ],
+      "text_sha256": "875276bf5eef94cd6d88829b19111f9c432770d46b272d172cf69506ca62cf4e"
+    },
+    {
+      "id": "5c2b5e53-5b7b-53f6-8591-4fb709acf8d3",
+      "provision_id": "04a44ae5-7b0f-5f2c-b123-1ae60343616a",
+      "law_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "locator": "main/article:1",
+      "level": "Article",
+      "text": "（支店に準ずる営業所）第一条建設業法（以下「法」という。）第三条第一項の政令で定める支店に準ずる営業所は、常時建設工事の請負契約を締結する事務所とする。",
+      "evidence_ref_ids": [
+        "cb604674-b849-5ef6-9b09-a6ed78c56812"
+      ],
+      "text_sha256": "e981214bbc18ac54f5ee98300869baab473d0de9be5b5b09e1af173929b8fdcc"
+    },
+    {
+      "id": "99480e96-985f-57fc-9508-38c3089a5a0c",
+      "provision_id": "c4661e7f-7e31-59ff-96ef-492b732bcd79",
+      "law_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "locator": "main/article:5_5/paragraph:1",
+      "level": "Paragraph",
+      "text": "建設工事の請負契約の当事者は、法第十九条第三項の規定により同項に規定する国土交通省令で定める措置（以下この条において「電磁的措置」という。）を講じようとするときは、国土交通省令で定めるところにより、あらかじめ、当該契約の相手方に対し、その講じる電磁的措置の種類及び内容を示し、書面又は電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて国土交通省令で定めるもの（次項において「電磁的方法」という。）による承諾を得なければならない。",
+      "evidence_ref_ids": [
+        "1a0055fb-7ad6-5180-8c58-667e8b8edb7c"
+      ],
+      "text_sha256": "59035be556aa20262e740cf20210be82f030d7baa466aac90c6eeaaef8859e2a"
+    },
+    {
+      "id": "fa1e896f-de6a-588e-82da-13b07e9c2f85",
+      "provision_id": "329071db-e387-5096-b547-d7a946258dd3",
+      "law_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "locator": "main/article:5_5/paragraph:2",
+      "level": "Paragraph",
+      "text": "２前項の規定による承諾を得た建設工事の請負契約の当事者は、当該契約の相手方から書面又は電磁的方法により当該承諾を撤回する旨の申出があつたときは、法第十九条第一項又は第二項の規定による措置に代えて電磁的措置を講じてはならない。ただし、当該契約の相手方が再び同項の規定による承諾をした場合は、この限りでない。",
+      "evidence_ref_ids": [
+        "969c4d46-7b90-5ec9-8aec-7ab86b20da99"
+      ],
+      "text_sha256": "eede27a5581a4713206dba827b9d1cfa0b45ff728f111e92f0366ab167b4c212"
+    }
+  ],
+  "concepts": [],
+  "sources": [
+    {
+      "id": "9798e0a9-d8fe-5a7f-8957-384b3b7811ad",
+      "provider": "egov",
+      "upstream_ids": {
+        "law_id": "331CO0000000273"
+      },
+      "url": "https://laws.e-gov.go.jp/law/331CO0000000273",
+      "license": "CC-BY-4.0",
+      "source_terms": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "9dbcecdd-0f71-50cc-9a96-de8f38afe7f0",
+      "source_id": "9798e0a9-d8fe-5a7f-8957-384b3b7811ad",
+      "upstream_revision_id": "331CO0000000273_20260401_507CO0000000412",
+      "selection": "LawBody-MainProvision-Article_1",
+      "content_type": "application/json",
+      "content_sha256": "8374229bdb8182a6217b5e6f1641dbea1cf28e1f052fdd28124009b1f4e01114",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/9dbcecdd-0f71-50cc-9a96-de8f38afe7f0.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/331CO0000000273?elm=LawBody-MainProvision-Article_1"
+    },
+    {
+      "id": "ff8b2615-d54f-5110-a1b6-d78c0f6543b3",
+      "source_id": "9798e0a9-d8fe-5a7f-8957-384b3b7811ad",
+      "upstream_revision_id": "331CO0000000273_20260401_507CO0000000412",
+      "selection": "LawBody-MainProvision-Article_5_5",
+      "content_type": "application/json",
+      "content_sha256": "a0d5b0aef69498608430ccc25bc46e22ea68b65e9c7af9292452b80abeaef530",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/ff8b2615-d54f-5110-a1b6-d78c0f6543b3.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/331CO0000000273_20260401_507CO0000000412?elm=LawBody-MainProvision-Article_5_5"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "0203042b-05c7-5aab-a24e-2e77d6f7e6d4",
+      "source_version_id": "ff8b2615-d54f-5110-a1b6-d78c0f6543b3",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "875276bf5eef94cd6d88829b19111f9c432770d46b272d172cf69506ca62cf4e"
+    },
+    {
+      "id": "0e0f8e77-d04b-5adf-9894-12f5c18eec49",
+      "source_version_id": "9dbcecdd-0f71-50cc-9a96-de8f38afe7f0",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0cdb98fc35054cc6d5dcf9fffcd5d74470b87114dcffaf5406c19a4c1253e149"
+    },
+    {
+      "id": "1a0055fb-7ad6-5180-8c58-667e8b8edb7c",
+      "source_version_id": "ff8b2615-d54f-5110-a1b6-d78c0f6543b3",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "59035be556aa20262e740cf20210be82f030d7baa466aac90c6eeaaef8859e2a"
+    },
+    {
+      "id": "969c4d46-7b90-5ec9-8aec-7ab86b20da99",
+      "source_version_id": "ff8b2615-d54f-5110-a1b6-d78c0f6543b3",
+      "locator": "/law_full_text/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "eede27a5581a4713206dba827b9d1cfa0b45ff728f111e92f0366ab167b4c212"
+    },
+    {
+      "id": "cb604674-b849-5ef6-9b09-a6ed78c56812",
+      "source_version_id": "9dbcecdd-0f71-50cc-9a96-de8f38afe7f0",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e981214bbc18ac54f5ee98300869baab473d0de9be5b5b09e1af173929b8fdcc"
+    }
+  ],
+  "relations": [
+    {
+      "id": "56242f1d-d6ca-5620-b76a-e34ea0bc2826",
+      "type": "delegates_to",
+      "from_id": "19cfb469-d43f-5d77-9445-cc1936f1bbc8",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0e0f8e77-d04b-5adf-9894-12f5c18eec49"
+      ]
+    },
+    {
+      "id": "6affbe3d-a4e1-5554-bf45-f7f50c202173",
+      "type": "contains",
+      "from_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "to_id": "306d4931-9301-55cd-bf69-89ef791edfe6",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0203042b-05c7-5aab-a24e-2e77d6f7e6d4"
+      ]
+    },
+    {
+      "id": "736e6c45-8f34-5a9c-a75f-598d2c7d9960",
+      "type": "contains",
+      "from_id": "306d4931-9301-55cd-bf69-89ef791edfe6",
+      "to_id": "fa1e896f-de6a-588e-82da-13b07e9c2f85",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "969c4d46-7b90-5ec9-8aec-7ab86b20da99"
+      ]
+    },
+    {
+      "id": "aafb955b-37ca-539b-ad0d-ea9949584589",
+      "type": "contains",
+      "from_id": "306d4931-9301-55cd-bf69-89ef791edfe6",
+      "to_id": "99480e96-985f-57fc-9508-38c3089a5a0c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "1a0055fb-7ad6-5180-8c58-667e8b8edb7c"
+      ]
+    },
+    {
+      "id": "acfd8f0c-2271-5c2e-bd01-f9f5d35811ae",
+      "type": "contains",
+      "from_id": "5c2b5e53-5b7b-53f6-8591-4fb709acf8d3",
+      "to_id": "19cfb469-d43f-5d77-9445-cc1936f1bbc8",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0e0f8e77-d04b-5adf-9894-12f5c18eec49"
+      ]
+    },
+    {
+      "id": "e33302b5-dffb-5c04-93bc-6c0b12d116e7",
+      "type": "contains",
+      "from_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "to_id": "5c2b5e53-5b7b-53f6-8591-4fb709acf8d3",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "cb604674-b849-5ef6-9b09-a6ed78c56812"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "source_version_id": "9dbcecdd-0f71-50cc-9a96-de8f38afe7f0",
+      "observed_at": "2026-11-03T05:39:49.928Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/331CO0000000273?elm=LawBody-MainProvision-Article_1"
+    },
+    {
+      "source_version_id": "ff8b2615-d54f-5110-a1b6-d78c0f6543b3",
+      "observed_at": "2026-11-03T05:39:50.039Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/331CO0000000273_20260401_507CO0000000412?elm=LawBody-MainProvision-Article_5_5"
+    }
+  ],
+  "coverage": [
+    {
+      "law_id": "aaa2b3e6-3721-5053-8aba-81dc7ac756f7",
+      "law_revision_id": "78f3db79-a38a-56e8-abc0-6df2473decd6",
+      "as_of": "2026-11-03",
+      "status": "partial",
+      "locators": [
+        "main/article:1",
+        "main/article:1/paragraph:1",
+        "main/article:5_5",
+        "main/article:5_5/paragraph:1",
+        "main/article:5_5/paragraph:2"
+      ],
+      "relation_types": [
+        "contains",
+        "defines",
+        "delegates_to"
+      ],
+      "extractor": "egov-structure-v0.1",
+      "limits": [
+        "Selected main-provision articles only; no historical or future coverage.",
+        "Definitions match only the literal この法律において「…」とは、 pattern.",
+        "Cabinet Order phrases are unresolved candidates; no target is inferred.",
+        "No comprehensive citations, exceptions, or legal applicability analysis."
+      ]
+    }
+  ]
+}

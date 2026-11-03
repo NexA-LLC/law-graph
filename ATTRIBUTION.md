@@ -10,6 +10,11 @@ extracts structural containment and selected explicit definition phrases,
 and records unresolved Cabinet Order delegation phrases. These are project
 transformations, not a government-produced graph or a government endorsement.
 
+The contract research extension selects additional Civil Code and construction
+law articles, merges local graphs, and adds narrow citation/delegation extraction,
+unreviewed authority inferences, and curated Intent research annotations.
+See docs/contracts-coverage.md for exact law IDs, revisions, articles and limits.
+
 The graph records the exact official law ID, official revision ID, request URL,
 observation time, canonical JSON hash, and source location. See data/ for scope.
 Source snapshots are selected article responses, not the full law.

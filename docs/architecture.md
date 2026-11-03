@@ -12,7 +12,10 @@ flowchart LR
   Q --> M[Read-only stdio MCP]
 ```
 
-The statute implementation reads one graph snapshot. Each snapshot contains
+Each query process reads one graph snapshot. The offline `merge-graphs` CLI
+combines validated snapshots, rejects identity conflicts, and adds reproducible
+reference and authority assertions. The original inputs remain unchanged.
+Each snapshot contains
 law identities, law revisions, provision lineages, provision versions, scoped
 concepts, source documents, source content versions, evidence references,
 relation assertions, observations, and explicit partial coverage.
@@ -52,14 +55,16 @@ a declaration that a provision applies to an individual case.
 Implemented: e-Gov selected-current-article ingestion, reproducible UUIDs,
 source hash checks, evidence text checks, containment, a narrow definition
 extractor, unresolved delegation candidates, literal search, exact citation
-resolution, bounded traversal, CLI, and stdio MCP. Case research adds topic
-exploration, case search, and case readback with explicit authority and scope.
-Comparative research adds one read-only issue comparison tool, for eight tools
-in total. Unsupported jurisdictions return outside coverage.
+resolution, bounded traversal, offline aggregation, narrow citation/delegation
+rules, authority candidates, curated Intent lookup, CLI, and stdio MCP.
+Case research adds topic exploration, case search, and case readback with
+explicit authority and scope. Comparative research adds one read-only issue
+comparison tool, for nine tools in total. Unsupported jurisdictions return
+outside coverage.
 
 Deferred: houritsu input, historical interval resolution, automatic lineage
 mapping, full citation resolution, comprehensive definition extraction,
-authenticated review workflows, exceptions, multi-snapshot statute aggregation, generated SQLite
+authenticated review workflows, exceptions, cross-revision lineage mapping, generated SQLite
 indexes, and semantic/vector search.
 
 All seed case summaries and links remain proposed, with no legal-practitioner
