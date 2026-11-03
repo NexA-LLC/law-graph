@@ -40,6 +40,20 @@ node src/cli.mjs case --id courts-35471
 
 [事例グラフ](docs/case-graph.md) · [Agentからの使い方](docs/consumer-research-flow.md) · [協力者向けの入口](docs/contributing-cases.md)
 
+## 法域をまたいで比較する
+
+日米著作権の3論点について、法域・言語・出典の版を分けて比較する試作を追加しました。
+
+```sh
+node src/cli.mjs compare --issue 引用 --jurisdictions JP,US-federal
+node src/cli.mjs compare --issue 職務著作 --jurisdictions JP,US-federal
+node src/cli.mjs compare --issue 権利譲渡 --jurisdictions JP,US-federal
+```
+
+比較は共通の調査論点への接続で、制度の同一性や同じ結論を示しません。
+米国側の法令集は2025年12月18日までの改正を収録する版で、取得日時点の最新法との一致は未検証です。
+州法、他の国、外国の裁判例、個別案件の適用法判断は未収録・未評価です。[比較グラフの範囲](docs/comparative-law.md)
+
 ## 使う
 
 Node.js 22以上で、次を実行します。
@@ -77,7 +91,7 @@ MCPクライアントに、チェックアウト先の絶対パスを指定し�
 ```
 
 提供ツールは`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`と、
-`explore_topic`、`search_cases`、`get_case`です。
+`explore_topic`、`search_cases`、`get_case`、`compare_issue`です。
 MCPはstdioのみで、起動時にローカルのグラフと根拠を検証します。検索時のネットワークアクセス、データ更新、質問の保存は行いません。
 
 ## 出典を辿る
@@ -114,6 +128,7 @@ data/
   laws/            グラフと収録範囲
   sources/         取得した公開資料のスナップショット
   cases/           事例ごとの論点・出典・独自要約・確認記録
+  comparative/     法域別の根拠と共通論点への比較リンク
 schemas/           JSON Schema
 src/               取得・抽出・検証・照会・CLI・MCP
 tests/             破損、時点、未解決、MCPの検証

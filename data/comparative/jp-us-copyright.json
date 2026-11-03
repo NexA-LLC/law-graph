@@ -1,0 +1,455 @@
+{
+  "schema_version": "law-graph.comparative.v0",
+  "jurisdictions": [
+    {
+      "id": "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+      "key": "JP",
+      "country_code": "JP",
+      "level": "national",
+      "subdivision": null,
+      "label": "日本・国法"
+    },
+    {
+      "id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+      "key": "US-federal",
+      "country_code": "US",
+      "level": "federal",
+      "subdivision": null,
+      "label": "米国・連邦法"
+    }
+  ],
+  "laws": [
+    {
+      "id": "3b27cebf-dad2-52bd-8fc1-2257d454c0f3",
+      "jurisdiction_id": "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+      "identifier_scheme": "egov-law-id",
+      "official_id": "345AC0000000048",
+      "native_title": "著作権法"
+    },
+    {
+      "id": "2289c703-7842-58d1-b898-876998b6116a",
+      "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+      "identifier_scheme": "uscode-title",
+      "official_id": "17",
+      "native_title": "Title 17, United States Code"
+    }
+  ],
+  "sources": [
+    {
+      "id": "30401435-334c-5072-a0bd-80bacdcacb01",
+      "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+      "provider": "us-copyright-office",
+      "document_key": "title17-index",
+      "publisher": "U.S. Copyright Office",
+      "url": "https://www.copyright.gov/title17/",
+      "language": "en",
+      "text_role": "original",
+      "authority_kind": "official_compilation",
+      "reuse_mode": "reference_and_project_summary_only"
+    },
+    {
+      "id": "0edb400e-ff5b-5e78-b403-2bfc6880842b",
+      "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+      "provider": "us-copyright-office",
+      "document_key": "title17-chapter1",
+      "publisher": "U.S. Copyright Office",
+      "url": "https://www.copyright.gov/title17/92chap1.html",
+      "language": "en",
+      "text_role": "original",
+      "authority_kind": "official_compilation",
+      "reuse_mode": "reference_and_project_summary_only"
+    },
+    {
+      "id": "a9fd22c1-9e60-5334-8f6c-4431968149af",
+      "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+      "provider": "us-copyright-office",
+      "document_key": "title17-chapter2",
+      "publisher": "U.S. Copyright Office",
+      "url": "https://www.copyright.gov/title17/92chap2.html",
+      "language": "en",
+      "text_role": "original",
+      "authority_kind": "official_compilation",
+      "reuse_mode": "reference_and_project_summary_only"
+    },
+    {
+      "id": "aefe4ac9-ba26-5877-894f-c43be572a19b",
+      "jurisdiction_id": "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+      "provider": "egov",
+      "document_key": "345AC0000000048",
+      "publisher": "e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/law/345AC0000000048",
+      "language": "ja",
+      "text_role": "original",
+      "authority_kind": "official_api",
+      "reuse_mode": "reference_and_project_summary_only"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "86def598-369b-584b-804c-a77e92ccf080",
+      "source_id": "30401435-334c-5072-a0bd-80bacdcacb01",
+      "content_sha256": "0c5bd915d27d2ce14ec426dc00bc070f183af9f834a6158de35461ef42ff4183",
+      "hash_method": "raw-bytes-sha256-v1",
+      "content_type": "text/html",
+      "byte_length": 35412,
+      "upstream_revision_id": null,
+      "version_label": "法令集の案内ページ。2025年12月18日までの改正を収録と記載。",
+      "reported_through_date": null,
+      "version_evidence_id": null,
+      "original_bundled": false,
+      "retrieval_url": "https://www.copyright.gov/title17/"
+    },
+    {
+      "id": "a58f02ea-b402-5837-91f4-f73076bc41f7",
+      "source_id": "0edb400e-ff5b-5e78-b403-2bfc6880842b",
+      "content_sha256": "97999d678e2877c8142da81a0dce819b210e9f92aa5a405d130bf2f2e50c7d75",
+      "hash_method": "raw-bytes-sha256-v1",
+      "content_type": "text/html",
+      "byte_length": 675161,
+      "upstream_revision_id": null,
+      "version_label": "Copyright Office法令集・2025年12月版",
+      "reported_through_date": "2025-12-18",
+      "version_evidence_id": "86def598-369b-584b-804c-a77e92ccf080",
+      "original_bundled": false,
+      "retrieval_url": "https://www.copyright.gov/title17/92chap1.html"
+    },
+    {
+      "id": "b3d6cf69-0f1d-5bd6-af38-06c6a2ffa72b",
+      "source_id": "a9fd22c1-9e60-5334-8f6c-4431968149af",
+      "content_sha256": "6a965a107b2ea61a04e60585f969280aebb0321bcbb2c856100f8f2ff5e27634",
+      "hash_method": "raw-bytes-sha256-v1",
+      "content_type": "text/html",
+      "byte_length": 49303,
+      "upstream_revision_id": null,
+      "version_label": "Copyright Office法令集・2025年12月版",
+      "reported_through_date": "2025-12-18",
+      "version_evidence_id": "86def598-369b-584b-804c-a77e92ccf080",
+      "original_bundled": false,
+      "retrieval_url": "https://www.copyright.gov/title17/92chap2.html"
+    },
+    {
+      "id": "b92bb942-69fe-50ea-9be2-435084bd6747",
+      "source_id": "aefe4ac9-ba26-5877-894f-c43be572a19b",
+      "content_sha256": "4273c332b42c4bfb25f37ab71dc15b1ebae8ecd057654556500ebc1e8c4b4a87",
+      "hash_method": "raw-bytes-sha256-v1",
+      "content_type": "application/json",
+      "byte_length": 2386,
+      "upstream_revision_id": "345AC0000000048_20260624_508AC0000000048",
+      "version_label": "e-Gov公式版 345AC0000000048_20260624_508AC0000000048",
+      "reported_through_date": null,
+      "version_evidence_id": null,
+      "original_bundled": false,
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048_20260624_508AC0000000048?elm=LawBody-MainProvision-Article_15"
+    },
+    {
+      "id": "8add7820-2ef4-57cb-a025-284def2a62a9",
+      "source_id": "aefe4ac9-ba26-5877-894f-c43be572a19b",
+      "content_sha256": "48c3b40f36585826628522bc4cdb6a87fab2650330a65be901994b98dc781b31",
+      "hash_method": "raw-bytes-sha256-v1",
+      "content_type": "application/json",
+      "byte_length": 2370,
+      "upstream_revision_id": "345AC0000000048_20260624_508AC0000000048",
+      "version_label": "e-Gov公式版 345AC0000000048_20260624_508AC0000000048",
+      "reported_through_date": null,
+      "version_evidence_id": null,
+      "original_bundled": false,
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048_20260624_508AC0000000048?elm=LawBody-MainProvision-Article_32"
+    },
+    {
+      "id": "c656352c-ea67-5d88-898d-5139ebf2468b",
+      "source_id": "aefe4ac9-ba26-5877-894f-c43be572a19b",
+      "content_sha256": "33de98690c71cb329277f79c7c61ce89b19ae77907e92d0fa0ffc2776bd97e5e",
+      "hash_method": "raw-bytes-sha256-v1",
+      "content_type": "application/json",
+      "byte_length": 1981,
+      "upstream_revision_id": "345AC0000000048_20260624_508AC0000000048",
+      "version_label": "e-Gov公式版 345AC0000000048_20260624_508AC0000000048",
+      "reported_through_date": null,
+      "version_evidence_id": null,
+      "original_bundled": false,
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048_20260624_508AC0000000048?elm=LawBody-MainProvision-Article_61"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "a75e3d79-d3e1-5bfe-bdef-b4e5e5d283a9",
+      "law_id": "3b27cebf-dad2-52bd-8fc1-2257d454c0f3",
+      "source_version_id": "8add7820-2ef4-57cb-a025-284def2a62a9",
+      "official_locator": "Article 32(1)",
+      "label": "引用",
+      "summary": "公表された著作物の引用について、公正な慣行と引用目的上正当な範囲などを定める。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    },
+    {
+      "id": "93ba09b2-53d9-50a2-bf03-129ea9d36da5",
+      "law_id": "3b27cebf-dad2-52bd-8fc1-2257d454c0f3",
+      "source_version_id": "b92bb942-69fe-50ea-9be2-435084bd6747",
+      "official_locator": "Article 15",
+      "label": "職務上作成する著作物の著作者",
+      "summary": "法人等が著作者となる条件を定める。プログラムについては別項の規定がある。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    },
+    {
+      "id": "adb2a2d8-bf8e-568e-add9-0f3336e23af0",
+      "law_id": "3b27cebf-dad2-52bd-8fc1-2257d454c0f3",
+      "source_version_id": "c656352c-ea67-5d88-898d-5139ebf2468b",
+      "official_locator": "Article 61",
+      "label": "著作権の譲渡",
+      "summary": "全部又は一部の譲渡と、第27条・第28条の権利が特掲されない場合の留保の推定を定める。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    },
+    {
+      "id": "8f3414da-50b1-5269-8929-5b875d59b5ef",
+      "law_id": "2289c703-7842-58d1-b898-876998b6116a",
+      "source_version_id": "a58f02ea-b402-5837-91f4-f73076bc41f7",
+      "official_locator": "Section 107",
+      "label": "Fair use",
+      "summary": "利用の目的・性格、著作物の性質、利用部分の量・重要性、市場等への影響を考慮する枠組み。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    },
+    {
+      "id": "19a667e7-fdb2-506f-8a25-b5dca203302d",
+      "law_id": "2289c703-7842-58d1-b898-876998b6116a",
+      "source_version_id": "a58f02ea-b402-5837-91f4-f73076bc41f7",
+      "official_locator": "Section 101: work made for hire",
+      "label": "Work made for hire definition",
+      "summary": "雇用の職務範囲での制作と、特定の委託類型及び署名書面による合意について定義する。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    },
+    {
+      "id": "3f14a027-2ce3-564c-b8ac-89a8793c18c5",
+      "law_id": "2289c703-7842-58d1-b898-876998b6116a",
+      "source_version_id": "b3d6cf69-0f1d-5bd6-af38-06c6a2ffa72b",
+      "official_locator": "Section 201(b)",
+      "label": "Works made for hire ownership",
+      "summary": "work made for hireに該当する場合の著作者・権利帰属と、署名書面による別段の合意を扱う。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    },
+    {
+      "id": "f3db491d-3470-5ebb-b4f8-c60f25a633af",
+      "law_id": "2289c703-7842-58d1-b898-876998b6116a",
+      "source_version_id": "b3d6cf69-0f1d-5bd6-af38-06c6a2ffa72b",
+      "official_locator": "Section 204(a)",
+      "label": "Execution of copyright transfers",
+      "summary": "法の作用による移転を除く著作権所有権の移転について、署名のある書面等の要件を定める。",
+      "summary_language": "ja",
+      "text_role": "original",
+      "translation_of_anchor_id": null,
+      "review_status": "proposed"
+    }
+  ],
+  "issues": [
+    {
+      "id": "ef48cd61-f61b-5ad0-8bbf-6f503dfffba0",
+      "key": "permission-exceptions",
+      "label": "許諾なしの利用を検討する",
+      "aliases": [
+        "引用",
+        "fair use",
+        "フェアユース"
+      ],
+      "fact_questions": [
+        "どの国で、何を、何の目的で、どれだけ利用するか。",
+        "公表状況、表示方法、市場への影響などをどう確認するか。"
+      ]
+    },
+    {
+      "id": "11e5c8dd-b3e2-5310-b83f-5d509934090c",
+      "key": "authorship",
+      "label": "制作物の著作者を確認する",
+      "aliases": [
+        "職務著作",
+        "work made for hire",
+        "著作者"
+      ],
+      "fact_questions": [
+        "実際の雇用・委託関係、制作の職務、契約の定めはどうなっているか。",
+        "作品の種類、公表名義、署名書面の有無などを確認したか。"
+      ]
+    },
+    {
+      "id": "dc7c441f-70bd-5e30-b1de-059c655f4c4f",
+      "key": "copyright-transfer",
+      "label": "権利譲渡の範囲と形式を確認する",
+      "aliases": [
+        "著作権譲渡",
+        "assignment",
+        "権利譲渡"
+      ],
+      "fact_questions": [
+        "譲渡する支分権、地域、期間、相手方、契約形式をどう定めたか。",
+        "契約準拠法と、どの国の著作権を扱うかを区別したか。"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "49ed398f-2fbb-53df-8da6-efff017b9b8d",
+      "issue_id": "ef48cd61-f61b-5ad0-8bbf-6f503dfffba0",
+      "relation": "compares_issue",
+      "sides": [
+        {
+          "jurisdiction_id": "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+          "primary_anchor_ids": [
+            "a75e3d79-d3e1-5bfe-bdef-b4e5e5d283a9"
+          ],
+          "reference_anchor_ids": []
+        },
+        {
+          "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+          "primary_anchor_ids": [
+            "8f3414da-50b1-5269-8929-5b875d59b5ef"
+          ],
+          "reference_anchor_ids": []
+        }
+      ],
+      "similarity_basis": "許諾なしの利用を検討する際の入口として比較する。",
+      "material_differences": [
+        "日本の第32条は引用に関する個別の規定で、米国のfair use全体と同一の制度とはしない。",
+        "米国法令集の4要素と日本の引用の要件を、そのまま相互に置き換えて判定しない。"
+      ],
+      "not_covered": [
+        "日本の他の権利制限、日米の裁判例、個別のAI利用等の評価は未収録。"
+      ],
+      "equivalence": "not_asserted",
+      "current_applicability": "not_assessed",
+      "review_status": "proposed"
+    },
+    {
+      "id": "dbc8b299-9f64-5a39-bdbd-99c2cb8ed106",
+      "issue_id": "11e5c8dd-b3e2-5310-b83f-5d509934090c",
+      "relation": "compares_issue",
+      "sides": [
+        {
+          "jurisdiction_id": "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+          "primary_anchor_ids": [
+            "93ba09b2-53d9-50a2-bf03-129ea9d36da5"
+          ],
+          "reference_anchor_ids": []
+        },
+        {
+          "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+          "primary_anchor_ids": [
+            "19a667e7-fdb2-506f-8a25-b5dca203302d",
+            "3f14a027-2ce3-564c-b8ac-89a8793c18c5"
+          ],
+          "reference_anchor_ids": []
+        }
+      ],
+      "similarity_basis": "制作を依頼又は指示した場合の著作者・帰属を調べる共通の論点。",
+      "material_differences": [
+        "日本の職務著作の要件と、米国のwork made for hireの定義・効果を別々に読む。",
+        "外注費を支払ったことだけで、いずれの制度の要件も満たすと判断しない。"
+      ],
+      "not_covered": [
+        "日米の判例、雇用関係の認定、州法上の契約論点や個別制作物への当てはめは未評価。"
+      ],
+      "equivalence": "not_asserted",
+      "current_applicability": "not_assessed",
+      "review_status": "proposed"
+    },
+    {
+      "id": "03b9d375-fe7d-5951-96a3-9ff601fd8860",
+      "issue_id": "dc7c441f-70bd-5e30-b1de-059c655f4c4f",
+      "relation": "compares_issue",
+      "sides": [
+        {
+          "jurisdiction_id": "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+          "primary_anchor_ids": [
+            "adb2a2d8-bf8e-568e-add9-0f3336e23af0"
+          ],
+          "reference_anchor_ids": []
+        },
+        {
+          "jurisdiction_id": "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3",
+          "primary_anchor_ids": [
+            "f3db491d-3470-5ebb-b4f8-c60f25a633af"
+          ],
+          "reference_anchor_ids": []
+        }
+      ],
+      "similarity_basis": "契約で著作権を移す際の確認事項を、範囲と形式の両面から調べる。",
+      "material_differences": [
+        "日本の第61条の留保推定と、米国第204条の書面等の要件は、扱う焦点が異なる。",
+        "一方の国の条項を満たせば他方でも十分と扱わない。"
+      ],
+      "not_covered": [
+        "譲渡の終了・撤回、著作者人格権、州法、国際私法、個別契約への適用は未評価。"
+      ],
+      "equivalence": "not_asserted",
+      "current_applicability": "not_assessed",
+      "review_status": "proposed"
+    }
+  ],
+  "observations": [
+    {
+      "source_version_id": "86def598-369b-584b-804c-a77e92ccf080",
+      "observed_at": "2026-11-03T04:30:07.147Z",
+      "request_url": "https://www.copyright.gov/title17/"
+    },
+    {
+      "source_version_id": "a58f02ea-b402-5837-91f4-f73076bc41f7",
+      "observed_at": "2026-11-03T04:30:07.092Z",
+      "request_url": "https://www.copyright.gov/title17/92chap1.html"
+    },
+    {
+      "source_version_id": "b3d6cf69-0f1d-5bd6-af38-06c6a2ffa72b",
+      "observed_at": "2026-11-03T04:30:07.121Z",
+      "request_url": "https://www.copyright.gov/title17/92chap2.html"
+    },
+    {
+      "source_version_id": "b92bb942-69fe-50ea-9be2-435084bd6747",
+      "observed_at": "2026-11-03T04:33:33.604Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048_20260624_508AC0000000048?elm=LawBody-MainProvision-Article_15"
+    },
+    {
+      "source_version_id": "8add7820-2ef4-57cb-a025-284def2a62a9",
+      "observed_at": "2026-11-03T04:30:07.480Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048_20260624_508AC0000000048?elm=LawBody-MainProvision-Article_32"
+    },
+    {
+      "source_version_id": "c656352c-ea67-5d88-898d-5139ebf2468b",
+      "observed_at": "2026-11-03T04:30:07.569Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048_20260624_508AC0000000048?elm=LawBody-MainProvision-Article_61"
+    }
+  ],
+  "coverage": [
+    {
+      "observed_on": "2026-11-03",
+      "jurisdiction_ids": [
+        "107c8477-296c-55a1-8a5a-1a2ebf1786ff",
+        "0d7fe979-9d37-54ca-b4c5-fad0295a0ed3"
+      ],
+      "issue_ids": [
+        "ef48cd61-f61b-5ad0-8bbf-6f503dfffba0",
+        "11e5c8dd-b3e2-5310-b83f-5d509934090c",
+        "dc7c441f-70bd-5e30-b1de-059c655f4c4f"
+      ],
+      "status": "partial",
+      "limitations": [
+        "日本の指定3条と米国連邦著作権法の選択した箇所のみ。米国州法や他の国・地域は未収録。",
+        "米国側は2025年12月18日までの改正を収録すると記載されたCopyright Office法令集。取得日までの改正漏れは未検証。",
+        "対応付けと要約はAI補助の整理案で、両法域の法律実務者によるレビューは未実施。",
+        "比較は法域の選択、法的同一性、同じ結論、個別案件への適用を示さない。原文は同梱せずURLとハッシュを保持する。"
+      ]
+    }
+  ]
+}

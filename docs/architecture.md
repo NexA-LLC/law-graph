@@ -24,7 +24,14 @@ records with the same UUID are rejected. The case sources are not bundled, so
 their byte hashes and locators are recorded without claiming offline original-text
 verification. See [case graph](case-graph.md).
 
-Source artifacts are selected article responses. They allow evidence validation
+A third, independent comparative schema connects a shared research issue to
+original provision anchors in two explicitly selected jurisdictions. The seed
+compares three Japanese/U.S. federal copyright issues. It retains source
+language, original/reference-translation status, edition evidence, material
+differences, and exclusions without asserting equivalence or choosing applicable
+law. Originals are not bundled for this corpus. See [comparative law](comparative-law.md).
+
+The statute source artifacts are selected article responses. They allow evidence validation
 without a network call. This small seed deliberately keeps source text available
 locally. A future large corpus may distribute content-addressed artifacts
 outside Git while preserving the same evidence contract.
@@ -47,6 +54,8 @@ source hash checks, evidence text checks, containment, a narrow definition
 extractor, unresolved delegation candidates, literal search, exact citation
 resolution, bounded traversal, CLI, and stdio MCP. Case research adds topic
 exploration, case search, and case readback with explicit authority and scope.
+Comparative research adds one read-only issue comparison tool, for eight tools
+in total. Unsupported jurisdictions return outside coverage.
 
 Deferred: houritsu input, historical interval resolution, automatic lineage
 mapping, full citation resolution, comprehensive definition extraction,
@@ -56,6 +65,8 @@ indexes, and semantic/vector search.
 All seed case summaries and links remain proposed, with no legal-practitioner
 review. Review records declare a reviewer and PR URL; this library does not
 authenticate identity or credentials and does not turn a record into legal clearance.
+Comparative summaries and links are also proposed; structured comparative review
+records, foreign case ingestion, and legal-date alignment remain deferred.
 
 No graph database, shared database, HTTP service, or private integration is
 required to run the initial version.
