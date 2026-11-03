@@ -1,0 +1,1389 @@
+{
+  "schema_version": "law-graph.v0",
+  "namespace": "5d6c6cf5-664c-5f88-bb7b-559f857dd711",
+  "laws": [
+    {
+      "id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "jurisdiction": "JP",
+      "upstream_law_id": "324AC0000000100"
+    }
+  ],
+  "law_revisions": [
+    {
+      "id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "upstream_revision_id": "324AC0000000100_20251212_506AC0000000049",
+      "title": "建設業法",
+      "effective_from": "2025-12-12"
+    }
+  ],
+  "provisions": [
+    {
+      "id": "01bfd077-11bc-5473-b91a-07bca91a5fec",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:6"
+    },
+    {
+      "id": "099e3e9a-d336-5bdc-87bb-ddffeb971917",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:7"
+    },
+    {
+      "id": "1aed382b-f153-5613-bd2a-7a6228edf6bc",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:3"
+    },
+    {
+      "id": "21976753-d9ab-55c2-8dc3-6b2539614117",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:18/paragraph:1"
+    },
+    {
+      "id": "359b92c1-cce0-56b9-a769-f43a069a2e08",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:5"
+    },
+    {
+      "id": "3869bf20-8870-5072-b1a8-fb45df720b20",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:1"
+    },
+    {
+      "id": "45093ff1-15ad-5122-b168-13264925d308",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:12"
+    },
+    {
+      "id": "49b756ab-7894-52e3-a9cf-59c48f849a2b",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:1"
+    },
+    {
+      "id": "4d6166a8-7d01-5c0f-b7bc-c440ce566949",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3"
+    },
+    {
+      "id": "5692be2b-3c0f-583a-ad57-50d6fbbca9f3",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:16"
+    },
+    {
+      "id": "5df9b2ab-7253-5100-a9cb-4229daa0a066",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:2"
+    },
+    {
+      "id": "617b696b-24d5-5172-bcb0-7f5553402f42",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:6"
+    },
+    {
+      "id": "61deb99b-7601-5eaa-bef4-c8ca79292b72",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:8"
+    },
+    {
+      "id": "65c9931d-6925-5192-9680-303cb80dd564",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:18"
+    },
+    {
+      "id": "7429159f-8e1d-53fe-849f-7ab9d92143c9",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:3"
+    },
+    {
+      "id": "773044b6-47a1-59c8-a9fa-230287e4c7b8",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19"
+    },
+    {
+      "id": "7f274d40-96a8-5b17-b8a5-d41699a8adf1",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:11"
+    },
+    {
+      "id": "8a5f1fc0-2a28-5869-8bf0-06e457dff98d",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:5"
+    },
+    {
+      "id": "9016e770-e68c-5d60-a8e5-1a6257190003",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:15"
+    },
+    {
+      "id": "9ca40ce0-f886-56c4-a87a-72a752c7f966",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:9"
+    },
+    {
+      "id": "9ec89228-4351-5f7c-8ea6-b5864faf5c1f",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1"
+    },
+    {
+      "id": "a1d0d7ff-48ee-5055-bafa-29f73c201701",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:4"
+    },
+    {
+      "id": "a406f513-99b3-5d01-a65c-8fb30da653f7",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:2"
+    },
+    {
+      "id": "a56cd932-35ac-55d2-8ad0-b5a03931e0a1",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:1/item:1"
+    },
+    {
+      "id": "a7736868-b631-5648-9461-735ee4efb9ca",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:4"
+    },
+    {
+      "id": "c0c19a84-dce7-556b-b271-a500e0c79635",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:10"
+    },
+    {
+      "id": "c4303abc-c89f-594b-aeec-a92343937122",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:1/item:2"
+    },
+    {
+      "id": "c92b4dab-09e0-5cae-b269-f28978345e9e",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:14"
+    },
+    {
+      "id": "cedbf264-afb4-5b74-8fc9-dcd3e940df0b",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:3"
+    },
+    {
+      "id": "d183a3d8-750d-5884-9af1-7189417b9203",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:19/paragraph:1/item:13"
+    },
+    {
+      "id": "d29844e4-0074-5846-b3fc-f28613553826",
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "anchor_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "anchor_locator": "main/article:3/paragraph:2"
+    }
+  ],
+  "provision_versions": [
+    {
+      "id": "13baa0d4-e555-53c1-8773-a3ff08936a78",
+      "provision_id": "3869bf20-8870-5072-b1a8-fb45df720b20",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:1",
+      "level": "Paragraph",
+      "text": "建設業を営もうとする者は、次に掲げる区分により、この章で定めるところにより、二以上の都道府県の区域内に営業所（本店又は支店若しくは政令で定めるこれに準ずるものをいう。以下同じ。）を設けて営業をしようとする場合にあつては国土交通大臣の、一の都道府県の区域内にのみ営業所を設けて営業をしようとする場合にあつては当該営業所の所在地を管轄する都道府県知事の許可を受けなければならない。ただし、政令で定める軽微な建設工事のみを請け負うことを営業とする者は、この限りでない。一建設業を営もうとする者であつて、次号に掲げる者以外のもの二建設業を営もうとする者であつて、その営業にあたつて、その者が発注者から直接請け負う一件の建設工事につき、その工事の全部又は一部を、下請代金の額（その工事に係る下請契約が二以上あるときは、下請代金の額の総額）が政令で定める金額以上となる下請契約を締結して施工しようとするもの",
+      "evidence_ref_ids": [
+        "4f760a3a-e201-5ade-a048-fa3b69691e23"
+      ],
+      "text_sha256": "13e44ef723c843f9683eb9f4ef5889367f9ee3764d1af1c571b869b04f03f2aa"
+    },
+    {
+      "id": "16dabf30-5941-51ce-9bf3-e5b1ae4088e1",
+      "provision_id": "01bfd077-11bc-5473-b91a-07bca91a5fec",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:6",
+      "level": "Paragraph",
+      "text": "６第一項第一号に掲げる者に係る同項の許可（第三項の許可の更新を含む。以下「一般建設業の許可」という。）を受けた者が、当該許可に係る建設業について、第一項第二号に掲げる者に係る同項の許可（第三項の許可の更新を含む。以下「特定建設業の許可」という。）を受けたときは、その者に対する当該建設業に係る一般建設業の許可は、その効力を失う。",
+      "evidence_ref_ids": [
+        "4fe4e95c-e9d0-5278-9c2d-ecdc4578a6d6"
+      ],
+      "text_sha256": "a7a08f57175406b05bda2819afd21323b81aae231ff57aa897ffecdb5957680b"
+    },
+    {
+      "id": "1a74eda6-c6af-5a3b-8054-e145165ef1c2",
+      "provision_id": "d183a3d8-750d-5884-9af1-7189417b9203",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:13",
+      "level": "Item",
+      "text": "十三工事の目的物が種類又は品質に関して契約の内容に適合しない場合におけるその不適合を担保すべき責任又は当該責任の履行に関して講ずべき保証保険契約の締結その他の措置に関する定めをするときは、その内容",
+      "evidence_ref_ids": [
+        "6210751d-d5ee-5021-918a-1ef553eb33e1"
+      ],
+      "text_sha256": "e10e69967c07c89f507867456cb058a3761e7fb9a685b02687e2b6e57176ffa1"
+    },
+    {
+      "id": "1cc36557-93d3-522c-816d-f5bb48fa116d",
+      "provision_id": "7f274d40-96a8-5b17-b8a5-d41699a8adf1",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:11",
+      "level": "Item",
+      "text": "十一注文者が工事の全部又は一部の完成を確認するための検査の時期及び方法並びに引渡しの時期",
+      "evidence_ref_ids": [
+        "cf168cee-664f-5ff4-a670-b206f12db9d2"
+      ],
+      "text_sha256": "0e4939eff08750c9d0f770423c85736787705be4a968a1eb222aaf7613630bdf"
+    },
+    {
+      "id": "2b44b431-ee46-5283-b22e-2a7cbcf90f05",
+      "provision_id": "a406f513-99b3-5d01-a65c-8fb30da653f7",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:2",
+      "level": "Paragraph",
+      "text": "２請負契約の当事者は、請負契約の内容で前項に掲げる事項に該当するものを変更するときは、その変更の内容を書面に記載し、署名又は記名押印をして相互に交付しなければならない。",
+      "evidence_ref_ids": [
+        "715b63ec-38ae-505e-b872-f52a5f61b397"
+      ],
+      "text_sha256": "03ed2f06ff8e7ddc048ec50b420ec7fa174c84c0cbfe2bc3ff06381df52c07c0"
+    },
+    {
+      "id": "32c6f953-09a6-59e6-bab6-888398e5755d",
+      "provision_id": "359b92c1-cce0-56b9-a769-f43a069a2e08",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:5",
+      "level": "Paragraph",
+      "text": "５前項の場合において、許可の更新がされたときは、その許可の有効期間は、従前の許可の有効期間の満了の日の翌日から起算するものとする。",
+      "evidence_ref_ids": [
+        "b23be871-d3a0-50a2-b943-b300af175410"
+      ],
+      "text_sha256": "1d8f30e2afb95d6b8a280c1f430bd4f46db8b20555509e5f7fa13ca3d4d3aaff"
+    },
+    {
+      "id": "3e4335b8-e1c3-52cd-877c-70aa46c07fd1",
+      "provision_id": "21976753-d9ab-55c2-8dc3-6b2539614117",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:18/paragraph:1",
+      "level": "Paragraph",
+      "text": "建設工事の請負契約の当事者は、各々の対等な立場における合意に基いて公正な契約を締結し、信義に従つて誠実にこれを履行しなければならない。",
+      "evidence_ref_ids": [
+        "1808dd44-b936-5adf-a24c-c40fdd299f58"
+      ],
+      "text_sha256": "c7d0037c33b964b3061e74d6a47e5bdd6f4094a870218553df061954f4fb2f45"
+    },
+    {
+      "id": "3f00b463-1f64-5fbd-aa85-aa665efc7eac",
+      "provision_id": "c4303abc-c89f-594b-aeec-a92343937122",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:1/item:2",
+      "level": "Item",
+      "text": "二建設業を営もうとする者であつて、その営業にあたつて、その者が発注者から直接請け負う一件の建設工事につき、その工事の全部又は一部を、下請代金の額（その工事に係る下請契約が二以上あるときは、下請代金の額の総額）が政令で定める金額以上となる下請契約を締結して施工しようとするもの",
+      "evidence_ref_ids": [
+        "46aaf9dd-1e23-5c29-be95-fac0f55e877c"
+      ],
+      "text_sha256": "67df93df637b14a2f7317d96a27831c10003da5eafb3e90abf8ab10f1fe4fa23"
+    },
+    {
+      "id": "403da9ca-2b5b-5c1f-bcfa-294abf1378ba",
+      "provision_id": "a7736868-b631-5648-9461-735ee4efb9ca",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:4",
+      "level": "Paragraph",
+      "text": "４前項の更新の申請があつた場合において、同項の期間（以下「許可の有効期間」という。）の満了の日までにその申請に対する処分がされないときは、従前の許可は、許可の有効期間の満了後もその処分がされるまでの間は、なおその効力を有する。",
+      "evidence_ref_ids": [
+        "c4f11457-8b1d-5c3e-9705-30cdb3e06978"
+      ],
+      "text_sha256": "2fd759ca2ecdf3f2915e89fc27994a53372b041b27e4201a9b10320cb3a8296a"
+    },
+    {
+      "id": "5096f789-fbd0-523e-8a71-ee27455e645a",
+      "provision_id": "45093ff1-15ad-5122-b168-13264925d308",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:12",
+      "level": "Item",
+      "text": "十二工事完成後における請負代金の支払の時期及び方法",
+      "evidence_ref_ids": [
+        "c3b1f4c6-20b6-553b-9ba1-4142ba9c8e63"
+      ],
+      "text_sha256": "026e334d800e8ef20e856bd5944809e5fae82222733a163fa7dbfd0db0d4438d"
+    },
+    {
+      "id": "52137f49-4ac9-56f7-863b-f5248e9dfa84",
+      "provision_id": "49b756ab-7894-52e3-a9cf-59c48f849a2b",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:1",
+      "level": "Item",
+      "text": "一工事内容",
+      "evidence_ref_ids": [
+        "f59c439c-422e-58ee-bafa-3182acab5466"
+      ],
+      "text_sha256": "7dcf3c2ca784d3872d7845774d9e0d05e7c3158a77352d88e746f51c10efa503"
+    },
+    {
+      "id": "5de8df88-0267-5b7a-abef-e4f0b89f42b7",
+      "provision_id": "773044b6-47a1-59c8-a9fa-230287e4c7b8",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19",
+      "level": "Article",
+      "text": "（建設工事の請負契約の内容）第十九条建設工事の請負契約の当事者は、前条の趣旨に従つて、契約の締結に際して次に掲げる事項を書面に記載し、署名又は記名押印をして相互に交付しなければならない。一工事内容二請負代金の額三工事着手の時期及び工事完成の時期四工事を施工しない日又は時間帯の定めをするときは、その内容五請負代金の全部又は一部の前金払又は出来形部分に対する支払の定めをするときは、その支払の時期及び方法六当事者の一方から設計変更又は工事着手の延期若しくは工事の全部若しくは一部の中止の申出があつた場合における工期の変更、請負代金の額の変更又は損害の負担及びそれらの額の算定方法に関する定め七天災その他不可抗力による工期の変更又は損害の負担及びその額の算定方法に関する定め八価格等（物価統制令（昭和二十一年勅令第百十八号）第二条に規定する価格等をいう。）の変動又は変更に基づく工事内容の変更又は請負代金の額の変更及びその額の算定方法に関する定め九工事の施工により第三者が損害を受けた場合における賠償金の負担に関する定め十注文者が工事に使用する資材を提供し、又は建設機械その他の機械を貸与するときは、その内容及び方法に関する定め十一注文者が工事の全部又は一部の完成を確認するための検査の時期及び方法並びに引渡しの時期十二工事完成後における請負代金の支払の時期及び方法十三工事の目的物が種類又は品質に関して契約の内容に適合しない場合におけるその不適合を担保すべき責任又は当該責任の履行に関して講ずべき保証保険契約の締結その他の措置に関する定めをするときは、その内容十四各当事者の履行の遅滞その他債務の不履行の場合における遅延利息、違約金その他の損害金十五契約に関する紛争の解決方法十六その他国土交通省令で定める事項２請負契約の当事者は、請負契約の内容で前項に掲げる事項に該当するものを変更するときは、その変更の内容を書面に記載し、署名又は記名押印をして相互に交付しなければならない。３建設工事の請負契約の当事者は、前二項の規定による措置に代えて、政令で定めるところにより、当該契約の相手方の承諾を得て、電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて、当該各項の規定による措置に準ずるものとして国土交通省令で定めるものを講ずることができる。この場合において、当該国土交通省令で定める措置を講じた者は、当該各項の規定による措置を講じたものとみなす。",
+      "evidence_ref_ids": [
+        "123dfe2f-f476-5ee2-b6b4-afbc05d850a9"
+      ],
+      "text_sha256": "dd97e4449cdc070a9706c25f30395b336fcdfce0d1866286c95153cd4242d972"
+    },
+    {
+      "id": "6491517e-fb92-5cd0-a50e-8bc86283a521",
+      "provision_id": "8a5f1fc0-2a28-5869-8bf0-06e457dff98d",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:5",
+      "level": "Item",
+      "text": "五請負代金の全部又は一部の前金払又は出来形部分に対する支払の定めをするときは、その支払の時期及び方法",
+      "evidence_ref_ids": [
+        "3df0e635-2907-519b-a1ce-7a14581be898"
+      ],
+      "text_sha256": "272828a8ce0b252abda4e3d3a11005d276f35e7bb2dcb14af66515fc28c4a5a0"
+    },
+    {
+      "id": "6f7acf6f-22ab-5ccf-9bb6-9109a9d6df23",
+      "provision_id": "7429159f-8e1d-53fe-849f-7ab9d92143c9",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:3",
+      "level": "Item",
+      "text": "三工事着手の時期及び工事完成の時期",
+      "evidence_ref_ids": [
+        "ed3fa2f6-0bde-516f-b6be-4f9d53e586c3"
+      ],
+      "text_sha256": "f914f06f6a6aa2d6548f484c2d33289787446b0e38835782940c7df544984433"
+    },
+    {
+      "id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "provision_id": "9ec89228-4351-5f7c-8ea6-b5864faf5c1f",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1",
+      "level": "Paragraph",
+      "text": "建設工事の請負契約の当事者は、前条の趣旨に従つて、契約の締結に際して次に掲げる事項を書面に記載し、署名又は記名押印をして相互に交付しなければならない。一工事内容二請負代金の額三工事着手の時期及び工事完成の時期四工事を施工しない日又は時間帯の定めをするときは、その内容五請負代金の全部又は一部の前金払又は出来形部分に対する支払の定めをするときは、その支払の時期及び方法六当事者の一方から設計変更又は工事着手の延期若しくは工事の全部若しくは一部の中止の申出があつた場合における工期の変更、請負代金の額の変更又は損害の負担及びそれらの額の算定方法に関する定め七天災その他不可抗力による工期の変更又は損害の負担及びその額の算定方法に関する定め八価格等（物価統制令（昭和二十一年勅令第百十八号）第二条に規定する価格等をいう。）の変動又は変更に基づく工事内容の変更又は請負代金の額の変更及びその額の算定方法に関する定め九工事の施工により第三者が損害を受けた場合における賠償金の負担に関する定め十注文者が工事に使用する資材を提供し、又は建設機械その他の機械を貸与するときは、その内容及び方法に関する定め十一注文者が工事の全部又は一部の完成を確認するための検査の時期及び方法並びに引渡しの時期十二工事完成後における請負代金の支払の時期及び方法十三工事の目的物が種類又は品質に関して契約の内容に適合しない場合におけるその不適合を担保すべき責任又は当該責任の履行に関して講ずべき保証保険契約の締結その他の措置に関する定めをするときは、その内容十四各当事者の履行の遅滞その他債務の不履行の場合における遅延利息、違約金その他の損害金十五契約に関する紛争の解決方法十六その他国土交通省令で定める事項",
+      "evidence_ref_ids": [
+        "c287a6ab-26a3-5d55-ab68-b4205492331f"
+      ],
+      "text_sha256": "0a4b9b44cd11afb1642dea5e16caae343754eb1fa8949f57422466908304d9d1"
+    },
+    {
+      "id": "7b2c9e0d-e1a5-5915-9e16-8f2c39ccbe69",
+      "provision_id": "099e3e9a-d336-5bdc-87bb-ddffeb971917",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:7",
+      "level": "Item",
+      "text": "七天災その他不可抗力による工期の変更又は損害の負担及びその額の算定方法に関する定め",
+      "evidence_ref_ids": [
+        "9dd0531c-b889-5baa-bde0-c0dfe78cb348"
+      ],
+      "text_sha256": "616571b087bf01a4030dbe49b02d2f03810036f6b1fdbb76db000f3f3c032951"
+    },
+    {
+      "id": "7e7b1d26-fd2f-5320-816c-479bd5795d4c",
+      "provision_id": "65c9931d-6925-5192-9680-303cb80dd564",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:18",
+      "level": "Article",
+      "text": "（建設工事の請負契約の原則）第十八条建設工事の請負契約の当事者は、各々の対等な立場における合意に基いて公正な契約を締結し、信義に従つて誠実にこれを履行しなければならない。",
+      "evidence_ref_ids": [
+        "91637050-2d87-556d-8e08-e756a5f6a733"
+      ],
+      "text_sha256": "80723907670eacaf151c0d3bce585e73217f749da61ceee1bc19d876597575a7"
+    },
+    {
+      "id": "7fedc76c-41cc-5b1d-b94c-207dc579d889",
+      "provision_id": "c0c19a84-dce7-556b-b271-a500e0c79635",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:10",
+      "level": "Item",
+      "text": "十注文者が工事に使用する資材を提供し、又は建設機械その他の機械を貸与するときは、その内容及び方法に関する定め",
+      "evidence_ref_ids": [
+        "26b7f6b4-4234-5aaa-a06c-cfef296af2ee"
+      ],
+      "text_sha256": "50ea1e1ed5fa70a896cb2db3c0fba3d90f83e31e107cc01cee150dae7e3d78ea"
+    },
+    {
+      "id": "8a07bc1b-33f0-5514-9798-446b54d42878",
+      "provision_id": "1aed382b-f153-5613-bd2a-7a6228edf6bc",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:3",
+      "level": "Paragraph",
+      "text": "３第一項の許可は、五年ごとにその更新を受けなければ、その期間の経過によつて、その効力を失う。",
+      "evidence_ref_ids": [
+        "720b5892-9ff6-5c2b-babb-93e05467f5c1"
+      ],
+      "text_sha256": "6ddaf15a945c9e18d6a673d723ed6e375b89989f7d9746daf73903ae2b2a6c24"
+    },
+    {
+      "id": "9034ba02-d63d-55cc-bad8-fb9fc362e640",
+      "provision_id": "5df9b2ab-7253-5100-a9cb-4229daa0a066",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:2",
+      "level": "Item",
+      "text": "二請負代金の額",
+      "evidence_ref_ids": [
+        "a5b226d2-7505-5c0d-89c0-20a818761277"
+      ],
+      "text_sha256": "7884614a3ca9bc954c617451294d97d6f61f8721d330321bdaae0e0ce6ece77f"
+    },
+    {
+      "id": "94092ff1-31b6-5a30-bb03-0ab69f545bb1",
+      "provision_id": "61deb99b-7601-5eaa-bef4-c8ca79292b72",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:8",
+      "level": "Item",
+      "text": "八価格等（物価統制令（昭和二十一年勅令第百十八号）第二条に規定する価格等をいう。）の変動又は変更に基づく工事内容の変更又は請負代金の額の変更及びその額の算定方法に関する定め",
+      "evidence_ref_ids": [
+        "916e1e2c-92bb-50b0-8a67-5bdfa630efae"
+      ],
+      "text_sha256": "2cfe10838d7f062af5ef5f175fe687fcfb2e5b0f811ffcd00893b5b64dc3deb6"
+    },
+    {
+      "id": "960c3627-e641-591a-9eb8-61e897d486da",
+      "provision_id": "c92b4dab-09e0-5cae-b269-f28978345e9e",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:14",
+      "level": "Item",
+      "text": "十四各当事者の履行の遅滞その他債務の不履行の場合における遅延利息、違約金その他の損害金",
+      "evidence_ref_ids": [
+        "b8180364-f996-513e-956b-0d6eb56638b0"
+      ],
+      "text_sha256": "664146e2b5f2ea8f97188d284e43a1bf314d6ae024651ac5306622e613c6b96b"
+    },
+    {
+      "id": "9818c8ce-b68b-5daa-956c-a590668b197c",
+      "provision_id": "9ca40ce0-f886-56c4-a87a-72a752c7f966",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:9",
+      "level": "Item",
+      "text": "九工事の施工により第三者が損害を受けた場合における賠償金の負担に関する定め",
+      "evidence_ref_ids": [
+        "790f9c89-1516-5a8f-a59c-c2fdb940402d"
+      ],
+      "text_sha256": "1dfe37bcf63d963b2fe85139a4858a03e283ae970fc43a8cd1e3ffbb8675eb39"
+    },
+    {
+      "id": "a31ea942-b3a9-5df0-ba09-ebe78a498f59",
+      "provision_id": "cedbf264-afb4-5b74-8fc9-dcd3e940df0b",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:3",
+      "level": "Paragraph",
+      "text": "３建設工事の請負契約の当事者は、前二項の規定による措置に代えて、政令で定めるところにより、当該契約の相手方の承諾を得て、電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて、当該各項の規定による措置に準ずるものとして国土交通省令で定めるものを講ずることができる。この場合において、当該国土交通省令で定める措置を講じた者は、当該各項の規定による措置を講じたものとみなす。",
+      "evidence_ref_ids": [
+        "0b726700-d7f7-5df0-bb7e-ca11d959c03d"
+      ],
+      "text_sha256": "a5265293c1bb013fbe19e26a53d264877243eefbe4073a0c93db8c60cb7aab21"
+    },
+    {
+      "id": "a8f46216-4e60-5137-8a6c-1f38a5cf5142",
+      "provision_id": "a56cd932-35ac-55d2-8ad0-b5a03931e0a1",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:1/item:1",
+      "level": "Item",
+      "text": "一建設業を営もうとする者であつて、次号に掲げる者以外のもの",
+      "evidence_ref_ids": [
+        "e0a32dd9-62ad-59c6-831b-4ee9a7050db7"
+      ],
+      "text_sha256": "89cc0ec3fea0f032e0740b5e0684a2e408618f134990bcb86bc6672838690081"
+    },
+    {
+      "id": "afe96a59-ff12-5524-8143-8ff2a188f146",
+      "provision_id": "5692be2b-3c0f-583a-ad57-50d6fbbca9f3",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:16",
+      "level": "Item",
+      "text": "十六その他国土交通省令で定める事項",
+      "evidence_ref_ids": [
+        "62713d38-cafd-533b-9744-fb8d63add7e6"
+      ],
+      "text_sha256": "165c7de99dd5bc852cf81ea9ed0f2828a25a09a817eef13aa8ebdabfc5c057ac"
+    },
+    {
+      "id": "d525f313-4f1b-56fe-8b5c-e0da4f393907",
+      "provision_id": "d29844e4-0074-5846-b3fc-f28613553826",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3/paragraph:2",
+      "level": "Paragraph",
+      "text": "２前項の許可は、別表第一の上欄に掲げる建設工事の種類ごとに、それぞれ同表の下欄に掲げる建設業に分けて与えるものとする。",
+      "evidence_ref_ids": [
+        "369508f5-c4c9-50c1-93a5-0b46b8d2dbd2"
+      ],
+      "text_sha256": "2c5a0add14f9ed34e1fa3b7db6bfef64553e7feb200d03626a1e19d80654c6fe"
+    },
+    {
+      "id": "d92e08aa-3941-56c6-8240-f39007ec5203",
+      "provision_id": "a1d0d7ff-48ee-5055-bafa-29f73c201701",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:4",
+      "level": "Item",
+      "text": "四工事を施工しない日又は時間帯の定めをするときは、その内容",
+      "evidence_ref_ids": [
+        "a71bbf8f-5d48-5f9b-8b38-6340ace18d3e"
+      ],
+      "text_sha256": "e5391a4056ac553405d8f011f000b02cbf5db75f992ec6814ddc389094d21180"
+    },
+    {
+      "id": "dbc917f6-bf4e-58ab-b863-ca033da53da0",
+      "provision_id": "617b696b-24d5-5172-bcb0-7f5553402f42",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:6",
+      "level": "Item",
+      "text": "六当事者の一方から設計変更又は工事着手の延期若しくは工事の全部若しくは一部の中止の申出があつた場合における工期の変更、請負代金の額の変更又は損害の負担及びそれらの額の算定方法に関する定め",
+      "evidence_ref_ids": [
+        "b047f40a-bd31-5ea2-a297-e4f2ff3a6d67"
+      ],
+      "text_sha256": "0fe01a25c543f7ac9463bb0e8d7b828e697bee2a1fa9f6f153835d606340a9ab"
+    },
+    {
+      "id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "provision_id": "4d6166a8-7d01-5c0f-b7bc-c440ce566949",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:3",
+      "level": "Article",
+      "text": "（建設業の許可）第三条建設業を営もうとする者は、次に掲げる区分により、この章で定めるところにより、二以上の都道府県の区域内に営業所（本店又は支店若しくは政令で定めるこれに準ずるものをいう。以下同じ。）を設けて営業をしようとする場合にあつては国土交通大臣の、一の都道府県の区域内にのみ営業所を設けて営業をしようとする場合にあつては当該営業所の所在地を管轄する都道府県知事の許可を受けなければならない。ただし、政令で定める軽微な建設工事のみを請け負うことを営業とする者は、この限りでない。一建設業を営もうとする者であつて、次号に掲げる者以外のもの二建設業を営もうとする者であつて、その営業にあたつて、その者が発注者から直接請け負う一件の建設工事につき、その工事の全部又は一部を、下請代金の額（その工事に係る下請契約が二以上あるときは、下請代金の額の総額）が政令で定める金額以上となる下請契約を締結して施工しようとするもの２前項の許可は、別表第一の上欄に掲げる建設工事の種類ごとに、それぞれ同表の下欄に掲げる建設業に分けて与えるものとする。３第一項の許可は、五年ごとにその更新を受けなければ、その期間の経過によつて、その効力を失う。４前項の更新の申請があつた場合において、同項の期間（以下「許可の有効期間」という。）の満了の日までにその申請に対する処分がされないときは、従前の許可は、許可の有効期間の満了後もその処分がされるまでの間は、なおその効力を有する。５前項の場合において、許可の更新がされたときは、その許可の有効期間は、従前の許可の有効期間の満了の日の翌日から起算するものとする。６第一項第一号に掲げる者に係る同項の許可（第三項の許可の更新を含む。以下「一般建設業の許可」という。）を受けた者が、当該許可に係る建設業について、第一項第二号に掲げる者に係る同項の許可（第三項の許可の更新を含む。以下「特定建設業の許可」という。）を受けたときは、その者に対する当該建設業に係る一般建設業の許可は、その効力を失う。",
+      "evidence_ref_ids": [
+        "24de77af-1760-54db-b532-f7b281a0ae97"
+      ],
+      "text_sha256": "ed896a3fb63adb622d6a38cd2cb6f2c706ce6f505043335b4af862522af37f10"
+    },
+    {
+      "id": "f8c7fcb0-934c-5d0e-8d59-711ad920ab79",
+      "provision_id": "9016e770-e68c-5d60-a8e5-1a6257190003",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "locator": "main/article:19/paragraph:1/item:15",
+      "level": "Item",
+      "text": "十五契約に関する紛争の解決方法",
+      "evidence_ref_ids": [
+        "b2b45743-138e-54e1-a767-ed9eff11a1c7"
+      ],
+      "text_sha256": "0ef39f3a3c2477b73278519aafb00eb0e2c98a6fbb5f5c2e26dd63b1cb494149"
+    }
+  ],
+  "concepts": [],
+  "sources": [
+    {
+      "id": "409e27de-7a61-5a42-ad0b-8b0fc66dc5d4",
+      "provider": "egov",
+      "upstream_ids": {
+        "law_id": "324AC0000000100"
+      },
+      "url": "https://laws.e-gov.go.jp/law/324AC0000000100",
+      "license": "CC-BY-4.0",
+      "source_terms": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0"
+    }
+  ],
+  "source_versions": [
+    {
+      "id": "285c71a8-4972-5fe7-949a-6cf43c4b39b1",
+      "source_id": "409e27de-7a61-5a42-ad0b-8b0fc66dc5d4",
+      "upstream_revision_id": "324AC0000000100_20251212_506AC0000000049",
+      "selection": "LawBody-MainProvision-Article_18",
+      "content_type": "application/json",
+      "content_sha256": "577c9082cf46b186cb31e19e08f3045f620ec2d90dc654cbfb818864bb1413d3",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/285c71a8-4972-5fe7-949a-6cf43c4b39b1.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/324AC0000000100_20251212_506AC0000000049?elm=LawBody-MainProvision-Article_18"
+    },
+    {
+      "id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "source_id": "409e27de-7a61-5a42-ad0b-8b0fc66dc5d4",
+      "upstream_revision_id": "324AC0000000100_20251212_506AC0000000049",
+      "selection": "LawBody-MainProvision-Article_19",
+      "content_type": "application/json",
+      "content_sha256": "17433f17fe22d7637237dd87a060c235d426f0841bed174fe1825790eb90193d",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/b98bfbdc-d718-55df-992b-8216db9efc4a.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/324AC0000000100_20251212_506AC0000000049?elm=LawBody-MainProvision-Article_19"
+    },
+    {
+      "id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "source_id": "409e27de-7a61-5a42-ad0b-8b0fc66dc5d4",
+      "upstream_revision_id": "324AC0000000100_20251212_506AC0000000049",
+      "selection": "LawBody-MainProvision-Article_3",
+      "content_type": "application/json",
+      "content_sha256": "9ff6cfe9ecc45b46e94e292253dad520f6232fe89d5c42e984c1067c66352214",
+      "canonicalization": "sorted-json-v1",
+      "artifact_path": "sources/ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f.json",
+      "retrieval_url": "https://laws.e-gov.go.jp/api/2/law_data/324AC0000000100?elm=LawBody-MainProvision-Article_3"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "0b726700-d7f7-5df0-bb7e-ca11d959c03d",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "a5265293c1bb013fbe19e26a53d264877243eefbe4073a0c93db8c60cb7aab21"
+    },
+    {
+      "id": "123dfe2f-f476-5ee2-b6b4-afbc05d850a9",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "dd97e4449cdc070a9706c25f30395b336fcdfce0d1866286c95153cd4242d972"
+    },
+    {
+      "id": "1808dd44-b936-5adf-a24c-c40fdd299f58",
+      "source_version_id": "285c71a8-4972-5fe7-949a-6cf43c4b39b1",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "c7d0037c33b964b3061e74d6a47e5bdd6f4094a870218553df061954f4fb2f45"
+    },
+    {
+      "id": "24de77af-1760-54db-b532-f7b281a0ae97",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "ed896a3fb63adb622d6a38cd2cb6f2c706ce6f505043335b4af862522af37f10"
+    },
+    {
+      "id": "26b7f6b4-4234-5aaa-a06c-cfef296af2ee",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/11",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "50ea1e1ed5fa70a896cb2db3c0fba3d90f83e31e107cc01cee150dae7e3d78ea"
+    },
+    {
+      "id": "369508f5-c4c9-50c1-93a5-0b46b8d2dbd2",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "2c5a0add14f9ed34e1fa3b7db6bfef64553e7feb200d03626a1e19d80654c6fe"
+    },
+    {
+      "id": "3df0e635-2907-519b-a1ce-7a14581be898",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/6",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "272828a8ce0b252abda4e3d3a11005d276f35e7bb2dcb14af66515fc28c4a5a0"
+    },
+    {
+      "id": "46aaf9dd-1e23-5c29-be95-fac0f55e877c",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/2/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "67df93df637b14a2f7317d96a27831c10003da5eafb3e90abf8ab10f1fe4fa23"
+    },
+    {
+      "id": "4f760a3a-e201-5ade-a048-fa3b69691e23",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "13e44ef723c843f9683eb9f4ef5889367f9ee3764d1af1c571b869b04f03f2aa"
+    },
+    {
+      "id": "4fe4e95c-e9d0-5278-9c2d-ecdc4578a6d6",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/7",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "a7a08f57175406b05bda2819afd21323b81aae231ff57aa897ffecdb5957680b"
+    },
+    {
+      "id": "6210751d-d5ee-5021-918a-1ef553eb33e1",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/14",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e10e69967c07c89f507867456cb058a3761e7fb9a685b02687e2b6e57176ffa1"
+    },
+    {
+      "id": "62713d38-cafd-533b-9744-fb8d63add7e6",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/17",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "165c7de99dd5bc852cf81ea9ed0f2828a25a09a817eef13aa8ebdabfc5c057ac"
+    },
+    {
+      "id": "715b63ec-38ae-505e-b872-f52a5f61b397",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "03ed2f06ff8e7ddc048ec50b420ec7fa174c84c0cbfe2bc3ff06381df52c07c0"
+    },
+    {
+      "id": "720b5892-9ff6-5c2b-babb-93e05467f5c1",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "6ddaf15a945c9e18d6a673d723ed6e375b89989f7d9746daf73903ae2b2a6c24"
+    },
+    {
+      "id": "790f9c89-1516-5a8f-a59c-c2fdb940402d",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/10",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "1dfe37bcf63d963b2fe85139a4858a03e283ae970fc43a8cd1e3ffbb8675eb39"
+    },
+    {
+      "id": "91637050-2d87-556d-8e08-e756a5f6a733",
+      "source_version_id": "285c71a8-4972-5fe7-949a-6cf43c4b39b1",
+      "locator": "/law_full_text",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "80723907670eacaf151c0d3bce585e73217f749da61ceee1bc19d876597575a7"
+    },
+    {
+      "id": "916e1e2c-92bb-50b0-8a67-5bdfa630efae",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/9",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "2cfe10838d7f062af5ef5f175fe687fcfb2e5b0f811ffcd00893b5b64dc3deb6"
+    },
+    {
+      "id": "9dd0531c-b889-5baa-bde0-c0dfe78cb348",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/8",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "616571b087bf01a4030dbe49b02d2f03810036f6b1fdbb76db000f3f3c032951"
+    },
+    {
+      "id": "a5b226d2-7505-5c0d-89c0-20a818761277",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/3",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "7884614a3ca9bc954c617451294d97d6f61f8721d330321bdaae0e0ce6ece77f"
+    },
+    {
+      "id": "a71bbf8f-5d48-5f9b-8b38-6340ace18d3e",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "e5391a4056ac553405d8f011f000b02cbf5db75f992ec6814ddc389094d21180"
+    },
+    {
+      "id": "b047f40a-bd31-5ea2-a297-e4f2ff3a6d67",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/7",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0fe01a25c543f7ac9463bb0e8d7b828e697bee2a1fa9f6f153835d606340a9ab"
+    },
+    {
+      "id": "b23be871-d3a0-50a2-b943-b300af175410",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/6",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "1d8f30e2afb95d6b8a280c1f430bd4f46db8b20555509e5f7fa13ca3d4d3aaff"
+    },
+    {
+      "id": "b2b45743-138e-54e1-a767-ed9eff11a1c7",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/16",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0ef39f3a3c2477b73278519aafb00eb0e2c98a6fbb5f5c2e26dd63b1cb494149"
+    },
+    {
+      "id": "b8180364-f996-513e-956b-0d6eb56638b0",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/15",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "664146e2b5f2ea8f97188d284e43a1bf314d6ae024651ac5306622e613c6b96b"
+    },
+    {
+      "id": "c287a6ab-26a3-5d55-ab68-b4205492331f",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0a4b9b44cd11afb1642dea5e16caae343754eb1fa8949f57422466908304d9d1"
+    },
+    {
+      "id": "c3b1f4c6-20b6-553b-9ba1-4142ba9c8e63",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/13",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "026e334d800e8ef20e856bd5944809e5fae82222733a163fa7dbfd0db0d4438d"
+    },
+    {
+      "id": "c4f11457-8b1d-5c3e-9705-30cdb3e06978",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/5",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "2fd759ca2ecdf3f2915e89fc27994a53372b041b27e4201a9b10320cb3a8296a"
+    },
+    {
+      "id": "cf168cee-664f-5ff4-a670-b206f12db9d2",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/12",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "0e4939eff08750c9d0f770423c85736787705be4a968a1eb222aaf7613630bdf"
+    },
+    {
+      "id": "e0a32dd9-62ad-59c6-831b-4ee9a7050db7",
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "locator": "/law_full_text/children/2/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "89cc0ec3fea0f032e0740b5e0684a2e408618f134990bcb86bc6672838690081"
+    },
+    {
+      "id": "ed3fa2f6-0bde-516f-b6be-4f9d53e586c3",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/4",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "f914f06f6a6aa2d6548f484c2d33289787446b0e38835782940c7df544984433"
+    },
+    {
+      "id": "f59c439c-422e-58ee-bafa-3182acab5466",
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "locator": "/law_full_text/children/2/children/2",
+      "extraction_method": "egov-descendant-strings-v1",
+      "text_sha256": "7dcf3c2ca784d3872d7845774d9e0d05e7c3158a77352d88e746f51c10efa503"
+    }
+  ],
+  "relations": [
+    {
+      "id": "04db355a-ce7c-5b7c-a628-668de655a121",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "9034ba02-d63d-55cc-bad8-fb9fc362e640",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "a5b226d2-7505-5c0d-89c0-20a818761277"
+      ]
+    },
+    {
+      "id": "1127fb1c-c85b-5832-9568-dd781cd5c01e",
+      "type": "delegates_to",
+      "from_id": "13baa0d4-e555-53c1-8773-a3ff08936a78",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "4f760a3a-e201-5ade-a048-fa3b69691e23"
+      ]
+    },
+    {
+      "id": "1560ae5a-95ff-5e5c-8a61-9e9f71600150",
+      "type": "contains",
+      "from_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "to_id": "32c6f953-09a6-59e6-bab6-888398e5755d",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b23be871-d3a0-50a2-b943-b300af175410"
+      ]
+    },
+    {
+      "id": "1a46cabe-e684-5ce2-b152-e454e0c08b4c",
+      "type": "contains",
+      "from_id": "13baa0d4-e555-53c1-8773-a3ff08936a78",
+      "to_id": "3f00b463-1f64-5fbd-aa85-aa665efc7eac",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "46aaf9dd-1e23-5c29-be95-fac0f55e877c"
+      ]
+    },
+    {
+      "id": "2193fdc4-fb50-5b86-b728-3675588827f7",
+      "type": "contains",
+      "from_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "to_id": "403da9ca-2b5b-5c1f-bcfa-294abf1378ba",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c4f11457-8b1d-5c3e-9705-30cdb3e06978"
+      ]
+    },
+    {
+      "id": "2228445d-36d3-5967-bc52-0e7613d3949f",
+      "type": "contains",
+      "from_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "to_id": "13baa0d4-e555-53c1-8773-a3ff08936a78",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "4f760a3a-e201-5ade-a048-fa3b69691e23"
+      ]
+    },
+    {
+      "id": "237b7aff-8676-5139-91de-c66fdce41d2a",
+      "type": "contains",
+      "from_id": "7e7b1d26-fd2f-5320-816c-479bd5795d4c",
+      "to_id": "3e4335b8-e1c3-52cd-877c-70aa46c07fd1",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "1808dd44-b936-5adf-a24c-c40fdd299f58"
+      ]
+    },
+    {
+      "id": "23f55dd3-355c-5770-87b4-88fbbe7810d0",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "d92e08aa-3941-56c6-8240-f39007ec5203",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "a71bbf8f-5d48-5f9b-8b38-6340ace18d3e"
+      ]
+    },
+    {
+      "id": "2ad0e391-7bb5-5948-acb5-18e4d0d5e334",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "dbc917f6-bf4e-58ab-b863-ca033da53da0",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b047f40a-bd31-5ea2-a297-e4f2ff3a6d67"
+      ]
+    },
+    {
+      "id": "2e359d40-565a-5d7e-b0c2-cf3d2f9155d6",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "f8c7fcb0-934c-5d0e-8d59-711ad920ab79",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b2b45743-138e-54e1-a767-ed9eff11a1c7"
+      ]
+    },
+    {
+      "id": "39148e24-1e83-548b-9d3e-a24040d56b96",
+      "type": "contains",
+      "from_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "to_id": "16dabf30-5941-51ce-9bf3-e5b1ae4088e1",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "4fe4e95c-e9d0-5278-9c2d-ecdc4578a6d6"
+      ]
+    },
+    {
+      "id": "3e081b12-11ad-5fc0-bbeb-bff0bf07357f",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "5096f789-fbd0-523e-8a71-ee27455e645a",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c3b1f4c6-20b6-553b-9ba1-4142ba9c8e63"
+      ]
+    },
+    {
+      "id": "68f75925-2343-58af-b511-018aa0ebf503",
+      "type": "contains",
+      "from_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "to_id": "8a07bc1b-33f0-5514-9798-446b54d42878",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "720b5892-9ff6-5c2b-babb-93e05467f5c1"
+      ]
+    },
+    {
+      "id": "6a104646-ee0b-50f0-b79a-2e8f30504b7a",
+      "type": "contains",
+      "from_id": "13baa0d4-e555-53c1-8773-a3ff08936a78",
+      "to_id": "a8f46216-4e60-5137-8a6c-1f38a5cf5142",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "e0a32dd9-62ad-59c6-831b-4ee9a7050db7"
+      ]
+    },
+    {
+      "id": "6b57d241-7952-58d5-88a3-2485b1be1e49",
+      "type": "contains",
+      "from_id": "5de8df88-0267-5b7a-abef-e4f0b89f42b7",
+      "to_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "c287a6ab-26a3-5d55-ab68-b4205492331f"
+      ]
+    },
+    {
+      "id": "71428599-8553-540a-8d68-bce0484f1f4e",
+      "type": "contains",
+      "from_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "to_id": "7e7b1d26-fd2f-5320-816c-479bd5795d4c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "91637050-2d87-556d-8e08-e756a5f6a733"
+      ]
+    },
+    {
+      "id": "77c95927-76b2-574a-96f7-039f46780aff",
+      "type": "contains",
+      "from_id": "5de8df88-0267-5b7a-abef-e4f0b89f42b7",
+      "to_id": "2b44b431-ee46-5283-b22e-2a7cbcf90f05",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "715b63ec-38ae-505e-b872-f52a5f61b397"
+      ]
+    },
+    {
+      "id": "7888fbbd-cced-5f08-bfab-6c77da25baa5",
+      "type": "contains",
+      "from_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "to_id": "5de8df88-0267-5b7a-abef-e4f0b89f42b7",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "123dfe2f-f476-5ee2-b6b4-afbc05d850a9"
+      ]
+    },
+    {
+      "id": "8051feb7-7900-55e4-b126-7dc824041abd",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "7b2c9e0d-e1a5-5915-9e16-8f2c39ccbe69",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "9dd0531c-b889-5baa-bde0-c0dfe78cb348"
+      ]
+    },
+    {
+      "id": "8bd17599-3c5c-56e4-9fbd-337dc8fcb54e",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "7fedc76c-41cc-5b1d-b94c-207dc579d889",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "26b7f6b4-4234-5aaa-a06c-cfef296af2ee"
+      ]
+    },
+    {
+      "id": "935361a2-e54a-538a-85bc-591d591a2172",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "94092ff1-31b6-5a30-bb03-0ab69f545bb1",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "916e1e2c-92bb-50b0-8a67-5bdfa630efae"
+      ]
+    },
+    {
+      "id": "9365efac-16c4-591a-b599-f3c70838b4c8",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "6f7acf6f-22ab-5ccf-9bb6-9109a9d6df23",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "ed3fa2f6-0bde-516f-b6be-4f9d53e586c3"
+      ]
+    },
+    {
+      "id": "95f93f0e-d6d1-5ad3-9160-bf101c58e5ea",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "1cc36557-93d3-522c-816d-f5bb48fa116d",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "cf168cee-664f-5ff4-a670-b206f12db9d2"
+      ]
+    },
+    {
+      "id": "b73395fc-eb06-5966-90cf-c49b7e706831",
+      "type": "contains",
+      "from_id": "5de8df88-0267-5b7a-abef-e4f0b89f42b7",
+      "to_id": "a31ea942-b3a9-5df0-ba09-ebe78a498f59",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0b726700-d7f7-5df0-bb7e-ca11d959c03d"
+      ]
+    },
+    {
+      "id": "b949718c-14a6-5e95-9253-17b436910e2d",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "9818c8ce-b68b-5daa-956c-a590668b197c",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "790f9c89-1516-5a8f-a59c-c2fdb940402d"
+      ]
+    },
+    {
+      "id": "b9962a7f-f9df-542b-9a64-a5b416a90455",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "960c3627-e641-591a-9eb8-61e897d486da",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "b8180364-f996-513e-956b-0d6eb56638b0"
+      ]
+    },
+    {
+      "id": "bab5f914-db64-5007-b948-a22fb6bd0fd0",
+      "type": "delegates_to",
+      "from_id": "a31ea942-b3a9-5df0-ba09-ebe78a498f59",
+      "to_id": null,
+      "target_ref": {
+        "raw": "政令で定める",
+        "expected_kind": "CabinetOrder"
+      },
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "unresolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "0b726700-d7f7-5df0-bb7e-ca11d959c03d"
+      ]
+    },
+    {
+      "id": "c258e577-97e6-57c4-9493-4ca9e8f07b55",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "1a74eda6-c6af-5a3b-8054-e145165ef1c2",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "6210751d-d5ee-5021-918a-1ef553eb33e1"
+      ]
+    },
+    {
+      "id": "c7f343b1-a462-50a4-b4c9-b92f2fe629f5",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "52137f49-4ac9-56f7-863b-f5248e9dfa84",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "f59c439c-422e-58ee-bafa-3182acab5466"
+      ]
+    },
+    {
+      "id": "cee11cb5-7a9e-5644-8356-223dc96bff99",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "afe96a59-ff12-5524-8143-8ff2a188f146",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "62713d38-cafd-533b-9744-fb8d63add7e6"
+      ]
+    },
+    {
+      "id": "dff8fa8c-bb8f-5699-b529-89fefd36e013",
+      "type": "contains",
+      "from_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "to_id": "d525f313-4f1b-56fe-8b5c-e0da4f393907",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "369508f5-c4c9-50c1-93a5-0b46b8d2dbd2"
+      ]
+    },
+    {
+      "id": "f136cbd5-1700-52b0-896a-835aa5edc3b2",
+      "type": "contains",
+      "from_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "to_id": "ee8bf390-0760-542e-b1e3-e155e878ddfb",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "24de77af-1760-54db-b532-f7b281a0ae97"
+      ]
+    },
+    {
+      "id": "f6efca22-dd7a-584b-9203-ee9df518a436",
+      "type": "contains",
+      "from_id": "6f7d964d-7a37-5e3f-9f39-ea5e4b6275af",
+      "to_id": "6491517e-fb92-5cd0-a50e-8bc86283a521",
+      "target_ref": null,
+      "basis": "explicit_text",
+      "method": "egov-structure-v0.1",
+      "resolution": "resolved",
+      "review": "unreviewed",
+      "evidence_ref_ids": [
+        "3df0e635-2907-519b-a1ce-7a14581be898"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "source_version_id": "285c71a8-4972-5fe7-949a-6cf43c4b39b1",
+      "observed_at": "2026-11-03T05:39:49.907Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/324AC0000000100_20251212_506AC0000000049?elm=LawBody-MainProvision-Article_18"
+    },
+    {
+      "source_version_id": "b98bfbdc-d718-55df-992b-8216db9efc4a",
+      "observed_at": "2026-11-03T05:39:49.924Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/324AC0000000100_20251212_506AC0000000049?elm=LawBody-MainProvision-Article_19"
+    },
+    {
+      "source_version_id": "ef067ecf-ae55-5ce2-84f1-79c8eb0baa9f",
+      "observed_at": "2026-11-03T05:39:49.788Z",
+      "request_url": "https://laws.e-gov.go.jp/api/2/law_data/324AC0000000100?elm=LawBody-MainProvision-Article_3"
+    }
+  ],
+  "coverage": [
+    {
+      "law_id": "e737191b-c43b-5830-8973-75d8a4d0a99b",
+      "law_revision_id": "4693f554-13d4-5d30-8a2a-02b67ad524ef",
+      "as_of": "2026-11-03",
+      "status": "partial",
+      "locators": [
+        "main/article:18",
+        "main/article:18/paragraph:1",
+        "main/article:19",
+        "main/article:19/paragraph:1",
+        "main/article:19/paragraph:1/item:1",
+        "main/article:19/paragraph:1/item:10",
+        "main/article:19/paragraph:1/item:11",
+        "main/article:19/paragraph:1/item:12",
+        "main/article:19/paragraph:1/item:13",
+        "main/article:19/paragraph:1/item:14",
+        "main/article:19/paragraph:1/item:15",
+        "main/article:19/paragraph:1/item:16",
+        "main/article:19/paragraph:1/item:2",
+        "main/article:19/paragraph:1/item:3",
+        "main/article:19/paragraph:1/item:4",
+        "main/article:19/paragraph:1/item:5",
+        "main/article:19/paragraph:1/item:6",
+        "main/article:19/paragraph:1/item:7",
+        "main/article:19/paragraph:1/item:8",
+        "main/article:19/paragraph:1/item:9",
+        "main/article:19/paragraph:2",
+        "main/article:19/paragraph:3",
+        "main/article:3",
+        "main/article:3/paragraph:1",
+        "main/article:3/paragraph:1/item:1",
+        "main/article:3/paragraph:1/item:2",
+        "main/article:3/paragraph:2",
+        "main/article:3/paragraph:3",
+        "main/article:3/paragraph:4",
+        "main/article:3/paragraph:5",
+        "main/article:3/paragraph:6"
+      ],
+      "relation_types": [
+        "contains",
+        "defines",
+        "delegates_to"
+      ],
+      "extractor": "egov-structure-v0.1",
+      "limits": [
+        "Selected main-provision articles only; no historical or future coverage.",
+        "Definitions match only the literal この法律において「…」とは、 pattern.",
+        "Cabinet Order phrases are unresolved candidates; no target is inferred.",
+        "No comprehensive citations, exceptions, or legal applicability analysis."
+      ]
+    }
+  ]
+}

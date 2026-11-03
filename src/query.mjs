@@ -22,7 +22,11 @@ export function createQuery(graph) {
     };
   }
   function eligible(record, asOf) {
+    if (!record) return false;
     const active = graph.coverage.filter(c => c.as_of === asOf);
+    if ((graph.intents ?? []).some(i => i.id === record.id)) return graph.relations.some(r => r.type === 'relates_to' && r.from_id === record.id &&
+      eligible(byId(r.to_id), asOf) && r.basis_provision_ids.every(key => eligible(byId(key), asOf)));
+    if ((graph.authorities ?? []).some(a => a.id === record.id)) return graph.relations.some(r => r.type === 'administered_by' && r.to_id === record.id && eligible(byId(r.from_id), asOf));
     if (graph.law_revisions.some(r => r.id === record.id)) return active.some(c => c.law_revision_id === record.id);
     if (record.law_revision_id) return active.some(c => c.law_revision_id === record.law_revision_id);
     if (record.anchor_revision_id) return active.some(c => c.law_revision_id === record.anchor_revision_id);
@@ -49,6 +53,28 @@ export function createQuery(graph) {
   }
   return {
     coverage() { return { ...context(), coverage: graph.coverage, counts: Object.fromEntries(Object.entries(graph).filter(([,v]) => Array.isArray(v)).map(([k,v]) => [k,v.length])) }; },
+    find_related_laws({ intent, as_of: asOf, limit = 10 }) {
+      const ctx = context(asOf);
+      const normalized = intent.normalize('NFKC').trim();
+      if (!normalized) throw new Error('intent must not be blank');
+      const intents = (graph.intents ?? []).filter(i => [i.slug, i.label].some(s => s.normalize('NFKC') === normalized));
+      const matches = ctx.status === 'ok' ? graph.relations.filter(r => r.type === 'relates_to' && intents.some(i => i.id === r.from_id) &&
+        eligible(byId(r.to_id), ctx.evaluated_as_of) && r.basis_provision_ids.every(key => eligible(byId(key), ctx.evaluated_as_of))) : [];
+      matches.sort((a,b) => a.id.localeCompare(b.id));
+      return { ...ctx, status: matches.length ? 'ok' : 'outside_coverage', intents,
+        total_matches: matches.length, truncated: matches.length > limit,
+        results: matches.slice(0, limit).map(r => {
+          const target = byId(r.to_id);
+          const revision = target.law_revision_id ? byId(target.law_revision_id) : target;
+          const law = byId(revision.law_id);
+          return { relation_id: r.id, intent_id: r.from_id, target_id: target.id,
+            law: { ...law, law_revision_id: revision.id, upstream_revision_id: revision.upstream_revision_id, title: revision.title },
+            provisions: r.basis_provision_ids.map(key => ({ ...brief(byId(key)), provenance: provenance(byId(key)) })),
+            reason: r.reason, basis: r.basis, basis_provision_ids: r.basis_provision_ids,
+            evidence_ref_ids: r.evidence_ref_ids, review_state: r.review_state,
+            resolution: r.resolution, provenance: provenance(r) };
+        }) };
+    },
     search_provisions({ query, as_of: asOf, limit = 10 }) {
       const ctx = context(asOf);
       if (ctx.status !== 'ok') return { ...ctx, results: [], total_matches: 0, truncated: false };
@@ -107,13 +133,15 @@ export function createQuery(graph) {
       let truncated = false;
       for (let index = 0; index < queue.length; index++) {
         const [nodeId, distance] = queue[index];
-        const edges = graph.relations.filter(r => eligible(byId(r.from_id), ctx.evaluated_as_of) && !used.has(r.id) && (!types || types.includes(r.type)) &&
+        const edges = graph.relations.filter(r => eligible(byId(r.from_id), ctx.evaluated_as_of) &&
+          (!r.to_id || eligible(byId(r.to_id), ctx.evaluated_as_of)) &&
+          (r.basis_provision_ids ?? []).every(key => eligible(byId(key), ctx.evaluated_as_of)) && !used.has(r.id) && (!types || types.includes(r.type)) &&
           ((direction !== 'in' && r.from_id === nodeId) || (direction !== 'out' && r.to_id === nodeId)));
         if (distance >= depth) { if (edges.length) depthLimited = true; continue; }
         for (const edge of edges) {
           if (result.length >= limit) { truncated = true; break; }
           used.add(edge.id);
-          result.push({ ...edge, provenance: provenance(edge) });
+          result.push({ ...edge, review_state: edge.review_state ?? edge.review, provenance: provenance(edge) });
           const other = edge.from_id === nodeId ? edge.to_id : edge.from_id;
           if (other && !visited.has(other)) { visited.add(other); queue.push([other, distance + 1]); }
         }

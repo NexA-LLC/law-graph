@@ -1,0 +1,655 @@
+{
+  "attached_files_info": null,
+  "law_info": {
+    "law_type": "Act",
+    "law_id": "324AC0000000100",
+    "law_num": "昭和二十四年法律第百号",
+    "law_num_era": "Showa",
+    "law_num_year": 24,
+    "law_num_type": "Act",
+    "law_num_num": "100",
+    "promulgation_date": "1949-05-24"
+  },
+  "revision_info": {
+    "law_revision_id": "324AC0000000100_20251212_506AC0000000049",
+    "law_type": "Act",
+    "law_title": "建設業法",
+    "law_title_kana": "けんせつぎょうほう",
+    "abbrev": "",
+    "category": "建築・住宅",
+    "updated": "2025-11-21T08:36:53+09:00",
+    "amendment_promulgate_date": "2024-06-14",
+    "amendment_enforcement_date": "2025-12-12",
+    "amendment_enforcement_comment": null,
+    "amendment_scheduled_enforcement_date": null,
+    "amendment_law_id": "506AC0000000049",
+    "amendment_law_title": "建設業法及び公共工事の入札及び契約の適正化の促進に関する法律の一部を改正する法律",
+    "amendment_law_title_kana": null,
+    "amendment_law_num": "令和六年法律第四十九号",
+    "amendment_type": "3",
+    "repeal_status": "None",
+    "repeal_date": null,
+    "remain_in_force": false,
+    "mission": "New",
+    "current_revision_status": "CurrentEnforced"
+  },
+  "law_full_text": {
+    "tag": "Article",
+    "attr": {
+      "Num": "19"
+    },
+    "children": [
+      {
+        "tag": "ArticleCaption",
+        "attr": {},
+        "children": [
+          "（建設工事の請負契約の内容）"
+        ]
+      },
+      {
+        "tag": "ArticleTitle",
+        "attr": {},
+        "children": [
+          "第十九条"
+        ]
+      },
+      {
+        "tag": "Paragraph",
+        "attr": {
+          "Num": "1"
+        },
+        "children": [
+          {
+            "tag": "ParagraphNum",
+            "attr": {},
+            "children": []
+          },
+          {
+            "tag": "ParagraphSentence",
+            "attr": {},
+            "children": [
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "1",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "建設工事の請負契約の当事者は、前条の趣旨に従つて、契約の締結に際して次に掲げる事項を書面に記載し、署名又は記名押印をして相互に交付しなければならない。"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "1"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "一"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "工事内容"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "2"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "二"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "請負代金の額"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "3"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "三"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "工事着手の時期及び工事完成の時期"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "4"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "四"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "工事を施工しない日又は時間帯の定めをするときは、その内容"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "5"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "五"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "請負代金の全部又は一部の前金払又は出来形部分に対する支払の定めをするときは、その支払の時期及び方法"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "6"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "六"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "当事者の一方から設計変更又は工事着手の延期若しくは工事の全部若しくは一部の中止の申出があつた場合における工期の変更、請負代金の額の変更又は損害の負担及びそれらの額の算定方法に関する定め"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "7"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "七"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "天災その他不可抗力による工期の変更又は損害の負担及びその額の算定方法に関する定め"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "8"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "八"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "価格等（物価統制令（昭和二十一年勅令第百十八号）第二条に規定する価格等をいう。）の変動又は変更に基づく工事内容の変更又は請負代金の額の変更及びその額の算定方法に関する定め"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "9"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "九"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "工事の施工により第三者が損害を受けた場合における賠償金の負担に関する定め"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "10"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "注文者が工事に使用する資材を提供し、又は建設機械その他の機械を貸与するときは、その内容及び方法に関する定め"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "11"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十一"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "注文者が工事の全部又は一部の完成を確認するための検査の時期及び方法並びに引渡しの時期"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "12"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十二"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "工事完成後における請負代金の支払の時期及び方法"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "13"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十三"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "工事の目的物が種類又は品質に関して契約の内容に適合しない場合におけるその不適合を担保すべき責任又は当該責任の履行に関して講ずべき保証保険契約の締結その他の措置に関する定めをするときは、その内容"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "14"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十四"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "各当事者の履行の遅滞その他債務の不履行の場合における遅延利息、違約金その他の損害金"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "15"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十五"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "契約に関する紛争の解決方法"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "Item",
+            "attr": {
+              "Num": "16"
+            },
+            "children": [
+              {
+                "tag": "ItemTitle",
+                "attr": {},
+                "children": [
+                  "十六"
+                ]
+              },
+              {
+                "tag": "ItemSentence",
+                "attr": {},
+                "children": [
+                  {
+                    "tag": "Sentence",
+                    "attr": {
+                      "Num": "1",
+                      "WritingMode": "vertical"
+                    },
+                    "children": [
+                      "その他国土交通省令で定める事項"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "Paragraph",
+        "attr": {
+          "Num": "2"
+        },
+        "children": [
+          {
+            "tag": "ParagraphNum",
+            "attr": {},
+            "children": [
+              "２"
+            ]
+          },
+          {
+            "tag": "ParagraphSentence",
+            "attr": {},
+            "children": [
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "1",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "請負契約の当事者は、請負契約の内容で前項に掲げる事項に該当するものを変更するときは、その変更の内容を書面に記載し、署名又は記名押印をして相互に交付しなければならない。"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "Paragraph",
+        "attr": {
+          "Num": "3"
+        },
+        "children": [
+          {
+            "tag": "ParagraphNum",
+            "attr": {},
+            "children": [
+              "３"
+            ]
+          },
+          {
+            "tag": "ParagraphSentence",
+            "attr": {},
+            "children": [
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "1",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "建設工事の請負契約の当事者は、前二項の規定による措置に代えて、政令で定めるところにより、当該契約の相手方の承諾を得て、電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて、当該各項の規定による措置に準ずるものとして国土交通省令で定めるものを講ずることができる。"
+                ]
+              },
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Num": "2",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "この場合において、当該国土交通省令で定める措置を講じた者は、当該各項の規定による措置を講じたものとみなす。"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

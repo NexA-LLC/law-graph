@@ -352,96 +352,228 @@
     "relations": {
       "type": "array",
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "type",
-          "from_id",
-          "to_id",
-          "target_ref",
-          "basis",
-          "method",
-          "resolution",
-          "review",
-          "evidence_ref_ids"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
-          },
-          "type": {
-            "enum": [
-              "contains",
-              "defines",
-              "delegates_to"
-            ]
-          },
-          "from_id": {
-            "type": "string",
-            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
-          },
-          "to_id": {
-            "anyOf": [
-              {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "type",
+              "from_id",
+              "to_id",
+              "target_ref",
+              "basis",
+              "method",
+              "resolution",
+              "review",
+              "evidence_ref_ids"
+            ],
+            "properties": {
+              "id": {
                 "type": "string",
                 "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
               },
-              {
-                "type": "null"
-              }
-            ]
-          },
-          "target_ref": {
-            "anyOf": [
-              {
-                "type": "null"
+              "type": {
+                "enum": [
+                  "contains",
+                  "defines",
+                  "delegates_to"
+                ]
               },
-              {
-                "type": "object",
-                "additionalProperties": false,
-                "required": [
-                  "raw",
-                  "expected_kind"
-                ],
-                "properties": {
-                  "raw": {
+              "from_id": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "to_id": {
+                "anyOf": [
+                  {
                     "type": "string",
-                    "minLength": 1
+                    "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
                   },
-                  "expected_kind": {
-                    "const": "CabinetOrder"
+                  {
+                    "type": "null"
                   }
+                ]
+              },
+              "target_ref": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "raw",
+                      "expected_kind"
+                    ],
+                    "properties": {
+                      "raw": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "expected_kind": {
+                        "const": "CabinetOrder"
+                      }
+                    }
+                  }
+                ]
+              },
+              "basis": {
+                "const": "explicit_text"
+              },
+              "method": {
+                "const": "egov-structure-v0.1"
+              },
+              "resolution": {
+                "enum": [
+                  "resolved",
+                  "unresolved"
+                ]
+              },
+              "review": {
+                "const": "unreviewed"
+              },
+              "evidence_ref_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
                 }
               }
-            ]
+            }
           },
-          "basis": {
-            "const": "explicit_text"
-          },
-          "method": {
-            "const": "egov-structure-v0.1"
-          },
-          "resolution": {
-            "enum": [
-              "resolved",
-              "unresolved"
-            ]
-          },
-          "review": {
-            "const": "unreviewed"
-          },
-          "evidence_ref_ids": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "items": {
-              "type": "string",
-              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "type",
+              "from_id",
+              "to_id",
+              "target_ref",
+              "basis",
+              "method",
+              "resolution",
+              "review_state",
+              "reason",
+              "evidence_ref_ids",
+              "basis_provision_ids"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "type": {
+                "enum": [
+                  "relates_to",
+                  "administered_by",
+                  "cites",
+                  "delegates_to"
+                ]
+              },
+              "from_id": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "to_id": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "target_ref": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "raw",
+                      "expected_kind"
+                    ],
+                    "properties": {
+                      "raw": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "expected_kind": {
+                        "enum": [
+                          "Provision",
+                          "CabinetOrder",
+                          "MinisterialOrdinance"
+                        ]
+                      },
+                      "law_id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "locator": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              "basis": {
+                "enum": [
+                  "explicit_text",
+                  "textual_inference",
+                  "curated"
+                ]
+              },
+              "method": {
+                "enum": [
+                  "egov-references-v1",
+                  "egov-authority-inference-v1",
+                  "intent-curation-v1"
+                ]
+              },
+              "resolution": {
+                "enum": [
+                  "resolved",
+                  "unresolved"
+                ]
+              },
+              "review_state": {
+                "const": "unreviewed"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_ref_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+                }
+              },
+              "basis_provision_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+                }
+              }
             }
           }
-        }
+        ]
       }
     },
     "observations": {
@@ -518,7 +650,9 @@
               "enum": [
                 "contains",
                 "defines",
-                "delegates_to"
+                "delegates_to",
+                "cites",
+                "administered_by"
               ]
             }
           },
@@ -532,6 +666,65 @@
               "type": "string",
               "minLength": 1
             }
+          },
+          "reference_extractor": {
+            "const": "egov-references-v1"
+          }
+        }
+      }
+    },
+    "intents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "slug",
+          "label",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "authorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "jurisdiction",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "jurisdiction": {
+            "const": "JP"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
           }
         }
       }

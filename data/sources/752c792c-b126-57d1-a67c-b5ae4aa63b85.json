@@ -1,0 +1,99 @@
+{
+  "attached_files_info": null,
+  "law_info": {
+    "law_type": "Act",
+    "law_id": "129AC0000000089",
+    "law_num": "明治二十九年法律第八十九号",
+    "law_num_era": "Meiji",
+    "law_num_year": 29,
+    "law_num_type": "Act",
+    "law_num_num": "089",
+    "promulgation_date": "1896-04-27"
+  },
+  "revision_info": {
+    "law_revision_id": "129AC0000000089_20260624_508AC0000000045",
+    "law_type": "Act",
+    "law_title": "民法",
+    "law_title_kana": "みんぽう",
+    "abbrev": "",
+    "category": "民事",
+    "updated": "2026-06-24T10:58:58+09:00",
+    "amendment_promulgate_date": "2026-06-24",
+    "amendment_enforcement_date": "2026-06-24",
+    "amendment_enforcement_comment": null,
+    "amendment_scheduled_enforcement_date": null,
+    "amendment_law_id": "508AC0000000045",
+    "amendment_law_title": "民法等の一部を改正する法律",
+    "amendment_law_title_kana": null,
+    "amendment_law_num": "令和八年法律第四十五号",
+    "amendment_type": "3",
+    "repeal_status": "None",
+    "repeal_date": null,
+    "remain_in_force": false,
+    "mission": "New",
+    "current_revision_status": "CurrentEnforced"
+  },
+  "law_full_text": {
+    "tag": "Article",
+    "attr": {
+      "Num": "636"
+    },
+    "children": [
+      {
+        "tag": "ArticleCaption",
+        "attr": {},
+        "children": [
+          "（請負人の担保責任の制限）"
+        ]
+      },
+      {
+        "tag": "ArticleTitle",
+        "attr": {},
+        "children": [
+          "第六百三十六条"
+        ]
+      },
+      {
+        "tag": "Paragraph",
+        "attr": {
+          "Num": "1"
+        },
+        "children": [
+          {
+            "tag": "ParagraphNum",
+            "attr": {},
+            "children": []
+          },
+          {
+            "tag": "ParagraphSentence",
+            "attr": {},
+            "children": [
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Function": "main",
+                  "Num": "1",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "請負人が種類又は品質に関して契約の内容に適合しない仕事の目的物を注文者に引き渡したとき（その引渡しを要しない場合にあっては、仕事が終了した時に仕事の目的物が種類又は品質に関して契約の内容に適合しないとき）は、注文者は、注文者の供した材料の性質又は注文者の与えた指図によって生じた不適合を理由として、履行の追完の請求、報酬の減額の請求、損害賠償の請求及び契約の解除をすることができない。"
+                ]
+              },
+              {
+                "tag": "Sentence",
+                "attr": {
+                  "Function": "proviso",
+                  "Num": "2",
+                  "WritingMode": "vertical"
+                },
+                "children": [
+                  "ただし、請負人がその材料又は指図が不適当であることを知りながら告げなかったときは、この限りでない。"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

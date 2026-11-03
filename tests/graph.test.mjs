@@ -42,8 +42,8 @@ test('UUIDv5 matches the published DNS namespace test vector', () => {
 test('synthetic evidence and the shipped real-source corpus both validate', () => {
   assert.equal(verify(built()).valid, true);
   const real = loadGraph(DEFAULT_GRAPH, DATA_ROOT);
-  assert.equal(real.source_versions.length, 3);
-  assert.equal(real.provision_versions.length, 49);
+  assert.equal(real.source_versions.length, 20);
+  assert.equal(real.provision_versions.length, 156);
 });
 test('re-observation preserves content identities and snapshot identity', () => {
   const first = built();

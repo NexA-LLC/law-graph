@@ -7,6 +7,10 @@ const number = (minimum, maximum) => ({ type: 'integer', minimum, maximum });
 const part = { type: 'string', pattern: '^[0-9]+(_[0-9]+)*$' };
 export const tools = [
   {
+    name: 'find_related_laws', description: 'Offline exact Intent slug/label lookup. Returns curated research links, reasons, supporting provisions and unreviewed state; unknown intents return outside_coverage. Does not decide legal applicability.',
+    inputSchema: object({ intent: { type: 'string', minLength: 1, maxLength: 200 }, as_of: asOf, limit: number(1, 50) }, ['intent'])
+  },
+  {
     name: 'search_provisions', description: 'Offline literal search over a partial source-grounded corpus; returns exact provenance and coverage.',
     inputSchema: object({ query: { type: 'string', minLength: 1, maxLength: 200 }, as_of: asOf, limit: number(1, 50) }, ['query'])
   },
@@ -20,7 +24,7 @@ export const tools = [
   },
   {
     name: 'traverse_relations', description: 'Bounded read-only relation traversal. Explicit unresolved delegation candidates stay unresolved; all initial relations are unreviewed.',
-    inputSchema: object({ id: uuid, as_of: asOf, depth: number(1, 3), limit: number(1, 100), types: { type: 'array', minItems: 1, uniqueItems: true, items: { enum: ['contains', 'defines', 'delegates_to'] } }, direction: { enum: ['out', 'in', 'both'] } }, ['id'])
+    inputSchema: object({ id: uuid, as_of: asOf, depth: number(1, 3), limit: number(1, 100), types: { type: 'array', minItems: 1, uniqueItems: true, items: { enum: ['contains', 'defines', 'delegates_to', 'cites', 'administered_by', 'relates_to'] } }, direction: { enum: ['out', 'in', 'both'] } }, ['id'])
   }
 ].map(t => ({ ...t, annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false } }));
 
