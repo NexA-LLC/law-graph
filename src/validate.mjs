@@ -4,15 +4,16 @@ import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { canonical, id, sha256 } from './identity.mjs';
 import { atPointer, textOf, TEXT_METHOD, METHOD, PDL } from './egov.mjs';
+import { validateAssertion } from './assertions.mjs';
 
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);
 const validateSchema = ajv.compile(JSON.parse(readFileSync(new URL('../schemas/graph.schema.json', import.meta.url), 'utf8')));
-const collections = ['laws', 'law_revisions', 'provisions', 'provision_versions', 'concepts', 'sources', 'source_versions', 'evidence_refs', 'relations'];
+const collections = ['laws', 'law_revisions', 'provisions', 'provision_versions', 'concepts', 'sources', 'source_versions', 'evidence_refs', 'relations', 'intents', 'authorities'];
 
 export function validateGraph(graph, readArtifact) {
   if (!validateSchema(graph)) throw new Error('Schema: ' + ajv.errorsText(validateSchema.errors));
-  const maps = Object.fromEntries(collections.map(k => [k, new Map(graph[k].map(x => [x.id, x]))]));
+  const maps = Object.fromEntries(collections.map(k => [k, new Map((graph[k] ?? []).map(x => [x.id, x]))]));
   const all = new Map();
   function check(condition, message) { if (!condition) throw new Error(message); }
   function get(kind, key) {
@@ -21,7 +22,7 @@ export function validateGraph(graph, readArtifact) {
     return found;
   }
   function identity(record, expected) { check(record.id === expected, 'Identity mismatch: ' + record.id); }
-  for (const kind of collections) for (const record of graph[kind]) {
+  for (const kind of collections) for (const record of graph[kind] ?? []) {
     check(!all.has(record.id), 'Duplicate ID: ' + record.id);
     all.set(record.id, { ...record, kind });
   }
@@ -97,10 +98,16 @@ export function validateGraph(graph, readArtifact) {
     get('laws', concept.law_id);
     identity(concept, id('concept', concept.law_id, concept.label));
   }
+  for (const intent of graph.intents ?? []) identity(intent, id('intent', intent.slug));
+  for (const authority of graph.authorities ?? []) identity(authority, id('authority', authority.jurisdiction, authority.label));
   for (const relation of graph.relations) {
     const from = all.get(relation.from_id);
     const to = relation.to_id ? all.get(relation.to_id) : null;
     check(from && (!relation.to_id || to), 'Dangling relation endpoint');
+    if (relation.method !== METHOD) {
+      validateAssertion(relation, { all, get, check });
+      continue;
+    }
     identity(relation, id('relation', METHOD, relation.type, relation.from_id, relation.to_id, relation.evidence_ref_ids[0], relation.target_ref));
     check(relation.evidence_ref_ids.length === 1, 'v0 relations require one exact evidence reference');
     const evidence = get('evidence_refs', relation.evidence_ref_ids[0]);
