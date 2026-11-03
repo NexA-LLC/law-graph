@@ -26,6 +26,39 @@ AI Agentが法令の条文・概念・関係を辿り、元の出典へ戻るた
 `as_of`は収録した取得日だけを受け付け、他の日付は`outside_coverage`を返します。
 日付を省略した場合も、結果に使用した取得日を明示します。現在の法状態へ自動更新する機能はありません。
 
+## 事例と論点から調べる
+
+NFTランダム販売、NDA、委託取引の3テーマについて、確認すべき事実・論点・事例・指針を結び付けるグラフを追加しました。
+初期データは裁判例1件と行政事例2件、論点5件、出典6件です。業界指針は判決と分け、NFTそのものの適法性を判断した裁判例は未収録と表示します。
+
+```sh
+node src/cli.mjs topic --topic NFT
+node src/cli.mjs topic --topic NDA
+node src/cli.mjs topic --topic 下請法
+node src/cli.mjs cases --query 'NFT ガチャ'
+node src/cli.mjs case --id courts-35471
+```
+
+主張・事実・裁判所の判断・行政の認定・編集者の推論を区別し、比較上の相違点を返します。
+要約と関連付けは全てAI補助の整理案で、法律実務者によるレビューは未実施です。現在の個別案件への適用は判定しません。
+事例の原文は再配布せず、内容ハッシュ・元URL・頁や節・独自要約を記録しています。
+
+[事例グラフ](docs/case-graph.md) · [Agentからの使い方](docs/consumer-research-flow.md) · [協力者向けの入口](docs/contributing-cases.md)
+
+## 法域をまたいで比較する
+
+日米著作権の3論点について、法域・言語・出典の版を分けて比較する試作を追加しました。
+
+```sh
+node src/cli.mjs compare --issue 引用 --jurisdictions JP,US-federal
+node src/cli.mjs compare --issue 職務著作 --jurisdictions JP,US-federal
+node src/cli.mjs compare --issue 権利譲渡 --jurisdictions JP,US-federal
+```
+
+比較は共通の調査論点への接続で、制度の同一性や同じ結論を示しません。
+米国側の法令集は2025年12月18日までの改正を収録する版で、取得日時点の最新法との一致は未検証です。
+州法、他の国、外国の裁判例、個別案件の適用法判断は未収録・未評価です。[比較グラフの範囲](docs/comparative-law.md)
+
 ## 使う
 
 Node.js 22以上で、次を実行します。
@@ -64,7 +97,8 @@ MCPクライアントに、チェックアウト先の絶対パスを指定し�
 }
 ```
 
-提供ツールは`find_related_laws`、`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`です。
+提供ツールは`find_related_laws`、`search_provisions`、`resolve_citation`、`get_provision`、`traverse_relations`と、
+`explore_topic`、`search_cases`、`get_case`、`compare_issue`です。
 `find_related_laws` は Intent の slug またはラベルの完全一致（NFKC正規化・入力前後の空白除去あり）で、法令・条文・理由・根拠条文ID・出典・`review_state`を返します。
 未登録の目的・未収録の日時は `outside_coverage`、件数上限は `truncated` で明示します。
 登録済み slug は `contract-work`、`construction-contract`、`cancel-contract-work` です。
@@ -107,6 +141,8 @@ data/
   registry/        固定したUUID名前空間とID規則
   laws/            グラフと収録範囲
   sources/         取得した公開資料のスナップショット
+  cases/           事例ごとの論点・出典・独自要約・確認記録
+  comparative/     法域別の根拠と共通論点への比較リンク
 schemas/           JSON Schema
 src/               取得・抽出・検証・照会・CLI・MCP
 tests/             破損、時点、未解決、MCPの検証

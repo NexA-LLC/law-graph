@@ -13,7 +13,7 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
   try {
     await client.connect(transport);
     const listed = await client.listTools();
-    assert.equal(listed.tools.length, 5);
+    assert.equal(listed.tools.length, 9);
     assert.ok(listed.tools.every(t => t.annotations.readOnlyHint));
     const related = await client.callTool({ name: 'find_related_laws', arguments: { intent: 'construction-contract', limit: 1 } });
     assert.equal(related.isError, undefined);
@@ -44,6 +44,20 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
     assert.equal(stale.structuredContent.status, 'outside_coverage');
     const invalid = await client.callTool({ name: 'search_provisions', arguments: { query: '個人情報', limit: 99999 } });
     assert.equal(invalid.isError, true);
+    const topic = await client.callTool({name:'explore_topic',arguments:{topic:'NDA'}});
+    assert.equal(topic.structuredContent.status,'research_candidates');
+    assert.equal(topic.structuredContent.cases[0].kind,'judgment');
+    assert.equal(topic.structuredContent.current_applicability,'not_assessed');
+    const caseDetail=await client.callTool({name:'get_case',arguments:{id:topic.structuredContent.cases[0].id}});
+    assert.ok(caseDetail.structuredContent.result.claims.some(c=>c.kind==='party_allegation'));
+    assert.ok(caseDetail.structuredContent.result.claims.some(c=>c.kind==='court_finding'));
+    const candidates=await client.callTool({name:'search_cases',arguments:{query:'NFT ガチャ'}});
+    assert.equal(candidates.structuredContent.results[0].kind,'administrative_action');
+    assert.equal(candidates.structuredContent.results[0].match_basis,'curated_topic_association');
+    const comparison=await client.callTool({name:'compare_issue',arguments:{issue:'引用',jurisdictions:['JP','US-federal']}});
+    assert.equal(comparison.structuredContent.equivalence,'not_asserted');
+    assert.equal(comparison.structuredContent.comparisons[0].sides.length,2);
+    assert.equal(comparison.structuredContent.comparisons[0].sides[1].primary[0].provenance.source_language,'en');
     assert.equal(stderr, '');
   } finally {
     await client.close();

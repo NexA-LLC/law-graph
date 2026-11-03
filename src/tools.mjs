@@ -1,5 +1,7 @@
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
+import { caseTools } from './case-tools.mjs';
+import { comparativeTools } from './comparative-tools.mjs';
 const uuid = { type: 'string', format: 'uuid' };
 const asOf = { type: 'string', format: 'date', description: 'Exact observation date covered by the graph; other dates return outside_coverage.' };
 const object = (properties, required) => ({ type: 'object', additionalProperties: false, properties, required });
@@ -26,7 +28,7 @@ export const tools = [
     name: 'traverse_relations', description: 'Bounded read-only relation traversal. Explicit unresolved delegation candidates stay unresolved; all initial relations are unreviewed.',
     inputSchema: object({ id: uuid, as_of: asOf, depth: number(1, 3), limit: number(1, 100), types: { type: 'array', minItems: 1, uniqueItems: true, items: { enum: ['contains', 'defines', 'delegates_to', 'cites', 'administered_by', 'relates_to'] } }, direction: { enum: ['out', 'in', 'both'] } }, ['id'])
   }
-].map(t => ({ ...t, annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false } }));
+].concat(caseTools,comparativeTools).map(t => ({ ...t, annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false } }));
 
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);

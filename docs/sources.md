@@ -55,3 +55,11 @@ consumer responsibilities. The seed has no automatic refresh.
 houritsu is an intended optional adapter; no houritsu content is imported in
 the initial release. Its CC BY attribution and modified-data notices must be
 recorded when the adapter is implemented. See ATTRIBUTION.md.
+
+## Case sources
+
+The case corpus adds public court, Consumer Affairs Agency, Japan Fair Trade
+Commission, and industry-association material. Source kinds remain explicit.
+Case source versions record raw-byte hashes and locators without bundling the
+original documents. This is not the e-Gov canonical-JSON verification contract.
+See [case graph](case-graph.md) and [ATTRIBUTION.md](../ATTRIBUTION.md).

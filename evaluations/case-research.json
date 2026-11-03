@@ -1,0 +1,70 @@
+{
+  "purpose": "Generic public research scenarios; no company/customer facts. Assertions test retrieval and coverage, not legal correctness.",
+  "scenarios": [
+    {
+      "query": "NFTの有料ガチャを作る",
+      "tool": "explore_topic",
+      "arguments": {
+        "topic": "NFT"
+      },
+      "expect": {
+        "status": "research_candidates",
+        "judgment_cases": 0,
+        "required_issue_keys": [
+          "nft-gambling",
+          "random-sale-display"
+        ],
+        "current_applicability": "not_assessed"
+      }
+    },
+    {
+      "query": "NDAで口頭の情報を開示する",
+      "tool": "explore_topic",
+      "arguments": {
+        "topic": "NDA"
+      },
+      "expect": {
+        "required_case_key": "courts-35471",
+        "required_questions": [
+          "契約上の秘密情報の定義",
+          "実際の開示方法と証拠"
+        ],
+        "automatic_legal_conclusion": false
+      }
+    },
+    {
+      "query": "検収後に無償で追加修正を依頼する",
+      "tool": "explore_topic",
+      "arguments": {
+        "topic": "取適法"
+      },
+      "expect": {
+        "required_case_key": "jftc-2024-cover",
+        "historical_law_preserved": true,
+        "current_applicability": "not_assessed"
+      }
+    },
+    {
+      "query": "NFTの裁判例だけを探す",
+      "tool": "search_cases",
+      "arguments": {
+        "query": "NFT",
+        "kind": "judgment"
+      },
+      "expect": {
+        "total_matches": 0,
+        "absence_is_not_proof_of_no_precedent": true
+      }
+    },
+    {
+      "query": "収録していないテーマ",
+      "tool": "explore_topic",
+      "arguments": {
+        "topic": "医療機器の海外販売"
+      },
+      "expect": {
+        "status": "outside_coverage"
+      }
+    }
+  ]
+}

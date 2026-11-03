@@ -1,0 +1,67 @@
+name: 公開事例の追加
+description: 一次資料1件から、裁判例・行政事例・指針・事業事例を提案する
+title: "[事例] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このIssueは公開されます。公開一次資料と独自の短い整理を記入してください。
+        非公開の契約・相談・個人情報・認証情報は投稿しないでください。
+  - type: input
+    id: source
+    attributes:
+      label: 公開一次資料のURL
+      description: 裁判所・行政機関・公表主体自身の資料
+    validations:
+      required: true
+  - type: dropdown
+    id: source_kind
+    attributes:
+      label: 資料の種類
+      options:
+        - 法令・条文または国をまたぐ比較
+        - 裁判所の判決・決定
+        - 行政の命令・勧告・公表事例
+        - 行政の指針・Q&A
+        - 業界団体の指針
+        - 公開された事業事例
+        - まだ分類できない
+    validations:
+      required: true
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: 法域・言語・版
+      description: 国、連邦／州等の範囲、原文か参考訳か、法令や資料の版。不明な点は不明と記載
+    validations:
+      required: true
+  - type: input
+    id: identity
+    attributes:
+      label: 法令ID・事件番号・判断日・公表日
+      description: 不明な項目は不明と記載し、取得日と区別してください
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 関係する論点と短い整理
+      description: 誰の主張か、何が判断されたか、自分の推論を分けてください
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 根拠の頁・節、事例の違い、未確認事項
+      description: 後続裁判・法改正・一般化できない点など
+    validations:
+      required: true
+  - type: checkboxes
+    id: publication
+    attributes:
+      label: 公開する内容
+      options:
+        - label: 非公開の契約・相談、個人の識別情報、認証情報を含めていません
+          required: true
+        - label: 第三者の本文を無断で転載せず、出典と自分の整理を区別しました
+          required: true

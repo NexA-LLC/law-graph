@@ -5,6 +5,19 @@ public corpus. It does not attempt complete coverage.
 
 ## Next bounded iterations
 
+The case/issue iteration now supplies three topics, one judgment, two
+administrative examples, source metadata, draft summaries,
+independent case bundles, and a contribution/review entry point.
+The initial case data has no legal-practitioner review. Next priorities are
+source and scope review, additional contrasting examples, current-law text
+connections, and private consumer integration.
+
+A comparative prototype adds three Japanese/U.S. federal copyright issues
+and one tool, for eight read-only tools in total. It keeps original language,
+reference translations, editions, differences, and coverage separate. Review
+by practitioners in both jurisdictions, foreign case evidence, and confirmed
+legal-date alignment remain future work; current applicability is not assessed.
+
 1. Build a public evaluation set of concrete research questions, expected
    supporting provisions, out-of-coverage cases, and unresolved references.
 2. Expand the implemented narrow citation/delegation rules with coordinated

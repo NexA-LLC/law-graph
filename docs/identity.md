@@ -47,3 +47,41 @@ snapshot_id is SHA-256 of canonical graph JSON excluding observation records.
 Re-fetching identical inputs at a different time on the same coverage day
 preserves entity IDs and the snapshot ID. A changed coverage day changes the
 snapshot. Observation times are retained separately from legal effective dates.
+
+## Case corpus identity
+
+The separate case schema uses the same UUID namespace. Topics and issues use
+jurisdiction and stable registry keys. A Case identifies a particular published
+decision or event, rather than every stage of a legal proceeding.
+
+For case sources the Source tuple is provider plus document key. SourceVersion
+uses source UUID, null upstream revision, full_document selection, media type,
+and the SHA-256 of raw downloaded bytes. The declared hash method is
+raw-bytes-sha256-v1. EvidenceRef uses source-version UUID, structured page/section
+locator, and document-locator-v1. Case claims and relation assertions include
+their contents and evidence references in their UUID name tuples.
+
+Review records include a subject UUID, subject content hash, scope, outcome,
+declared reviewer, actual PR review reference, timestamp, reason, and optional
+superseded record. The review UUID covers this complete record. Stale reviews
+remain visible but do not automatically cover changed content or establish
+legal approval.
+
+## Comparative corpus identity
+
+Jurisdiction IDs use a registry key such as JP or US-federal. A Law uses the same
+jurisdiction/official-ID tuple as the statute graph; language is not a jurisdiction.
+A shared comparative Issue uses its stable issue key without a jurisdiction.
+
+Comparative SourceVersion uses source UUID, upstream revision ID (or null),
+comparative-document selection, media type, and raw-byte SHA-256. The original
+law's version and the retrieval observation remain distinct. A compilation's
+reported-through date points to separate official edition evidence.
+
+A comparative Anchor uses law UUID, official locator, source-version UUID, and
+original/reference-translation role. These anchors do not establish provision
+lineage or automatically resolve to the statute graph's ProvisionVersion IDs.
+A reference translation must identify an original anchor of the same law,
+locator, and declared revision. The comparative link UUID covers its complete
+contents, including both sides, differences, and exclusions. A changed summary
+keeps its anchor identity; the corpus snapshot hash records the changed content.
