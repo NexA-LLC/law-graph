@@ -19,6 +19,7 @@ body:
     attributes:
       label: 資料の種類
       options:
+        - 法令・条文または国をまたぐ比較
         - 裁判所の判決・決定
         - 行政の命令・勧告・公表事例
         - 行政の指針・Q&A
@@ -28,9 +29,16 @@ body:
     validations:
       required: true
   - type: input
+    id: jurisdiction
+    attributes:
+      label: 法域・言語・版
+      description: 国、連邦／州等の範囲、原文か参考訳か、法令や資料の版。不明な点は不明と記載
+    validations:
+      required: true
+  - type: input
     id: identity
     attributes:
-      label: 事件番号・判断日・公表日
+      label: 法令ID・事件番号・判断日・公表日
       description: 不明な項目は不明と記載し、取得日と区別してください
     validations:
       required: true

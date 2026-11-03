@@ -40,6 +40,18 @@ retain hashes, observation times, URLs, and page/section locations.
 All seed case summaries and topic links are AI-assisted proposed records,
 not completed legal-practitioner reviews.
 
+## Comparative copyright sources
+
+The comparative prototype uses selected e-Gov Copyright Act Articles 15, 32,
+and 61, official revision 345AC0000000048_20260624_508AC0000000048,
+and U.S. Copyright Office [Chapter 1](https://www.copyright.gov/title17/92chap1.html),
+[Chapter 2](https://www.copyright.gov/title17/92chap2.html), and the
+[edition index](https://www.copyright.gov/title17/).
+The index states coverage of amendments enacted through December 18, 2025.
+Original bytes are not redistributed; the graph includes project summaries,
+source hashes, identifiers, edition information, and selected section locators.
+These draft comparative links do not assert legal equivalence or current applicability.
+
 ## Licenses
 
 - Graph data: CC BY 4.0; see DATA_LICENSE.md.

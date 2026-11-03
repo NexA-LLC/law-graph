@@ -10,10 +10,11 @@ import { createQuery } from './query.mjs';
 import { tools, callTool } from './tools.mjs';
 import { DATA_ROOT, DEFAULT_GRAPH } from './cli.mjs';
 import { loadCaseGraph, createCaseQuery } from './cases.mjs';
+import { loadComparativeGraph, createComparativeQuery } from './comparative.mjs';
 
-const { values } = parseArgs({ options: { graph: { type: 'string' }, 'case-graph': {type:'string'}, 'data-root': { type: 'string' } } });
+const { values } = parseArgs({ options: { graph: { type: 'string' }, 'case-graph': {type:'string'}, 'comparative-graph':{type:'string'}, 'data-root': { type: 'string' } } });
 const graph = loadGraph(resolve(values.graph ?? DEFAULT_GRAPH), resolve(values['data-root'] ?? DATA_ROOT));
-const query = {...createQuery(graph),...createCaseQuery(loadCaseGraph(values['case-graph']))};
+const query = {...createQuery(graph),...createCaseQuery(loadCaseGraph(values['case-graph'])),...createComparativeQuery(loadComparativeGraph(values['comparative-graph']))};
 const version=JSON.parse(readFileSync(new URL('../package.json',import.meta.url),'utf8')).version;
 const server = new Server({ name: 'law-graph', version }, { capabilities: { tools: {} } });
 server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools }));

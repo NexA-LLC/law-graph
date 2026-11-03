@@ -13,7 +13,7 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
   try {
     await client.connect(transport);
     const listed = await client.listTools();
-    assert.equal(listed.tools.length, 7);
+    assert.equal(listed.tools.length, 8);
     assert.ok(listed.tools.every(t => t.annotations.readOnlyHint));
     const resolved = await client.callTool({
       name: 'resolve_citation',
@@ -42,6 +42,10 @@ test('real stdio MCP handshake, tool discovery, citation, provenance, and covera
     const candidates=await client.callTool({name:'search_cases',arguments:{query:'NFT ガチャ'}});
     assert.equal(candidates.structuredContent.results[0].kind,'administrative_action');
     assert.equal(candidates.structuredContent.results[0].match_basis,'curated_topic_association');
+    const comparison=await client.callTool({name:'compare_issue',arguments:{issue:'引用',jurisdictions:['JP','US-federal']}});
+    assert.equal(comparison.structuredContent.equivalence,'not_asserted');
+    assert.equal(comparison.structuredContent.comparisons[0].sides.length,2);
+    assert.equal(comparison.structuredContent.comparisons[0].sides[1].primary[0].provenance.source_language,'en');
     assert.equal(stderr, '');
   } finally {
     await client.close();
