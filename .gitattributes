@@ -1,2 +1,5 @@
 * text=auto eol=lf
 *.json text eol=lf
+
+# Auto-merge line-based TODO ledger
+todos.jsonl merge=union
