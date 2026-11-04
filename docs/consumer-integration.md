@@ -55,5 +55,12 @@ the proposing workflow; GitHub may suppress a separate PR-event workflow for
 that token. Repository Actions settings must allow PR creation. If the setting
 is disabled the job reports failure; no PAT is silently created or installed.
 
+2026-11-04 readback found can_approve_pull_request_reviews=false and default
+workflow permissions=read in law-graph, nexa-clo, and webapp-flowcontract.
+The repository setting "Allow GitHub Actions to create and approve pull requests"
+must be enabled for GITHUB_TOKEN PR creation. This implementation does not change
+that administrative setting. The workflows create draft PRs only and contain
+no approval or merge operation. See GitHub's repository Actions settings docs.
+
 Private matter facts and interpretation remain in CLO/FlowContract. Only
 public-source update candidates are written to this repository.
