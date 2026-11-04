@@ -31,6 +31,11 @@ jobs:
           report_hash=$(sha256sum .cache/source-watch.json | cut -c1-16)
           update_branch="codex/source-watch-$report_hash"
           if git ls-remote --exit-code --heads origin "refs/heads/$update_branch" >/dev/null; then
+            existing_prs=$(gh pr list --head "$update_branch" --state all --json number --jq 'length')
+            if [ "$existing_prs" -eq 0 ]; then
+              echo "::error::Update branch exists without a PR. Recover its PR before retrying; no branch will be overwritten."
+              exit 1
+            fi
             exit 0
           fi
           git switch -c "$update_branch"
