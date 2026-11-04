@@ -1,6 +1,6 @@
 {
   "name": "@nexa-llc/law-graph",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Source-grounded law graph, case research and cross-jurisdiction issue comparisons for AI agents",
@@ -21,5 +21,20 @@
     "@modelcontextprotocol/sdk": "1.32.2",
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1"
-  }
+  },
+  "researchProtocol": 1,
+  "exports": {
+    "./research": {
+      "types": "./src/research.d.ts",
+      "import": "./src/research.mjs"
+    }
+  },
+  "files": [
+    "src/",
+    "schemas/",
+    "data/",
+    "LICENSE",
+    "DATA_LICENSE.md",
+    "ATTRIBUTION.md"
+  ]
 }

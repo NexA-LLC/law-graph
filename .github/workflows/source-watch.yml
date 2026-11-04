@@ -1,0 +1,56 @@
+name: Watch public legal sources
+on:
+  schedule:
+    - cron: '17 20 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: law-graph-source-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - id: sources
+        run: node src/source-watch.mjs
+      - name: Propose source changes for review
+        if: steps.sources.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          report_hash=$(sha256sum .cache/source-watch.json | cut -c1-16)
+          update_branch="codex/source-watch-$report_hash"
+          if git ls-remote --exit-code --heads origin "refs/heads/$update_branch" >/dev/null; then
+            existing_prs=$(gh pr list --head "$update_branch" --state all --json number --jq 'length')
+            if [ "$existing_prs" -eq 0 ]; then
+              echo "::error::Update branch exists without a PR. Recover its PR before retrying; no branch will be overwritten."
+              exit 1
+            fi
+            exit 0
+          fi
+          git switch -c "$update_branch"
+          mkdir -p data/update-candidates
+          cp .cache/source-watch.json data/update-candidates/source-changes.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/update-candidates/source-changes.json
+          git commit -m "Record changed public legal sources for review"
+          git push origin "$update_branch"
+          cat > /tmp/source-watch-pr.md <<'BODY'
+          Public source content or revision differs from the recorded corpus.
+
+          The candidate file retains the old source-version IDs and both hashes. Existing graph data has not been overwritten. Review the original source, revision, scope, and affected relations; update the active corpus in this PR before treating it as refreshed legal evidence.
+
+          Repository checks passed before this bot-created PR. This PR does not establish legal applicability and is not automatically merged.
+          BODY
+          gh pr create --base main --head "$update_branch" --draft --title "Review changed public legal sources" --body-file /tmp/source-watch-pr.md

@@ -13,7 +13,7 @@ source and scope review, additional contrasting examples, current-law text
 connections, and private consumer integration.
 
 A comparative prototype adds three Japanese/U.S. federal copyright issues
-and one tool, for eight read-only tools in total. It keeps original language,
+and one tool; with intent lookup, there are nine read-only tools in total. It keeps original language,
 reference translations, editions, differences, and coverage separate. Review
 by practitioners in both jurisdictions, foreign case evidence, and confirmed
 legal-date alignment remain future work; current applicability is not assessed.
@@ -32,6 +32,11 @@ Before expanding the corpus, measure correct evidence retrieval, incorrect
 references, unsupported-date handling, and retrieval calls/token costs.
 
 ## Consumer integrations
+
+The offline research export, public-source watcher, and consumer pin-update
+helper are implemented. The companion CLO/FlowContract PRs add the actual
+consumer paths. See [consumer integration](consumer-integration.md) for release
+order and the Actions PR-permission prerequisite.
 
 Contract-to-law links and company-specific conclusions belong in private
 consumer systems. No private integration, production deployment, hosted

@@ -84,6 +84,11 @@ node src/cli.mjs traverse --id <provision-version-uuid> --direction both --depth
 
 ## Agentから使う
 
+CLO・FlowContractなどのサーバーからは、固定したGitコミットの依存として
+`@nexa-llc/law-graph/research` の読取APIを利用できます。
+出典変更の定期検知と利用側の依存更新は検証付きPRで提案します。
+[接続と更新の仕組み](docs/consumer-integration.md)を参照してください。
+
 MCPクライアントに、チェックアウト先の絶対パスを指定します。
 
 ```json
