@@ -2,9 +2,12 @@
 
 The ./research export validates the installed statute, case, and comparative
 corpora and exposes the same nine read-only tools as stdio MCP. Consumers pin
-an exact HTTPS Git commit of @nexa-llc/law-graph; installation includes the
+an exact HTTPS GitHub commit archive of @nexa-llc/law-graph; installation includes the
 source artifacts needed for offline statute validation. Query execution has
 no network access and never saves questions or contracts.
+The dependency URL is https://codeload.github.com/NexA-LLC/law-graph/tar.gz/COMMIT.
+This avoids package managers rewriting a GitHub Git URL into an SSH dependency;
+the consumer lockfile records archive integrity.
 
 createResearchClient().status() returns the installed package version, three
 corpus snapshot hashes, coverage, and offline/read-only mode. call(tool,args)

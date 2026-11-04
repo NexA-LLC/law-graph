@@ -4,7 +4,7 @@ import {mkdtempSync, readFileSync, writeFileSync, rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {updateConsumer} from '../src/update-consumer.mjs';
-const prefix='git+https://github.com/NexA-LLC/law-graph.git#';
+const prefix='https://codeload.github.com/NexA-LLC/law-graph/tar.gz/';
 test('consumer updates exact public commit only after compatibility check; no-op leaves file untouched', async t => {
   const cwd=mkdtempSync(join(tmpdir(),'law-consumer-'));t.after(()=>rmSync(cwd,{recursive:true,force:true}));
   const file=join(cwd,'package.json'),old='1'.repeat(40),next='2'.repeat(40);

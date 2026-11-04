@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {parseArgs} from 'node:util';
 
 const NAME = '@nexa-llc/law-graph';
-const PREFIX = 'git+https://github.com/NexA-LLC/law-graph.git#';
+const PREFIX = 'https://codeload.github.com/NexA-LLC/law-graph/tar.gz/';
 export async function updateConsumer({cwd = process.cwd(), write = false, fetchImpl = fetch} = {}) {
   const file = resolve(cwd, 'package.json');
   const pkg = JSON.parse(readFileSync(file, 'utf8'));
