@@ -25,7 +25,7 @@ export function createResearchClient() {
       cases: cases.coverage, comparative: comparative.coverage,
     },
   };
-  function call(name, args = {}) { return callTool(query, name, args); }
+  function call(name, args = {}) { return structuredClone(callTool(query, name, args)); }
   return {
     status() { return structuredClone(source); },
     tools() { return structuredClone(tools); },

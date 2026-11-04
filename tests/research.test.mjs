@@ -11,6 +11,12 @@ test('installed research interface preserves all three source snapshots and vali
   assert.throws(() => client.call('search_provisions', {query:'NDA', url:'https://example.org'}), /Invalid arguments/);
   status.snapshots.cases = 'tampered';
   assert.notEqual(client.status().snapshots.cases, 'tampered');
+  const entry=client.call('get_case',{id:'courts-35471'});
+  entry.result.title='tampered';
+  entry.result.claims[0].text='tampered';
+  const fresh=client.call('get_case',{id:'courts-35471'});
+  assert.notEqual(fresh.result.title,'tampered');
+  assert.notEqual(fresh.result.claims[0].text,'tampered');
 });
 test('ordinary NFT/NDA questions get grounded cases without claiming legal applicability', () => {
   for (const query of ['ブロックチェーンでNFTガチャを作りたい', '取引先とNDAを締結したい']) {
