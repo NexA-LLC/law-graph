@@ -1,0 +1,12 @@
+# nexa-review creates repair PRs for GitHub Dependabot alerts.
+# GitHub alerts and the server-side repair switch are configured separately.
+version: 1
+
+checks:
+  dependabot:
+    enabled: true
+    "on":
+      created: true
+      reintroduced: true
+    severity: [critical, high, medium]
+    branch_prefix: nexa-dependabot
